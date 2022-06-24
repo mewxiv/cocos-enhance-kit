@@ -656,6 +656,7 @@ let SpriteFrame = cc.Class(/** @lends cc.SpriteFrame# */{
         } else {
             this.ensureLoadTexture()
         }
+        this.emit("_resetDynamicAtlasFrame");
     },
 
     _calculateUV: function () {
