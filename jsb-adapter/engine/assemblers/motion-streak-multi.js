@@ -1,16 +1,10 @@
 
-let proto = cc.MotionStreak.__assembler__.MotionStreakAssembler.prototype;
-let _init = proto.init;
+let proto = cc.MotionStreak.__assembler__.MultiMotionStreakAssembler.prototype;
 let _update = proto.update;
 cc.js.mixin(proto, {
-    init (comp) {
-        _init.call(this, comp);
-
-        this.setUseModel(false);
-        this.ignoreWorldMatrix();
-        this.ignoreOpacityFlag();
-    },
     update (comp, dt) {
+        comp.node._updateWorldMatrix();
+        
         _update.call(this, comp, dt);
 
         let { iData, usedVertices } = this._renderData._flexBuffer;
