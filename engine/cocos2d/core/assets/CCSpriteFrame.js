@@ -639,7 +639,6 @@ let SpriteFrame = cc.Class(/** @lends cc.SpriteFrame# */{
             _x : this._rect.x,
             _y : this._rect.y
         }
-
         this._texture = frame.texture;
         this._rect.x = frame.x;
         this._rect.y = frame.y;
