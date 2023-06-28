@@ -7059,7 +7059,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
     }
     var RendererLight = null;
     true, true;
@@ -7609,7 +7609,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
     }
     var COLOR_OVERTIME_RAND_OFFSET = 91041;
     var ColorOvertimeModule = (_dec = (0, _CCClassDecorator.ccclass)("cc.ColorOvertimeModule"), 
@@ -7696,7 +7696,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
     }
     var SerializableTable = false;
     var Mode = (0, _CCEnum["default"])({
@@ -7871,7 +7871,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
     }
     var FORCE_OVERTIME_RAND_OFFSET = 212165;
     var _temp_v3 = cc.v3();
@@ -8034,7 +8034,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
     }
     var GRADIENT_MODE_FIX = 0;
     var GRADIENT_MODE_BLEND = 1;
@@ -8217,7 +8217,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
     }
     var Mode = (0, _CCEnum["default"])({
       Blend: 0,
@@ -8417,7 +8417,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
     }
     var LIMIT_VELOCITY_RAND_OFFSET = 23541;
     var _temp_v3 = cc.v3();
@@ -8634,7 +8634,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
     }
     var ROTATION_OVERTIME_RAND_OFFSET = 125292;
     var RotationOvertimeModule = (_dec = (0, _CCClassDecorator.ccclass)("cc.RotationOvertimeModule"), 
@@ -8772,7 +8772,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
     }
     var SIZE_OVERTIME_RAND_OFFSET = 39825;
     var SizeOvertimeModule = (_dec = (0, _CCClassDecorator.ccclass)("cc.SizeOvertimeModule"), 
@@ -8943,7 +8943,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
     }
     var TEXTURE_ANIMATION_RAND_OFFSET = 90794;
     var Mode = (0, _CCEnum["default"])({
@@ -9204,7 +9204,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
     }
     var VELOCITY_OVERTIME_RAND_OFFSET = 197866;
     var _temp_v3 = cc.v3();
@@ -9380,7 +9380,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
     }
     var Burst = (_dec = (0, _CCClassDecorator.ccclass)("cc.Burst"), _dec2 = (0, _CCClassDecorator.property)({
       type: _curveRange["default"]
@@ -9534,7 +9534,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
     }
     var LOOK_FORWARD = 3;
     var WrapMode = (0, _CCEnum["default"])({
@@ -9839,7 +9839,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
     }
     var _intermediVec = new _valueTypes.Vec3(0, 0, 0);
     var _intermediArr = new Array();
@@ -10608,7 +10608,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
     }
     var _require = require("../../platform/CCClassDecorator"), ccclass = _require.ccclass, menu = _require.menu, property = _require.property, executeInEditMode = _require.executeInEditMode, executionOrder = _require.executionOrder;
     var RenderComponent = require("../../components/CCRenderComponent");
@@ -12190,7 +12190,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
     }
     var PRE_TRIANGLE_INDEX = 1;
     var NEXT_TRIANGLE_INDEX = 4;
@@ -14681,7 +14681,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
     }
     var _cc$_decorator = cc._decorator, ccclass = _cc$_decorator.ccclass, property = _cc$_decorator.property;
     var fastRemove = cc.js.array.fastRemove;
@@ -14821,7 +14821,7 @@
       return _setPrototypeOf(o, p);
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
     }
     function _applyDecoratedDescriptor(target, property, decorators, descriptor, context) {
       var desc = {};
@@ -14953,7 +14953,7 @@
       return _setPrototypeOf(o, p);
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
     }
     function _applyDecoratedDescriptor(target, property, decorators, descriptor, context) {
       var desc = {};
@@ -15205,7 +15205,7 @@
       return _setPrototypeOf(o, p);
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
     }
     function _applyDecoratedDescriptor(target, property, decorators, descriptor, context) {
       var desc = {};
@@ -15355,7 +15355,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
     }
     var _cc$_decorator = cc._decorator, ccclass = _cc$_decorator.ccclass, executeInEditMode = _cc$_decorator.executeInEditMode, executionOrder = _cc$_decorator.executionOrder, menu = _cc$_decorator.menu, property = _cc$_decorator.property, requireComponent = _cc$_decorator.requireComponent, disallowMultiple = _cc$_decorator.disallowMultiple;
     var Vec3 = cc.Vec3;
@@ -15542,7 +15542,7 @@
       return _setPrototypeOf(o, p);
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
     }
     function _applyDecoratedDescriptor(target, property, decorators, descriptor, context) {
       var desc = {};
@@ -15909,13 +15909,13 @@
     "use strict";
     exports.__esModule = true;
     exports.ERigidBodyType = void 0;
-    var ERigidBodyType = (function(ERigidBodyType) {
+    var ERigidBodyType;
+    exports.ERigidBodyType = ERigidBodyType;
+    (function(ERigidBodyType) {
       ERigidBodyType[ERigidBodyType["DYNAMIC"] = 1] = "DYNAMIC";
       ERigidBodyType[ERigidBodyType["STATIC"] = 2] = "STATIC";
       ERigidBodyType[ERigidBodyType["KINEMATIC"] = 4] = "KINEMATIC";
-      return ERigidBodyType;
-    })({});
-    exports.ERigidBodyType = ERigidBodyType;
+    })(ERigidBodyType || (exports.ERigidBodyType = ERigidBodyType = {}));
   }), {} ],
   79: [ (function(require, module, exports) {
     "use strict";
@@ -15987,7 +15987,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
     }
     var _cc$_decorator = cc._decorator, property = _cc$_decorator.property, ccclass = _cc$_decorator.ccclass;
     var Physics3DManager = (_dec = ccclass("cc.Physics3DManager"), _dec(_class = (_class2 = (function() {
@@ -46072,7 +46072,7 @@
 
        case _mat["default"]:
         var res = new Array(17);
-        res[0] = typeId;
+        res[VALUETYPE_SETTER] = typeId;
         _mat["default"].toArray(res, obj, 1);
         return res;
 
@@ -46277,7 +46277,7 @@
     function parseInstances(data) {
       var instances = data[5];
       var instanceTypes = data[6];
-      var instanceTypesLen = 0 === instanceTypes ? 0 : instanceTypes.length;
+      var instanceTypesLen = instanceTypes === EMPTY_PLACEHOLDER ? 0 : instanceTypes.length;
       var rootIndex = instances[instances.length - 1];
       var normalObjectCount = instances.length - instanceTypesLen;
       if ("number" !== typeof rootIndex) rootIndex = 0; else {
@@ -46377,7 +46377,7 @@
         preprocessed = version.preprocessed;
         version = version.version;
       }
-      if (version < 1) throw new Error(cc.debug.getError(5304, version));
+      if (version < SUPPORT_MIN_FORMAT_VERSION) throw new Error(cc.debug.getError(5304, version));
       options._version = version;
       options.result = details;
       data[0] = options;
@@ -46400,7 +46400,7 @@
       this.version = version;
     };
     function unpackJSONs(data, classFinder) {
-      if (data[0] < 1) throw new Error(cc.debug.getError(5304, data[0]));
+      if (data[0] < SUPPORT_MIN_FORMAT_VERSION) throw new Error(cc.debug.getError(5304, data[0]));
       lookupClasses(data, true, classFinder);
       cacheMasks(data);
       var version = new FileInfo(data[0]);
@@ -46413,7 +46413,7 @@
       return sections;
     }
     function packCustomObjData(type, data, hasNativeDep) {
-      return [ 1, EMPTY_PLACEHOLDER, EMPTY_PLACEHOLDER, [ type ], EMPTY_PLACEHOLDER, hasNativeDep ? [ data, -1 ] : [ data ], [ 0 ], EMPTY_PLACEHOLDER, [], [], [] ];
+      return [ SUPPORT_MIN_FORMAT_VERSION, EMPTY_PLACEHOLDER, EMPTY_PLACEHOLDER, [ type ], EMPTY_PLACEHOLDER, hasNativeDep ? [ data, -1 ] : [ data ], [ 0 ], EMPTY_PLACEHOLDER, [], [], [] ];
     }
     function hasNativeDep(data) {
       var instances = data[5];
