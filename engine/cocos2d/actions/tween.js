@@ -218,7 +218,7 @@ Tween.stopAllByTarget = function (target) {
  * Insert an action or tween to this sequence
  * !#zh
  * 插入一个 action 或者 tween 到队列中
- * @method then 
+ * @method then
  * @param {Action|Tween} other
  * @return {Tween}
  * @typescript then(other: Action|Tween<T>): Tween<T>
@@ -415,7 +415,7 @@ Object.assign(Tween.prototype, {
      */
     flipX () {
         return this.call(() => { this._target.scaleX *= -1; }, this);
-        
+
     },
     /**
      * !#en Flips target's scaleY
@@ -704,4 +704,4 @@ cc.tween = function (target) {
 };
 
 cc.Tween = Tween;
-  
+

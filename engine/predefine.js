@@ -182,7 +182,7 @@ if (CC_BUILD) {
     defineMacro('CC_JSB', defined('jsb') && !CC_RUNTIME);
 }
 
-// deprecated 
+// deprecated
 const WECHATGAMESUB = !!(defined('wx') && wx.getSharedCanvas);
 const WECHATGAME = !!(defined('wx') && (wx.getSystemInfoSync || wx.getSharedCanvas));
 const QQPLAY = defined('bk');
