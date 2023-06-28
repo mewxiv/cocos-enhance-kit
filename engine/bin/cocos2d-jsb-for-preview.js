@@ -22056,7 +22056,7 @@
           var dirname = cc.path.dirname(url);
           var basename = cc.path.basename(url);
           url = dirname + "." + hashValue + "/" + basename;
-        } else url = url.replace(/.*[/\\][0-9a-fA-F]{2}[/\\]([0-9a-fA-F-]{8,})/, (function(match, uuid) {
+        } else url = url.replace(/.*[\/\\][0-9a-fA-F]{2}[\/\\]([0-9a-fA-F-]{8,})/, (function(match, uuid) {
           return match + "." + hashValue;
         }));
         return url;
@@ -23216,7 +23216,7 @@
     var helper = {
       decodeUuid: require("../utils/decode-uuid"),
       getUuidFromURL: (function() {
-        var _uuidRegex = /.*[/\\][0-9a-fA-F]{2}[/\\]([0-9a-fA-F-]{8,})/;
+        var _uuidRegex = /.*[\/\\][0-9a-fA-F]{2}[\/\\]([0-9a-fA-F-]{8,})/;
         return function(url) {
           var matches = url.match(_uuidRegex);
           if (matches) return matches[1];
@@ -75449,7 +75449,7 @@
           if (cc.sp.autoSwitchMaterial && 0 === autoSwitchMaterial || 1 === autoSwitchMaterial) {
             var material = comp._materials[0];
             if (!material) return false;
-            var skins = comp.skeletonData._skeletonCache.skins;
+            var skins = comp.skeletonData ? comp.skeletonData._skeletonCache.skins : [];
             root: for (var _iterator = _createForOfIteratorHelperLoose(skins), _step; !(_step = _iterator()).done; ) {
               var skin = _step.value;
               for (var _iterator2 = _createForOfIteratorHelperLoose(skin.attachments), _step2; !(_step2 = _iterator2()).done; ) {
@@ -75495,7 +75495,7 @@
         _packedRegions.length = 0;
         var allowDynamicAtlas = comp.allowDynamicAtlas;
         if ((cc.sp.allowDynamicAtlas && 0 === allowDynamicAtlas || 1 === allowDynamicAtlas) && cc.dynamicAtlasManager) {
-          var skins = comp.skeletonData._skeletonCache.skins;
+          var skins = comp.skeletonData ? comp.skeletonData._skeletonCache.skins : [];
           for (var _iterator3 = _createForOfIteratorHelperLoose(skins), _step3; !(_step3 = _iterator3()).done; ) {
             var skin = _step3.value;
             for (var _iterator4 = _createForOfIteratorHelperLoose(skin.attachments), _step4; !(_step4 = _iterator4()).done; ) {

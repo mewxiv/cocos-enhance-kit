@@ -224,7 +224,7 @@ export default class SpineAssembler extends Assembler {
                 const material = comp._materials[0];
                 if (!material) return false;
 
-                const skins = comp.skeletonData._skeletonCache.skins;
+                const skins = comp.skeletonData ? comp.skeletonData._skeletonCache.skins : [];
                 root: for (const skin of skins) {
                     for (const attachments of skin.attachments) {
                         for (const key in attachments) {
@@ -284,7 +284,7 @@ export default class SpineAssembler extends Assembler {
         const allowDynamicAtlas = comp.allowDynamicAtlas;
         if ((cc.sp.allowDynamicAtlas && allowDynamicAtlas === 0) || allowDynamicAtlas === 1) {
             if (cc.dynamicAtlasManager) {
-                const skins = comp.skeletonData._skeletonCache.skins;
+                const skins = comp.skeletonData ? comp.skeletonData._skeletonCache.skins : [];
                 for (const skin of skins) {
                     for (const attachments of skin.attachments) {
                         for (const key in attachments) {
