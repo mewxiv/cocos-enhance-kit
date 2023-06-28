@@ -641,7 +641,7 @@
     };
   }), {
     "../core/platform/CCClass": 272,
-    "../core/utils/misc": 373
+    "../core/utils/misc": 386
   } ],
   3: [ (function(require, module, exports) {
     "use strict";
@@ -3601,7 +3601,7 @@
     false;
     module.exports = AnimationAnimator;
   }), {
-    "../core/utils/binary-search": 366,
+    "../core/utils/binary-search": 379,
     "./animation-curves": 12,
     "./playable": 19,
     "./types": 20
@@ -3752,7 +3752,7 @@
     });
     cc.AnimationClip = module.exports = AnimationClip;
   }), {
-    "../core/utils/binary-search": 366,
+    "../core/utils/binary-search": 379,
     "./animation-curves": 12,
     "./motion-path-helper": 18,
     "./types": 20
@@ -3980,7 +3980,7 @@
       quickFindIndex: quickFindIndex
     };
   }), {
-    "../core/utils/binary-search": 366,
+    "../core/utils/binary-search": 379,
     "./bezier": 15,
     "./types": 20
   } ],
@@ -4733,7 +4733,7 @@
       Bezier: Bezier
     };
   }), {
-    "../core/utils/binary-search": 366,
+    "../core/utils/binary-search": 379,
     "./animation-curves": 12,
     "./bezier": 15
   } ],
@@ -5578,7 +5578,7 @@
     };
     module.exports = Base64;
   }), {
-    "../core/utils/misc": 373
+    "../core/utils/misc": 386
   } ],
   25: [ (function(require, module, exports) {
     "use strict";
@@ -7059,7 +7059,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
     }
     var RendererLight = null;
     true, true;
@@ -7346,14 +7346,14 @@
     cc.Light = Light;
     module.exports = exports["default"];
   }), {
-    "../../renderer/enums": 413,
+    "../../renderer/enums": 426,
     "../../renderer/scene/light": void 0,
     "../components/CCComponent": 181,
     "../platform/CCClassDecorator": 273,
     "../platform/CCEnum": 274,
     "../renderer/index": 322,
-    "../value-types": 388,
-    "../value-types/color": 387
+    "../value-types": 401,
+    "../value-types/color": 400
   } ],
   28: [ (function(require, module, exports) {
     "use strict";
@@ -7526,8 +7526,8 @@
       return new cc.Rotate3DBy(duration, deltaAngleX, deltaAngleY, deltaAngleZ);
     };
   }), {
-    "../value-types/quat": 391,
-    "../value-types/vec3": 398
+    "../value-types/quat": 404,
+    "../value-types/vec3": 411
   } ],
   30: [ (function(require, module, exports) {
     "use strict";
@@ -7609,7 +7609,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
     }
     var COLOR_OVERTIME_RAND_OFFSET = 91041;
     var ColorOvertimeModule = (_dec = (0, _CCClassDecorator.ccclass)("cc.ColorOvertimeModule"), 
@@ -7648,7 +7648,7 @@
     module.exports = exports["default"];
   }), {
     "../../../platform/CCClassDecorator": 273,
-    "../../../value-types": 388,
+    "../../../value-types": 401,
     "./gradient-range": 34
   } ],
   32: [ (function(require, module, exports) {
@@ -7696,7 +7696,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
     }
     var SerializableTable = false;
     var Mode = (0, _CCEnum["default"])({
@@ -7822,7 +7822,7 @@
   }), {
     "../../../platform/CCClassDecorator": 273,
     "../../../platform/CCEnum": 274,
-    "../../../value-types": 388,
+    "../../../value-types": 401,
     "../curve": 42
   } ],
   33: [ (function(require, module, exports) {
@@ -7871,7 +7871,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
     }
     var FORCE_OVERTIME_RAND_OFFSET = 212165;
     var _temp_v3 = cc.v3();
@@ -7954,7 +7954,7 @@
     module.exports = exports["default"];
   }), {
     "../../../platform/CCClassDecorator": 273,
-    "../../../value-types": 388,
+    "../../../value-types": 401,
     "../enum": 44,
     "../particle-general-function": 45,
     "./curve-range": 32
@@ -8034,7 +8034,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
     }
     var GRADIENT_MODE_FIX = 0;
     var GRADIENT_MODE_BLEND = 1;
@@ -8217,7 +8217,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
     }
     var Mode = (0, _CCEnum["default"])({
       Blend: 0,
@@ -8370,7 +8370,7 @@
   }), {
     "../../../platform/CCClassDecorator": 273,
     "../../../platform/CCEnum": 274,
-    "../../../value-types": 388
+    "../../../value-types": 401
   } ],
   36: [ (function(require, module, exports) {
     "use strict";
@@ -8417,7 +8417,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
     }
     var LIMIT_VELOCITY_RAND_OFFSET = 23541;
     var _temp_v3 = cc.v3();
@@ -8555,7 +8555,7 @@
     module.exports = exports["default"];
   }), {
     "../../../platform/CCClassDecorator": 273,
-    "../../../value-types": 388,
+    "../../../value-types": 401,
     "../enum": 44,
     "./curve-range": 32
   } ],
@@ -8634,7 +8634,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
     }
     var ROTATION_OVERTIME_RAND_OFFSET = 125292;
     var RotationOvertimeModule = (_dec = (0, _CCClassDecorator.ccclass)("cc.RotationOvertimeModule"), 
@@ -8725,7 +8725,7 @@
     module.exports = exports["default"];
   }), {
     "../../../platform/CCClassDecorator": 273,
-    "../../../value-types": 388,
+    "../../../value-types": 401,
     "./curve-range": 32
   } ],
   38: [ (function(require, module, exports) {
@@ -8772,7 +8772,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
     }
     var SIZE_OVERTIME_RAND_OFFSET = 39825;
     var SizeOvertimeModule = (_dec = (0, _CCClassDecorator.ccclass)("cc.SizeOvertimeModule"), 
@@ -8864,7 +8864,7 @@
     module.exports = exports["default"];
   }), {
     "../../../platform/CCClassDecorator": 273,
-    "../../../value-types": 388,
+    "../../../value-types": 401,
     "./curve-range": 32
   } ],
   39: [ (function(require, module, exports) {
@@ -8943,7 +8943,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
     }
     var TEXTURE_ANIMATION_RAND_OFFSET = 90794;
     var Mode = (0, _CCEnum["default"])({
@@ -9155,7 +9155,7 @@
   }), {
     "../../../platform/CCClassDecorator": 273,
     "../../../platform/CCEnum": 274,
-    "../../../value-types": 388,
+    "../../../value-types": 401,
     "./curve-range": 32
   } ],
   40: [ (function(require, module, exports) {
@@ -9204,7 +9204,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
     }
     var VELOCITY_OVERTIME_RAND_OFFSET = 197866;
     var _temp_v3 = cc.v3();
@@ -9300,7 +9300,7 @@
     module.exports = exports["default"];
   }), {
     "../../../platform/CCClassDecorator": 273,
-    "../../../value-types": 388,
+    "../../../value-types": 401,
     "../enum": 44,
     "../particle-general-function": 45,
     "./curve-range": 32
@@ -9380,7 +9380,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
     }
     var Burst = (_dec = (0, _CCClassDecorator.ccclass)("cc.Burst"), _dec2 = (0, _CCClassDecorator.property)({
       type: _curveRange["default"]
@@ -9486,7 +9486,7 @@
     module.exports = exports["default"];
   }), {
     "../../platform/CCClassDecorator": 273,
-    "../../value-types": 388,
+    "../../value-types": 401,
     "./animator/curve-range": 32
   } ],
   42: [ (function(require, module, exports) {
@@ -9534,7 +9534,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
     }
     var LOOK_FORWARD = 3;
     var WrapMode = (0, _CCEnum["default"])({
@@ -9760,7 +9760,7 @@
   }), {
     "../../platform/CCClassDecorator": 273,
     "../../platform/CCEnum": 274,
-    "../../value-types": 388
+    "../../value-types": 401
   } ],
   43: [ (function(require, module, exports) {
     "use strict";
@@ -9839,7 +9839,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
     }
     var _intermediVec = new _valueTypes.Vec3(0, 0, 0);
     var _intermediArr = new Array();
@@ -10276,7 +10276,7 @@
     module.exports = exports["default"];
   }), {
     "../../../platform/CCClassDecorator": 273,
-    "../../../value-types": 388,
+    "../../../value-types": 401,
     "../animator/curve-range": 32,
     "../enum": 44,
     "../particle-general-function": 45
@@ -10442,8 +10442,8 @@
       return (0, _utils.sign)(sgn);
     }
   }), {
-    "../../value-types": 388,
-    "../../value-types/utils": 395,
+    "../../value-types": 401,
+    "../../value-types/utils": 408,
     "./enum": 44
   } ],
   46: [ (function(require, module, exports) {
@@ -10608,7 +10608,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
     }
     var _require = require("../../platform/CCClassDecorator"), ccclass = _require.ccclass, menu = _require.menu, property = _require.property, executeInEditMode = _require.executeInEditMode, executionOrder = _require.executionOrder;
     var RenderComponent = require("../../components/CCRenderComponent");
@@ -11386,8 +11386,8 @@
     "../../components/CCRenderComponent": 192,
     "../../mesh/CCMesh": 240,
     "../../platform/CCClassDecorator": 273,
-    "../../value-types": 388,
-    "../../value-types/utils": 395,
+    "../../value-types": 401,
+    "../../value-types/utils": 408,
     "./animator/color-overtime": 31,
     "./animator/curve-range": 32,
     "./animator/force-overtime": 33,
@@ -11449,7 +11449,7 @@
     exports["default"] = Particle;
     module.exports = exports["default"];
   }), {
-    "../../value-types": 388
+    "../../value-types": 401
   } ],
   48: [ (function(require, module, exports) {
     "use strict";
@@ -11664,8 +11664,8 @@
     exports["default"] = ParticleBatchModel;
     module.exports = exports["default"];
   }), {
-    "../../../../renderer/core/input-assembler": 410,
-    "../../../../renderer/gfx": 414,
+    "../../../../renderer/core/input-assembler": 423,
+    "../../../../renderer/gfx": 427,
     "../../../mesh/mesh-data": 243,
     "../../../renderer": 322
   } ],
@@ -12068,12 +12068,12 @@
     _assembler["default"].register(_particleSystem3d["default"], ParticleSystem3DAssembler);
     module.exports = exports["default"];
   }), {
-    "../../../../renderer/gfx": 414,
-    "../../../../renderer/memop/recycle-pool": 416,
+    "../../../../renderer/gfx": 427,
+    "../../../../renderer/memop/recycle-pool": 429,
     "../../../assets/material/material-variant": 163,
     "../../../platform/CCClassDecorator": 273,
     "../../../renderer/assembler": 302,
-    "../../../value-types": 388,
+    "../../../value-types": 401,
     "../enum": 44,
     "../particle": 47,
     "../particle-system-3d": 46,
@@ -12190,7 +12190,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
     }
     var PRE_TRIANGLE_INDEX = 1;
     var NEXT_TRIANGLE_INDEX = 4;
@@ -12680,10 +12680,10 @@
     exports["default"] = TrailModule;
     module.exports = exports["default"];
   }), {
-    "../../../../renderer/gfx": 414,
-    "../../../../renderer/memop/pool": 415,
+    "../../../../renderer/gfx": 427,
+    "../../../../renderer/memop/pool": 428,
     "../../../platform/CCClassDecorator": 273,
-    "../../../value-types": 388,
+    "../../../value-types": 401,
     "../animator/curve-range": 32,
     "../animator/gradient-range": 34,
     "../enum": 44,
@@ -13018,7 +13018,7 @@
     })();
     exports.CannonRigidBody = CannonRigidBody;
   }), {
-    "../../../../../external/cannon/cannon": 450
+    "../../../../../external/cannon/cannon": 463
   } ],
   53: [ (function(require, module, exports) {
     "use strict";
@@ -13245,7 +13245,7 @@
     exports.CannonSharedBody = CannonSharedBody;
     CannonSharedBody.sharedBodiesMap = new Map();
   }), {
-    "../../../../../external/cannon/cannon": 450,
+    "../../../../../external/cannon/cannon": 463,
     "../framework/physics-enum": 78,
     "../framework/util": 82,
     "./cannon-util": 54
@@ -13479,7 +13479,7 @@
       skipBackFaces: false
     };
   }), {
-    "../../../../../external/cannon/cannon": 450,
+    "../../../../../external/cannon/cannon": 463,
     "../framework/util": 82,
     "./cannon-shared-body": 53,
     "./cannon-util": 54,
@@ -13604,7 +13604,7 @@
     })(_cannonShape.CannonShape);
     exports.CannonBoxShape = CannonBoxShape;
   }), {
-    "../../../../../../external/cannon/cannon": 450,
+    "../../../../../../external/cannon/cannon": 463,
     "../cannon-util": 54,
     "./cannon-shape": 58
   } ],
@@ -13785,7 +13785,7 @@
     exports.CannonShape = CannonShape;
     CannonShape.idToMaterial = {};
   }), {
-    "../../../../../../external/cannon/cannon": 450,
+    "../../../../../../external/cannon/cannon": 463,
     "../../framework/util": 82,
     "../cannon-util": 54
   } ],
@@ -13891,7 +13891,7 @@
     })(_cannonShape.CannonShape);
     exports.CannonSphereShape = CannonSphereShape;
   }), {
-    "../../../../../../external/cannon/cannon": 450,
+    "../../../../../../external/cannon/cannon": 463,
     "../cannon-util": 54,
     "./cannon-shape": 58
   } ],
@@ -14583,7 +14583,7 @@
     }
     window && (window.CANNON = _cannon["default"]);
   }), {
-    "../../../../../external/cannon/cannon": 450,
+    "../../../../../external/cannon/cannon": 463,
     "../cannon/instantiate": 56
   } ],
   69: [ (function(require, module, exports) {
@@ -14681,7 +14681,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
     }
     var _cc$_decorator = cc._decorator, ccclass = _cc$_decorator.ccclass, property = _cc$_decorator.property;
     var fastRemove = cc.js.array.fastRemove;
@@ -14821,7 +14821,7 @@
       return _setPrototypeOf(o, p);
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
     }
     function _applyDecoratedDescriptor(target, property, decorators, descriptor, context) {
       var desc = {};
@@ -14953,7 +14953,7 @@
       return _setPrototypeOf(o, p);
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
     }
     function _applyDecoratedDescriptor(target, property, decorators, descriptor, context) {
       var desc = {};
@@ -15205,7 +15205,7 @@
       return _setPrototypeOf(o, p);
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
     }
     function _applyDecoratedDescriptor(target, property, decorators, descriptor, context) {
       var desc = {};
@@ -15355,7 +15355,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
     }
     var _cc$_decorator = cc._decorator, ccclass = _cc$_decorator.ccclass, executeInEditMode = _cc$_decorator.executeInEditMode, executionOrder = _cc$_decorator.executionOrder, menu = _cc$_decorator.menu, property = _cc$_decorator.property, requireComponent = _cc$_decorator.requireComponent, disallowMultiple = _cc$_decorator.disallowMultiple;
     var Vec3 = cc.Vec3;
@@ -15542,7 +15542,7 @@
       return _setPrototypeOf(o, p);
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
     }
     function _applyDecoratedDescriptor(target, property, decorators, descriptor, context) {
       var desc = {};
@@ -15909,13 +15909,13 @@
     "use strict";
     exports.__esModule = true;
     exports.ERigidBodyType = void 0;
-    var ERigidBodyType;
-    exports.ERigidBodyType = ERigidBodyType;
-    (function(ERigidBodyType) {
+    var ERigidBodyType = (function(ERigidBodyType) {
       ERigidBodyType[ERigidBodyType["DYNAMIC"] = 1] = "DYNAMIC";
       ERigidBodyType[ERigidBodyType["STATIC"] = 2] = "STATIC";
       ERigidBodyType[ERigidBodyType["KINEMATIC"] = 4] = "KINEMATIC";
-    })(ERigidBodyType || (exports.ERigidBodyType = ERigidBodyType = {}));
+      return ERigidBodyType;
+    })({});
+    exports.ERigidBodyType = ERigidBodyType;
   }), {} ],
   79: [ (function(require, module, exports) {
     "use strict";
@@ -15987,7 +15987,7 @@
       return desc;
     }
     function _initializerWarningHelper(descriptor, context) {
-      throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.");
+      throw new Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform.");
     }
     var _cc$_decorator = cc._decorator, property = _cc$_decorator.property, ccclass = _cc$_decorator.ccclass;
     var Physics3DManager = (_dec = ccclass("cc.Physics3DManager"), _dec(_class = (_class2 = (function() {
@@ -16525,7 +16525,7 @@
     }
     module.exports = exports["default"];
   }), {
-    "../../value-types/vec3": 398,
+    "../../value-types/vec3": 411,
     "./vertex-data": 94
   } ],
   84: [ (function(require, module, exports) {
@@ -16677,7 +16677,7 @@
     }
     module.exports = exports["default"];
   }), {
-    "../../value-types/vec3": 398,
+    "../../value-types/vec3": 411,
     "./vertex-data": 94
   } ],
   85: [ (function(require, module, exports) {
@@ -16859,7 +16859,7 @@
     }
     module.exports = exports["default"];
   }), {
-    "../../value-types/vec3": 398,
+    "../../value-types/vec3": 411,
     "./vertex-data": 94
   } ],
   87: [ (function(require, module, exports) {
@@ -16994,7 +16994,7 @@
     }
     module.exports = exports["default"];
   }), {
-    "../../value-types/vec3": 398,
+    "../../value-types/vec3": 411,
     "./vertex-data": 94
   } ],
   89: [ (function(require, module, exports) {
@@ -17127,7 +17127,7 @@
     };
     exports.polyhedron = polyhedron;
   }), {
-    "../../value-types": 388,
+    "../../value-types": 401,
     "./utils": 93,
     "./vertex-data": 94
   } ],
@@ -17154,7 +17154,7 @@
     }
     module.exports = exports["default"];
   }), {
-    "../../value-types": 388,
+    "../../value-types": 401,
     "./vertex-data": 94
   } ],
   91: [ (function(require, module, exports) {
@@ -17212,7 +17212,7 @@
     }
     module.exports = exports["default"];
   }), {
-    "../../value-types": 388,
+    "../../value-types": 401,
     "./vertex-data": 94
   } ],
   92: [ (function(require, module, exports) {
@@ -17272,7 +17272,7 @@
     }
     module.exports = exports["default"];
   }), {
-    "../../value-types": 388,
+    "../../value-types": 401,
     "./vertex-data": 94
   } ],
   93: [ (function(require, module, exports) {
@@ -17381,7 +17381,7 @@
       return normals;
     }
   }), {
-    "../../value-types/vec3": 398
+    "../../value-types/vec3": 411
   } ],
   94: [ (function(require, module, exports) {
     "use strict";
@@ -17716,7 +17716,7 @@
     cc.SkeletonAnimationClip = module.exports = SkeletonAnimationClip;
   }), {
     "../../../animation/animation-clip": 11,
-    "../../value-types/mat4": 390,
+    "../../value-types/mat4": 403,
     "./CCJointMatrixCurve": 95
   } ],
   99: [ (function(require, module, exports) {
@@ -17952,10 +17952,10 @@
     });
     cc.SkinnedMeshRenderer = module.exports = SkinnedMeshRenderer;
   }), {
-    "../../../renderer/enums": 413,
+    "../../../renderer/enums": 426,
     "../../mesh/CCMeshRenderer": 241,
     "../../renderer/render-flow": 323,
-    "../../value-types/mat4": 390,
+    "../../value-types/mat4": 403,
     "./CCSkeleton": 96
   } ],
   100: [ (function(require, module, exports) {
@@ -18597,7 +18597,7 @@
         this._initEngine();
         this._setAnimFrame();
         cc.assetManager.builtins.init((function() {
-          console.log("Cocos Creator v" + cc.ENGINE_VERSION);
+          console.log("Cocos Creator SP v" + cc.ENGINE_VERSION);
           _this._prepared = true;
           _this._runMainLoop();
           _this.emit(_this.EVENT_GAME_INITED);
@@ -18822,7 +18822,7 @@
     cc.game = module.exports = game;
   }), {
     "../audio/CCAudioEngine": 22,
-    "../core/renderer/utils/dynamic-atlas/manager": 325,
+    "../core/renderer/utils/dynamic-atlas/manager": 324,
     "./CCDebug": 101,
     "./event/event-target": 219,
     "./renderer/index.js": 322
@@ -20512,12 +20512,12 @@
     "./platform/CCMacro": 277,
     "./platform/js": 294,
     "./renderer/render-flow": 323,
-    "./utils/affine-transform": 364,
-    "./utils/base-node": 365,
-    "./utils/prefab-helper": 376,
-    "./utils/trans-pool": 382,
-    "./value-types": 388,
-    "./value-types/utils": 395
+    "./utils/affine-transform": 377,
+    "./utils/base-node": 378,
+    "./utils/prefab-helper": 389,
+    "./utils/trans-pool": 395,
+    "./value-types": 401,
+    "./value-types/utils": 408
   } ],
   105: [ (function(require, module, exports) {
     "use strict";
@@ -21496,7 +21496,28 @@
         this.clear();
         if (cc.game.renderType === cc.game.RENDER_TYPE_CANVAS || !cc.assetManager.bundles.has(BuiltinBundleName.INTERNAL)) return cb && cb();
         this._loadBuiltins("effect", (function() {
-          _this._loadBuiltins("material", cb);
+          _this._loadBuiltins("material", (function() {
+            _this._loadBuiltinsSP(cb);
+          }));
+        }));
+      },
+      _loadBuiltinsSP: function _loadBuiltinsSP(cb) {
+        cc.sp.MAX_MULTITEXTURE_NUM = 8;
+        this._loadMultiEffect("multi-2d-universal", (function(effect) {
+          cc.sp.multi2dSpriteEffectAsset = effect;
+          effect.addRef();
+          cc.sp.inited = true;
+          cc.sp.multiBatcher.init();
+          -1 === cc.dynamicAtlasManager.maxAtlasCount && (cc.dynamicAtlasManager.maxAtlasCount = Math.max(0, cc.sp.MAX_MULTITEXTURE_NUM - cc.sp.charAtlasAutoBatchCount));
+          cb();
+        }));
+      },
+      _loadMultiEffect: function _loadMultiEffect(name, cb) {
+        false;
+        cc.assetManager.loadBundle("sp", (function(err, bundle) {
+          err ? cc.error(err) : bundle.load("effects/" + name, cc.EffectAsset, (function(err, effect) {
+            err ? cc.error(err) : cb(effect);
+          }));
         }));
       },
       getBuiltin: function getBuiltin(type, name) {
@@ -23187,7 +23208,7 @@
     };
     module.exports = fontLoader;
   }), {
-    "../utils/text-utils": 380
+    "../utils/text-utils": 393
   } ],
   124: [ (function(require, module, exports) {
     "use strict";
@@ -23222,7 +23243,7 @@
     };
     module.exports = helper;
   }), {
-    "../utils/decode-uuid": 368,
+    "../utils/decode-uuid": 381,
     "./shared": 133
   } ],
   125: [ (function(require, module, exports) {
@@ -25071,7 +25092,7 @@
     });
     cc.RenderTexture = module.exports = RenderTexture;
   }), {
-    "../../renderer/gfx": 414,
+    "../../renderer/gfx": 427,
     "../renderer": 322,
     "./CCTexture2D": 152
   } ],
@@ -25431,6 +25452,7 @@
         this._texture = this._original._texture;
         this._original = null;
         this._texture.loaded ? this._calculateUV() : this.ensureLoadTexture();
+        this.emit("_resetDynamicAtlasFrame");
       },
       _calculateUV: function _calculateUV() {
         var rect = this._rect, texture = this._texture, uv = this.uv, texw = texture.width, texh = texture.height;
@@ -25558,6 +25580,10 @@
         true;
         var textureUuid = data.texture;
         textureUuid && handle.result.push(this, "_textureSetter", textureUuid);
+      },
+      destroy: function destroy() {
+        cc.dynamicAtlasManager && cc.dynamicAtlasManager.deleteSpriteFrame(this);
+        this._super();
       }
     });
     var proto = SpriteFrame.prototype;
@@ -25814,6 +25840,7 @@
         this._hash = 0;
         this._texture = null;
         false;
+        this._multiMaterial = null;
       },
       getImpl: function getImpl() {
         this._texture || (this._texture = new renderer.Texture2D(renderer.device, {}));
@@ -25912,6 +25939,7 @@
       destroy: function destroy() {
         cc.sys.capabilities.imageBitmap && this._image instanceof ImageBitmap && this._image.close && this._image.close();
         this._packable && cc.dynamicAtlasManager && cc.dynamicAtlasManager.deleteAtlasTexture(this);
+        this.unlinkMaterial();
         this._image = null;
         this._texture && this._texture.destroy();
         this._super();
@@ -26123,11 +26151,37 @@
         }), (function(err) {
           cc.error(err.message);
         })) : cb();
+      },
+      linkMaterial: function linkMaterial(material, index) {
+        var handler = material.getMultiHandler();
+        if (handler) {
+          if (null == index) {
+            if (-1 === handler.autoSetTexture(this)) return false;
+          } else handler.setTexture(index, this);
+          this.unlinkMaterial();
+          this._multiMaterial = material;
+          return true;
+        }
+        return false;
+      },
+      unlinkMaterial: function unlinkMaterial() {
+        if (this._multiMaterial) {
+          var handler = this._multiMaterial.getMultiHandler();
+          var _texture = this.getImpl();
+          handler.removeTexture(_texture);
+          this._multiMaterial = null;
+        }
+      },
+      getLinkedMaterial: function getLinkedMaterial() {
+        return this._multiMaterial;
+      },
+      hasLinkedMaterial: function hasLinkedMaterial() {
+        return !!this._multiMaterial;
       }
     });
     cc.Texture2D = module.exports = Texture2D;
   }), {
-    "../../renderer/gfx": 414,
+    "../../renderer/gfx": 427,
     "../assets/CCAsset": 137,
     "../event/event-target": 219,
     "../platform/CCClass": 272,
@@ -26257,6 +26311,7 @@
         this._manualHash = false;
         this._dirty = true;
         this._effect = null;
+        this._multiHandler = null;
       },
       properties: {
         _defines: {
@@ -26286,6 +26341,7 @@
               return;
             }
             this._effect = this._effectAsset.getInstantiatedEffect();
+            this.updateMultiSupport();
           }
         },
         effect: {
@@ -26300,6 +26356,7 @@
           set: function set(v) {
             this._techniqueIndex = v;
             this._effect.switchTechnique(v);
+            this.updateMultiSupport();
           }
         }
       },
@@ -26404,6 +26461,21 @@
           for (var def in passData.defines) this.define(def, passData.defines[def], index);
           for (var prop in passData.props) this.setProperty(prop, passData.props[prop], index);
         }
+        this.updateMultiSupport();
+        this._multiHandler && this._multiHandler.syncTextures();
+      },
+      updateMultiSupport: function updateMultiSupport() {
+        var passes = this._effect.technique.passes;
+        passes.length > 0 && passes[0].getDefine("USE_MULTI_TEXTURE") ? this.setMultiSupport(true) : this.setMultiSupport(false);
+      },
+      isMultiSupport: function isMultiSupport() {
+        return !!this._multiHandler;
+      },
+      setMultiSupport: function setMultiSupport(bool) {
+        bool ? this._multiHandler ? this._multiHandler.syncTextures() : this._multiHandler = new cc.sp.MultiHandler(this) : bool || (this._multiHandler = null);
+      },
+      getMultiHandler: function getMultiHandler() {
+        return this._multiHandler;
       }
     });
     var _default = Material;
@@ -26411,7 +26483,7 @@
     cc.Material = Material;
     module.exports = exports["default"];
   }), {
-    "../../utils/texture-util": 381,
+    "../../utils/texture-util": 394,
     "../CCAsset": 137,
     "../CCTexture2D": 152,
     "./CCEffectAsset": 155
@@ -26585,8 +26657,8 @@
     cc.EffectBase = EffectBase;
     module.exports = exports["default"];
   }), {
-    "../../../renderer/core/pass": 411,
-    "../../../renderer/enums": 413
+    "../../../renderer/core/pass": 424,
+    "../../../renderer/enums": 426
   } ],
   158: [ (function(require, module, exports) {
     "use strict";
@@ -26676,10 +26748,10 @@
     }
     false;
   }), {
-    "../../../renderer/core/pass": 411,
-    "../../../renderer/core/technique": 412,
-    "../../../renderer/enums": 413,
-    "../../../renderer/types": 419,
+    "../../../renderer/core/pass": 424,
+    "../../../renderer/core/technique": 425,
+    "../../../renderer/enums": 426,
+    "../../../renderer/types": 432,
     "./effect": 160
   } ],
   159: [ (function(require, module, exports) {
@@ -26777,7 +26849,7 @@
         var hash = "";
         hash += _utils["default"].serializePasses(this._passes);
         var effect = this._effect;
-        effect && (hash += _utils["default"].serializePasses(effect.passes));
+        effect && (hash += effect._id);
         this._hash = (0, _murmurhash2_gc["default"])(hash, 666);
         this.updateHash(this._hash);
         return this._hash;
@@ -26809,7 +26881,7 @@
     cc.EffectVariant = EffectVariant;
     module.exports = exports["default"];
   }), {
-    "../../../renderer/murmurhash2_gc": 418,
+    "../../../renderer/murmurhash2_gc": 431,
     "./effect-base": 157,
     "./utils": 164
   } ],
@@ -26873,7 +26945,9 @@
         _this = _EffectBase.call(this) || this;
         _this._techniques = [];
         _this._asset = null;
+        _this._id = "";
         _this.init(name, techniques, techniqueIndex, asset, true);
+        _this._id = "|" + Effect.id++;
         return _this;
       }
       var _proto = Effect.prototype;
@@ -26913,6 +26987,7 @@
       return Effect;
     })(_effectBase["default"]);
     exports["default"] = Effect;
+    Effect.id = 0;
     cc.Effect = Effect;
     module.exports = exports["default"];
   }), {
@@ -27015,7 +27090,7 @@
     exports["default"] = _default;
     module.exports = exports["default"];
   }), {
-    "../../utils/pool": 375,
+    "../../utils/pool": 388,
     "./utils": 164
   } ],
   163: [ (function(require, module, exports) {
@@ -27136,12 +27211,12 @@
     }
     var hashArray = [];
     function serializeDefines(defines, names) {
-      var len = names.length;
-      for (var i = 0; i < len; i++) {
-        var name = names[i];
+      var i = 0;
+      for (var name in defines) if (Object.hasOwnProperty.call(defines, name)) {
         hashArray[i] = name + defines[name];
+        i++;
       }
-      hashArray.length = len;
+      hashArray.length = i;
       return hashArray.join("");
     }
     function serializePass(pass, excludeProperties) {
@@ -27160,8 +27235,8 @@
     }
     function serializeUniforms(uniforms, names) {
       var index = 0;
-      for (var i = 0, len = names.length; i < len; i++) {
-        var param = uniforms[names[i]];
+      for (var name in uniforms) if (Object.hasOwnProperty.call(uniforms, name)) {
+        var param = uniforms[name];
         var prop = param.value;
         if (!prop) continue;
         param.type === _enums["default"].PARAM_TEXTURE_2D || param.type === _enums["default"].PARAM_TEXTURE_CUBE ? hashArray[index] = prop._id : hashArray[index] = prop.toString();
@@ -27178,7 +27253,7 @@
     exports["default"] = _default;
     module.exports = exports["default"];
   }), {
-    "../../../renderer/enums": 413
+    "../../../renderer/enums": 426
   } ],
   165: [ (function(require, module, exports) {
     "use strict";
@@ -27882,8 +27957,8 @@
     "../geom-utils": 227,
     "../renderer/index": 322,
     "../renderer/render-flow": 323,
-    "../utils/affine-transform": 364,
-    "../value-types": 388
+    "../utils/affine-transform": 377,
+    "../value-types": 401
   } ],
   167: [ (function(require, module, exports) {
     "use strict";
@@ -28275,7 +28350,7 @@
     cc.CollisionManager = module.exports = CollisionManager;
   }), {
     "../CCNode": 104,
-    "../value-types/vec2": 397,
+    "../value-types/vec2": 410,
     "./CCContact": 171
   } ],
   171: [ (function(require, module, exports) {
@@ -28745,7 +28820,7 @@
     "./platform/CCClass": 272,
     "./platform/CCObject": 278,
     "./platform/js": 294,
-    "./utils/misc": 373
+    "./utils/misc": 386
   } ],
   176: [ (function(require, module, exports) {
     "use strict";
@@ -29177,7 +29252,7 @@
     cc.AudioSource = module.exports = AudioSource;
   }), {
     "../assets/CCAudioClip": 138,
-    "../utils/misc": 373,
+    "../utils/misc": 386,
     "./CCComponent": 181
   } ],
   178: [ (function(require, module, exports) {
@@ -29673,7 +29748,7 @@
     });
     cc.Button = module.exports = Button;
   }), {
-    "../utils/gray-sprite-state": 370,
+    "../utils/gray-sprite-state": 383,
     "./CCComponent": 181
   } ],
   180: [ (function(require, module, exports) {
@@ -30224,8 +30299,12 @@
           tooltip: (true, "i18n:COMPONENT.label.cacheMode"),
           notify: function notify(oldValue) {
             if (this.cacheMode === oldValue) return;
-            oldValue !== CacheMode.BITMAP || this.font instanceof cc.BitmapFont || this._frame && this._frame._resetDynamicAtlasFrame();
-            oldValue === CacheMode.CHAR && (this._ttfTexture = null);
+            oldValue !== CacheMode.BITMAP || this.font instanceof cc.BitmapFont || deleteFromDynamicAtlas(this, this._frame);
+            if (oldValue === CacheMode.CHAR) {
+              this._ttfTexture = null;
+              var material = this._materials[0];
+              material && material.material && cc.Label._shareAtlas.material === material.material && this.setMaterial(0, this._getDefaultMaterial());
+            }
             if (!this.enabledInHierarchy) return;
             this._forceUpdateRenderData();
           },
@@ -30276,6 +30355,30 @@
             this.setVertsDirty();
           },
           tooltip: (true, "i18n:COMPONENT.label.underline_height")
+        },
+        autoSwitchMaterial: {
+          type: RenderComponent.EnableType,
+          default: RenderComponent.EnableType.GLOBAL,
+          notify: function notify(oldValue) {
+            if (this.autoSwitchMaterial === oldValue) return;
+            this.setVertsDirty();
+          }
+        },
+        allowDynamicAtlas: {
+          type: RenderComponent.EnableType,
+          default: RenderComponent.EnableType.GLOBAL,
+          notify: function notify(oldValue) {
+            if (this.allowDynamicAtlas === oldValue) return;
+            this.setVertsDirty();
+          }
+        },
+        enableRetina: {
+          type: RenderComponent.EnableType,
+          default: RenderComponent.EnableType.GLOBAL,
+          notify: function notify(oldValue) {
+            if (this.enableRetina === oldValue) return;
+            this.setVertsDirty();
+          }
         }
       },
       statics: {
@@ -30313,9 +30416,11 @@
         this._assemblerData = null;
         this._letterTexture = null;
         if (this._ttfTexture) {
+          this._ttfTexture._packable = false;
           this._ttfTexture.destroy();
           this._ttfTexture = null;
         }
+        this._resetFrame();
         this._super();
       },
       onRestore: false,
@@ -30391,7 +30496,7 @@
               this._ttfTexture.initWithElement(this._assemblerData.canvas);
             }
             if (this.cacheMode !== CacheMode.CHAR) {
-              this._frame._resetDynamicAtlasFrame();
+              deleteFromDynamicAtlas(this, this._frame);
               this._frame._refreshTexture(this._ttfTexture);
               this._srcBlendFactor === cc.macro.BlendFactor.ONE && false;
             }
@@ -30412,7 +30517,15 @@
           return;
         }
         if (!this._frame) return;
-        material && material.setProperty("texture", this._frame._texture);
+        if (material) {
+          var isMultiMaterial = material.material.isMultiSupport();
+          if (isMultiMaterial) {
+            var texture = this._frame._texture;
+            texture instanceof cc.Texture2D && !texture.loaded && cc.assetManager.postLoadNative(texture);
+            this._texIdDirty = true;
+          } else material.setProperty("texture", this._frame._texture);
+          this._assembler && (isMultiMaterial && !this._assembler.isMulti || !isMultiMaterial && this._assembler.isMulti) && RenderComponent.prototype._resetAssembler.call(this);
+        }
         BlendFunc.prototype._updateMaterial.call(this);
       },
       _forceUseCanvas: false,
@@ -30449,7 +30562,7 @@
     "../platform/CCMacro": 277,
     "../renderer/utils/label/label-frame": 327,
     "../renderer/utils/utils": 330,
-    "../utils/blend-func": 367,
+    "../utils/blend-func": 380,
     "./CCRenderComponent": 192
   } ],
   184: [ (function(require, module, exports) {
@@ -31368,13 +31481,13 @@
     });
     cc.Mask = module.exports = Mask;
   }), {
-    "../../renderer/gfx": 414,
+    "../../renderer/gfx": 427,
     "../assets/material/material-variant": 163,
     "../graphics/graphics": 235,
     "../renderer/render-flow": 323,
-    "../utils/misc": 373,
-    "../value-types/mat4": 390,
-    "../value-types/vec2": 397,
+    "../utils/misc": 386,
+    "../value-types/mat4": 403,
+    "../value-types/vec2": 410,
     "./CCRenderComponent": 192
   } ],
   188: [ (function(require, module, exports) {
@@ -31443,6 +31556,7 @@
           set: function set(value) {
             if (this._texture === value) return;
             this._texture = value;
+            this._checkSwitchMaterial();
             this._updateMaterial();
           },
           type: cc.Texture2D,
@@ -31470,6 +31584,31 @@
           },
           animatable: false,
           tooltip: (true, "i18n:COMPONENT.motionStreak.fastMode")
+        },
+        autoSwitchMaterial: {
+          type: RenderComponent.EnableType,
+          default: RenderComponent.EnableType.GLOBAL,
+          notify: function notify(oldValue) {
+            if (this.autoSwitchMaterial === oldValue) return;
+            this.setVertsDirty();
+          }
+        }
+      },
+      setVertsDirty: function setVertsDirty() {
+        this._checkSwitchMaterial();
+        this._updateMaterial();
+        this._super();
+      },
+      __preload: function __preload() {
+        this._super();
+        this._checkSwitchMaterial();
+      },
+      _checkSwitchMaterial: function _checkSwitchMaterial() {
+        if (this._assembler) {
+          var material = this._materials[0];
+          if (!material) return;
+          if (!this._texture) return;
+          this._assembler.checkAndSwitchMaterial(this, this._texture, material);
         }
       },
       onEnable: function onEnable() {
@@ -31478,7 +31617,23 @@
       },
       _updateMaterial: function _updateMaterial() {
         var material = this.getMaterial(0);
-        material && material.setProperty("texture", this._texture);
+        if (!material) return;
+        var isMultiMaterial = material.material.isMultiSupport();
+        if (isMultiMaterial) {
+          if (!this._texture) return;
+          var texture = this._texture;
+          texture instanceof cc.Texture2D && !texture.loaded && cc.assetManager.postLoadNative(texture);
+          this._updateMultiTexId(material, this._texture);
+        } else {
+          var textureImpl = this._texture && this._texture.getImpl();
+          material.getProperty("texture") !== textureImpl && material.setProperty("texture", this._texture);
+        }
+        this._assembler && (isMultiMaterial && !this._assembler.isMulti || !isMultiMaterial && this._assembler.isMulti) && this._resetAssembler();
+        if (isMultiMaterial && this._texIdDirty && this._assembler) {
+          if (!this._texture) return;
+          this._assembler.updateTexId(this);
+          this._texIdDirty = false;
+        }
         BlendFunc.prototype._updateMaterial.call(this);
       },
       onFocusInEditor: false,
@@ -31495,7 +31650,7 @@
     });
     cc.MotionStreak = module.exports = MotionStreak;
   }), {
-    "../../core/utils/blend-func": 367,
+    "../../core/utils/blend-func": 380,
     "../components/CCRenderComponent": 192
   } ],
   189: [ (function(require, module, exports) {
@@ -32042,7 +32197,7 @@
     });
     cc.ProgressBar = module.exports = ProgressBar;
   }), {
-    "../utils/misc": 373,
+    "../utils/misc": 386,
     "./CCComponent": 181
   } ],
   192: [ (function(require, module, exports) {
@@ -32059,10 +32214,18 @@
     var RenderFlow = require("../renderer/render-flow");
     var Material = require("../assets/material/CCMaterial");
     var _temp_color = new _valueTypes.Color();
+    var EnableType = cc.Enum({
+      GLOBAL: 0,
+      ENABLE: 1,
+      DISABLE: 2
+    });
     var RenderComponent = cc.Class({
       name: "RenderComponent",
       extends: Component,
       editor: false,
+      statics: {
+        EnableType: EnableType
+      },
       properties: {
         _materials: {
           default: [],
@@ -32083,11 +32246,14 @@
       },
       ctor: function ctor() {
         this._vertsDirty = true;
+        this._texIdDirty = true;
+        this._texId = 0;
         this._assembler = null;
       },
       _resetAssembler: function _resetAssembler() {
         _assembler["default"].init(this);
         this._updateColor();
+        this._texId = 0;
         this.setVertsDirty();
       },
       __preload: function __preload() {
@@ -32183,6 +32349,26 @@
           renderer.material = material;
           renderer.cullingMask = cullingMask;
         }
+      },
+      _updateMultiTexId: function _updateMultiTexId(material, texture) {
+        var multi = material.material.getMultiHandler();
+        var spTexture = texture;
+        var nSpTexture = spTexture.getImpl();
+        var same = 0 === this._texId ? material.getProperty("texture") !== nSpTexture : multi.getTexture(this._texId) !== nSpTexture;
+        if (same) {
+          var isChanged = Object.prototype.hasOwnProperty.call(material._effect._passes["0"]._properties, "texture");
+          var texId = isChanged ? -1 : multi.getIndex(nSpTexture);
+          if (-1 !== texId) {
+            this._texId = texId;
+            this._texIdDirty = true;
+          } else {
+            material.setProperty("texture", spTexture);
+            if (0 !== this._texId) {
+              this._texId = 0;
+              this._texIdDirty = true;
+            }
+          }
+        } else this._texIdDirty = false;
       }
     });
     cc.RenderComponent = module.exports = RenderComponent;
@@ -32191,11 +32377,17 @@
     "../assets/material/material-variant": 163,
     "../renderer/assembler": 302,
     "../renderer/render-flow": 323,
-    "../value-types": 388,
+    "../value-types": 401,
     "./CCComponent": 181
   } ],
   193: [ (function(require, module, exports) {
     "use strict";
+    var _materialVariant = _interopRequireDefault(require("../assets/material/material-variant"));
+    function _interopRequireDefault(obj) {
+      return obj && obj.__esModule ? obj : {
+        default: obj
+      };
+    }
     var js = require("../platform/js");
     var macro = require("../platform/CCMacro");
     var textUtils = require("../utils/text-utils");
@@ -32206,6 +32398,7 @@
     var RichTextChildName = "RICHTEXT_CHILD";
     var RichTextChildImageName = "RICHTEXT_Image_CHILD";
     var CacheMode = cc.Label.CacheMode;
+    var RenderComponent = require("./CCRenderComponent");
     function debounce(func, wait, immediate) {
       var timeout;
       return function() {
@@ -32375,6 +32568,73 @@
           notify: function notify(oldValue) {
             if (this.handleTouchEvent === oldValue) return;
             this.enabledInHierarchy && (this.handleTouchEvent ? this._addEventListeners() : this._removeEventListeners());
+          }
+        },
+        customMaterial: {
+          default: null,
+          type: cc.Material,
+          notify: function notify(oldValue) {
+            if (this.customMaterial === oldValue) return;
+            var material = null == this.customMaterial ? this._getDefaultMaterial() : this.customMaterial;
+            for (var i = 0; i < this._labelSegments.length; i++) {
+              var labelComponent = this._labelSegments[i].getComponent(cc.Label);
+              labelComponent && (0 === labelComponent._materials.length ? labelComponent._materials[0] = _materialVariant["default"].create(material, labelComponent) : labelComponent.setMaterial(0, material));
+              var spriteComponent = this._labelSegments[i].getComponent(cc.Sprite);
+              spriteComponent && (0 === spriteComponent._materials.length ? spriteComponent._materials[0] = _materialVariant["default"].create(material, spriteComponent) : spriteComponent.setMaterial(0, material));
+            }
+            for (var _i = 0; _i < this._labelSegmentsCache.length; _i++) {
+              var _labelComponent = this._labelSegmentsCache[_i].getComponent(cc.Label);
+              _labelComponent && (0 === _labelComponent._materials.length ? _labelComponent._materials[0] = _materialVariant["default"].create(material, _labelComponent) : _labelComponent.setMaterial(0, material));
+            }
+          }
+        },
+        autoSwitchMaterial: {
+          type: RenderComponent.EnableType,
+          default: RenderComponent.EnableType.GLOBAL,
+          notify: function notify(oldValue) {
+            if (this.autoSwitchMaterial === oldValue) return;
+            for (var i = 0; i < this._labelSegments.length; i++) {
+              var labelComponent = this._labelSegments[i].getComponent(cc.Label);
+              labelComponent && (labelComponent.autoSwitchMaterial = this.autoSwitchMaterial);
+              var spriteComponent = this._labelSegments[i].getComponent(cc.Sprite);
+              spriteComponent && (spriteComponent.autoSwitchMaterial = this.autoSwitchMaterial);
+            }
+            for (var _i2 = 0; _i2 < this._labelSegmentsCache.length; _i2++) {
+              var _labelComponent2 = this._labelSegmentsCache[_i2].getComponent(cc.Label);
+              _labelComponent2 && (_labelComponent2.autoSwitchMaterial = this.autoSwitchMaterial);
+            }
+          }
+        },
+        allowDynamicAtlas: {
+          type: RenderComponent.EnableType,
+          default: RenderComponent.EnableType.GLOBAL,
+          notify: function notify(oldValue) {
+            if (this.allowDynamicAtlas === oldValue) return;
+            for (var i = 0; i < this._labelSegments.length; i++) {
+              var labelComponent = this._labelSegments[i].getComponent(cc.Label);
+              labelComponent && (labelComponent.allowDynamicAtlas = this.allowDynamicAtlas);
+              var spriteComponent = this._labelSegments[i].getComponent(cc.Sprite);
+              spriteComponent && (spriteComponent.allowDynamicAtlas = this.allowDynamicAtlas);
+            }
+            for (var _i3 = 0; _i3 < this._labelSegmentsCache.length; _i3++) {
+              var _labelComponent3 = this._labelSegmentsCache[_i3].getComponent(cc.Label);
+              _labelComponent3 && (_labelComponent3.allowDynamicAtlas = this.allowDynamicAtlas);
+            }
+          }
+        },
+        enableRetina: {
+          type: RenderComponent.EnableType,
+          default: RenderComponent.EnableType.GLOBAL,
+          notify: function notify(oldValue) {
+            if (this.enableRetina === oldValue) return;
+            for (var i = 0; i < this._labelSegments.length; i++) {
+              var labelComponent = this._labelSegments[i].getComponent(cc.Label);
+              labelComponent && (labelComponent.enableRetina = this.enableRetina);
+            }
+            for (var _i4 = 0; _i4 < this._labelSegmentsCache.length; _i4++) {
+              var _labelComponent4 = this._labelSegmentsCache[_i4].getComponent(cc.Label);
+              _labelComponent4 && (_labelComponent4.enableRetina = this.enableRetina);
+            }
           }
         }
       },
@@ -32570,6 +32830,9 @@
           var spriteNode = new cc.PrivateNode(RichTextChildImageName);
           spriteNode._objFlags |= cc.Object.Flags.DontSave;
           var spriteComponent = spriteNode.addComponent(cc.Sprite);
+          spriteComponent.autoSwitchMaterial = this.autoSwitchMaterial;
+          spriteComponent.allowDynamicAtlas = this.allowDynamicAtlas;
+          this.customMaterial && (0 === spriteComponent._materials.length ? spriteComponent._materials[0] = _materialVariant["default"].create(this.customMaterial, spriteComponent) : spriteComponent._materials[0].material !== this.customMaterial && spriteComponent.setMaterial(0, this.customMaterial));
           switch (richTextElement.style.imageAlign) {
            case "top":
             spriteNode.setAnchorPoint(0, 1);
@@ -32761,6 +33024,10 @@
         this._textArray[index] && (textStyle = this._textArray[index].style);
         textStyle && textStyle.color ? labelNode.color = this._convertLiteralColorValue(textStyle.color) : labelNode.color = this.node.color;
         labelComponent.cacheMode = this.cacheMode;
+        labelComponent.autoSwitchMaterial = this.autoSwitchMaterial;
+        labelComponent.allowDynamicAtlas = this.allowDynamicAtlas;
+        labelComponent.enableRetina = this.enableRetina;
+        this.customMaterial && (0 === labelComponent._materials.length ? labelComponent._materials[0] = _materialVariant["default"].create(this.customMaterial, labelComponent) : labelComponent._materials[0].material !== this.customMaterial && labelComponent.setMaterial(0, this.customMaterial));
         var isAsset = this.font instanceof cc.Font;
         isAsset && !this._isSystemFontUsed ? labelComponent.font = this.font : labelComponent.fontFamily = this.fontFamily;
         labelComponent.useSystemFont = this._isSystemFontUsed;
@@ -32795,10 +33062,12 @@
     });
     cc.RichText = module.exports = RichText;
   }), {
+    "../assets/material/material-variant": 163,
     "../platform/CCMacro": 277,
     "../platform/js": 294,
-    "../utils/html-text-parser": 371,
-    "../utils/text-utils": 380
+    "../utils/html-text-parser": 384,
+    "../utils/text-utils": 393,
+    "./CCRenderComponent": 192
   } ],
   194: [ (function(require, module, exports) {
     "use strict";
@@ -33042,7 +33311,7 @@
     });
     cc.Scrollbar = module.exports = Scrollbar;
   }), {
-    "../utils/misc": 373,
+    "../utils/misc": 386,
     "./CCComponent": 181
   } ],
   196: [ (function(require, module, exports) {
@@ -33980,7 +34249,7 @@
     });
     cc.Slider = module.exports = Slider;
   }), {
-    "../utils/misc": 373,
+    "../utils/misc": 386,
     "./CCComponent": 181
   } ],
   198: [ (function(require, module, exports) {
@@ -34134,6 +34403,22 @@
           animatable: false,
           type: SizeMode,
           tooltip: (true, "i18n:COMPONENT.sprite.size_mode")
+        },
+        autoSwitchMaterial: {
+          type: RenderComponent.EnableType,
+          default: RenderComponent.EnableType.GLOBAL,
+          notify: function notify(oldValue) {
+            if (this.autoSwitchMaterial === oldValue) return;
+            this.setVertsDirty();
+          }
+        },
+        allowDynamicAtlas: {
+          type: RenderComponent.EnableType,
+          default: RenderComponent.EnableType.GLOBAL,
+          notify: function notify(oldValue) {
+            if (this.allowDynamicAtlas === oldValue) return;
+            this.setVertsDirty();
+          }
         }
       },
       statics: {
@@ -34171,8 +34456,15 @@
         if (material) {
           var oldDefine = material.getDefine("USE_TEXTURE");
           void 0 === oldDefine || oldDefine || material.define("USE_TEXTURE", true);
-          var textureImpl = texture && texture.getImpl();
-          material.getProperty("texture") !== textureImpl && material.setProperty("texture", texture);
+          var isMultiMaterial = material.material.isMultiSupport();
+          if (isMultiMaterial) {
+            texture instanceof cc.Texture2D && !texture.loaded && cc.assetManager.postLoadNative(texture);
+            this._texIdDirty = true;
+          } else {
+            var textureImpl = texture && texture.getImpl();
+            material.getProperty("texture") !== textureImpl && material.setProperty("texture", texture);
+          }
+          this._assembler && (isMultiMaterial && !this._assembler.isMulti || !isMultiMaterial && this._assembler.isMulti) && this._resetAssembler();
         }
         BlendFunc.prototype._updateMaterial.call(this);
       },
@@ -34212,8 +34504,8 @@
     cc.Sprite = module.exports = Sprite;
   }), {
     "../CCNode": 104,
-    "../utils/blend-func": 367,
-    "../utils/misc": 373,
+    "../utils/blend-func": 380,
+    "../utils/misc": 386,
     "./CCRenderComponent": 192
   } ],
   199: [ (function(require, module, exports) {
@@ -34369,7 +34661,7 @@
     }));
   }), {
     "../platform/js": 294,
-    "../utils/gray-sprite-state": 370,
+    "../utils/gray-sprite-state": 383,
     "./CCButton": 179,
     "./CCToggleGroup": 202
   } ],
@@ -35876,7 +36168,7 @@
   }), {
     "../../platform/CCMacro": 277,
     "../../platform/utils": 297,
-    "../../value-types/mat4": 390,
+    "../../value-types/mat4": 403,
     "../CCLabel": 183,
     "./tabIndexUtil": 209,
     "./types": 210
@@ -37478,8 +37770,8 @@
     exports["default"] = aabb;
     module.exports = exports["default"];
   }), {
-    "../value-types/mat3": 389,
-    "../value-types/vec3": 398,
+    "../value-types/mat3": 402,
+    "../value-types/vec3": 411,
     "./enums": 225
   } ],
   224: [ (function(require, module, exports) {
@@ -37541,7 +37833,7 @@
       return out;
     }
   }), {
-    "../value-types": 388
+    "../value-types": 401
   } ],
   225: [ (function(require, module, exports) {
     "use strict";
@@ -37710,7 +38002,7 @@
     })();
     module.exports = exports["default"];
   }), {
-    "../value-types": 388,
+    "../value-types": 401,
     "./enums": 225,
     "./plane": 231
   } ],
@@ -38451,9 +38743,9 @@
     exports["default"] = _default;
     module.exports = exports["default"];
   }), {
-    "../../renderer/gfx": 414,
-    "../../renderer/memop/recycle-pool": 416,
-    "../value-types": 388,
+    "../../renderer/gfx": 427,
+    "../../renderer/memop/recycle-pool": 429,
+    "../value-types": 401,
     "./aabb": 223,
     "./distance": 224,
     "./enums": 225,
@@ -38523,7 +38815,7 @@
     exports["default"] = line;
     module.exports = exports["default"];
   }), {
-    "../value-types": 388,
+    "../value-types": 401,
     "./enums": 225
   } ],
   230: [ (function(require, module, exports) {
@@ -38664,7 +38956,7 @@
     exports["default"] = obb;
     module.exports = exports["default"];
   }), {
-    "../value-types": 388,
+    "../value-types": 401,
     "./enums": 225
   } ],
   231: [ (function(require, module, exports) {
@@ -38745,7 +39037,7 @@
     exports["default"] = plane;
     module.exports = exports["default"];
   }), {
-    "../value-types": 388,
+    "../value-types": 401,
     "./enums": 225
   } ],
   232: [ (function(require, module, exports) {
@@ -38815,7 +39107,7 @@
     exports["default"] = ray;
     module.exports = exports["default"];
   }), {
-    "../value-types": 388,
+    "../value-types": 401,
     "./enums": 225
   } ],
   233: [ (function(require, module, exports) {
@@ -38892,7 +39184,7 @@
     exports["default"] = sphere;
     module.exports = exports["default"];
   }), {
-    "../value-types": 388,
+    "../value-types": 401,
     "./enums": 225
   } ],
   234: [ (function(require, module, exports) {
@@ -38952,7 +39244,7 @@
     exports["default"] = triangle;
     module.exports = exports["default"];
   }), {
-    "../value-types/vec3": 398,
+    "../value-types/vec3": 411,
     "./enums": 225
   } ],
   235: [ (function(require, module, exports) {
@@ -39260,6 +39552,7 @@
     require("./physics");
     require("./camera/CCCamera");
     require("./geom-utils");
+    require("./sp");
     require("./mesh");
     require("./3d");
     require("./base-ui/CCWidgetManager");
@@ -39278,7 +39571,8 @@
     "./graphics": 237,
     "./mesh": 242,
     "./physics": 257,
-    "./platform": 291
+    "./platform": 291,
+    "./sp": 372
   } ],
   240: [ (function(require, module, exports) {
     "use strict";
@@ -39593,8 +39887,8 @@
     });
     cc.Mesh = module.exports = Mesh;
   }), {
-    "../../renderer/core/input-assembler": 410,
-    "../../renderer/gfx": 414,
+    "../../renderer/core/input-assembler": 423,
+    "../../renderer/gfx": 427,
     "../event/event-target": 219,
     "../renderer": 322,
     "./mesh-data": 243
@@ -39885,16 +40179,16 @@
     };
     cc.MeshRenderer = module.exports = MeshRenderer;
   }), {
-    "../../renderer/core/input-assembler": 410,
-    "../../renderer/gfx": 414,
+    "../../renderer/core/input-assembler": 423,
+    "../../renderer/gfx": 427,
     "../assets/material/CCMaterial": 156,
     "../assets/material/material-variant": 163,
     "../components/CCRenderComponent": 192,
     "../geom-utils/aabb": 223,
     "../renderer": 322,
     "../renderer/render-flow": 323,
-    "../value-types/mat4": 390,
-    "../value-types/vec3": 398,
+    "../value-types/mat4": 403,
+    "../value-types/vec3": 411,
     "./CCMesh": 240
   } ],
   242: [ (function(require, module, exports) {
@@ -40007,7 +40301,7 @@
       return this.iData;
     };
   }), {
-    "../../renderer/gfx": 414
+    "../../renderer/gfx": 427
   } ],
   244: [ (function(require, module, exports) {
     "use strict";
@@ -40139,9 +40433,9 @@
     _assembler["default"].register(MeshRenderer, MeshRendererAssembler);
     module.exports = exports["default"];
   }), {
-    "../../renderer/gfx": 414,
+    "../../renderer/gfx": 427,
     "../renderer/assembler": 302,
-    "../value-types/vec3": 398,
+    "../value-types/vec3": 411,
     "./CCMeshRenderer": 241
   } ],
   245: [ (function(require, module, exports) {
@@ -40321,7 +40615,7 @@
     "./component-scheduler": 175,
     "./platform/CCObject": 278,
     "./platform/js": 294,
-    "./utils/misc": 373
+    "./utils/misc": 386
   } ],
   246: [ (function(require, module, exports) {
     "use strict";
@@ -41481,7 +41775,7 @@
     }
     b2.maxPolygonVertices = 8;
   }), {
-    "../../../external/box2d/box2d": 449
+    "../../../external/box2d/box2d": 462
   } ],
   252: [ (function(require, module, exports) {
     "use strict";
@@ -44247,7 +44541,7 @@
       SHOW_MESH_NORMAL: false,
       ENABLE_MULTI_TOUCH: true,
       ALLOW_IMAGE_BITMAP: !cc.sys.isMobile,
-      ENABLE_NATIVE_TTF_RENDERER: true
+      ENABLE_NATIVE_TTF_RENDERER: false
     };
     Object.defineProperty(cc.macro, "ROTATE_ACTION_CCW", {
       set: function set(value) {
@@ -46072,7 +46366,7 @@
 
        case _mat["default"]:
         var res = new Array(17);
-        res[VALUETYPE_SETTER] = typeId;
+        res[0] = typeId;
         _mat["default"].toArray(res, obj, 1);
         return res;
 
@@ -46277,7 +46571,7 @@
     function parseInstances(data) {
       var instances = data[5];
       var instanceTypes = data[6];
-      var instanceTypesLen = instanceTypes === EMPTY_PLACEHOLDER ? 0 : instanceTypes.length;
+      var instanceTypesLen = 0 === instanceTypes ? 0 : instanceTypes.length;
       var rootIndex = instances[instances.length - 1];
       var normalObjectCount = instances.length - instanceTypesLen;
       if ("number" !== typeof rootIndex) rootIndex = 0; else {
@@ -46377,7 +46671,7 @@
         preprocessed = version.preprocessed;
         version = version.version;
       }
-      if (version < SUPPORT_MIN_FORMAT_VERSION) throw new Error(cc.debug.getError(5304, version));
+      if (version < 1) throw new Error(cc.debug.getError(5304, version));
       options._version = version;
       options.result = details;
       data[0] = options;
@@ -46400,7 +46694,7 @@
       this.version = version;
     };
     function unpackJSONs(data, classFinder) {
-      if (data[0] < SUPPORT_MIN_FORMAT_VERSION) throw new Error(cc.debug.getError(5304, data[0]));
+      if (data[0] < 1) throw new Error(cc.debug.getError(5304, data[0]));
       lookupClasses(data, true, classFinder);
       cacheMasks(data);
       var version = new FileInfo(data[0]);
@@ -46413,7 +46707,7 @@
       return sections;
     }
     function packCustomObjData(type, data, hasNativeDep) {
-      return [ SUPPORT_MIN_FORMAT_VERSION, EMPTY_PLACEHOLDER, EMPTY_PLACEHOLDER, [ type ], EMPTY_PLACEHOLDER, hasNativeDep ? [ data, -1 ] : [ data ], [ 0 ], EMPTY_PLACEHOLDER, [], [], [] ];
+      return [ 1, EMPTY_PLACEHOLDER, EMPTY_PLACEHOLDER, [ type ], EMPTY_PLACEHOLDER, hasNativeDep ? [ data, -1 ] : [ data ], [ 0 ], EMPTY_PLACEHOLDER, [], [], [] ];
     }
     function hasNativeDep(data) {
       var instances = data[5];
@@ -46437,14 +46731,14 @@
     false, false;
     false;
   }), {
-    "../value-types/color": 387,
-    "../value-types/mat4": 390,
-    "../value-types/quat": 391,
-    "../value-types/rect": 392,
-    "../value-types/size": 393,
-    "../value-types/vec2": 397,
-    "../value-types/vec3": 398,
-    "../value-types/vec4": 399,
+    "../value-types/color": 400,
+    "../value-types/mat4": 403,
+    "../value-types/quat": 404,
+    "../value-types/rect": 405,
+    "../value-types/size": 406,
+    "../value-types/vec2": 410,
+    "../value-types/vec3": 411,
+    "../value-types/vec4": 412,
     "./js": 294
   } ],
   288: [ (function(require, module, exports) {
@@ -46763,7 +47057,7 @@
     };
     deserialize.Details = Details;
   }), {
-    "../utils/misc": 373,
+    "../utils/misc": 386,
     "./CCClass": 272,
     "./attribute": 284,
     "./deserialize-compiled": 287,
@@ -47299,7 +47593,7 @@
     cc.instantiate = instantiate;
     module.exports = instantiate;
   }), {
-    "../value-types/value-type": 396,
+    "../value-types/value-type": 409,
     "./CCObject": 278,
     "./js": 294,
     "./utils": 297
@@ -47699,7 +47993,7 @@
     cc.js = js;
     module.exports = js;
   }), {
-    "../utils/mutable-forward-iterator": 374,
+    "../utils/mutable-forward-iterator": 387,
     "./id-generater": 290
   } ],
   295: [ (function(require, module, exports) {
@@ -47975,8 +48269,8 @@
     "./platform/CCView": 282,
     "./platform/js": 294,
     "./renderer": 322,
-    "./utils": 372,
-    "./value-types": 388
+    "./utils": 385,
+    "./value-types": 401
   } ],
   299: [ (function(require, module, exports) {
     "use strict";
@@ -48116,18 +48410,12 @@
         var ibuf = buffer._iData, indiceOffset = offsetInfo.indiceOffset, vertexId = offsetInfo.vertexOffset;
         for (var i = 0, l = iData.length; i < l; i++) ibuf[indiceOffset++] = vertexId + iData[i];
       };
-      _proto.packToDynamicAtlas = function packToDynamicAtlas(comp, frame) {
-        false;
-        if (!frame._original && _manager["default"] && frame._texture.packable && frame._texture.loaded) {
-          var packedFrame = _manager["default"].insertSpriteFrame(frame);
-          packedFrame && frame._setDynamicAtlasFrame(packedFrame);
-        }
-        var material = comp._materials[0];
-        if (!material) return;
-        if (material.getProperty("texture") !== frame._texture._texture) {
-          comp._vertsDirty = true;
-          comp._updateMaterial();
-        }
+      _proto.updateTexId = function updateTexId(comp) {
+        var texId = comp._texId;
+        var texIdOffset = this.texIdOffset;
+        var floatsPerVert = this.floatsPerVert;
+        var verts = this._renderData.vDatas[0];
+        for (var i = 0, l = verts.length; i < l; i++) verts[floatsPerVert * i + texIdOffset] = texId;
       };
       _createClass(Assembler2D, [ {
         key: "verticesFloats",
@@ -48143,14 +48431,15 @@
       verticesCount: 4,
       indicesCount: 6,
       uvOffset: 2,
-      colorOffset: 4
+      colorOffset: 4,
+      isMulti: false
     });
     cc.Assembler2D = Assembler2D;
     module.exports = exports["default"];
   }), {
     "./assembler": 302,
-    "./utils/dynamic-atlas/manager": 325,
-    "./webgl/render-data": 361
+    "./utils/dynamic-atlas/manager": 324,
+    "./webgl/render-data": 370
   } ],
   300: [ (function(require, module, exports) {
     "use strict";
@@ -48199,8 +48488,8 @@
     exports["default"] = _default;
     module.exports = exports["default"];
   }), {
-    "../value-types/vec3": 398,
-    "./webgl/vertex-format": 362
+    "../value-types/vec3": 411,
+    "./webgl/vertex-format": 371
   } ],
   301: [ (function(require, module, exports) {
     "use strict";
@@ -48288,7 +48577,7 @@
     exports["default"] = _default;
     module.exports = exports["default"];
   }), {
-    "../utils/pool": 375
+    "../utils/pool": 388
   } ],
   302: [ (function(require, module, exports) {
     "use strict";
@@ -48296,6 +48585,7 @@
     exports["default"] = void 0;
     var _vertexFormat = require("./webgl/vertex-format");
     var _assemblerPool = _interopRequireDefault(require("./assembler-pool"));
+    var _manager = _interopRequireDefault(require("./utils/dynamic-atlas/manager"));
     function _interopRequireDefault(obj) {
       return obj && obj.__esModule ? obj : {
         default: obj
@@ -48310,9 +48600,40 @@
         this._renderComp = renderComp;
       };
       _proto.updateRenderData = function updateRenderData(comp) {};
+      _proto.updateRenderDataForSwitchMaterial = function updateRenderDataForSwitchMaterial(comp) {};
       _proto.fillBuffers = function fillBuffers(comp, renderer) {};
       _proto.getVfmt = function getVfmt() {
         return _vertexFormat.vfmtPosUvColor;
+      };
+      _proto.packDynamicAtlasAndCheckMaterial = function packDynamicAtlasAndCheckMaterial(comp, frame) {
+        false;
+        var allowDynamicAtlas = comp.allowDynamicAtlas;
+        if ((cc.sp.allowDynamicAtlas && 0 === allowDynamicAtlas || 1 === allowDynamicAtlas) && !frame._original && _manager["default"] && frame._texture.packable && frame._texture.loaded) {
+          var packedFrame = _manager["default"].insertSpriteFrame(frame);
+          packedFrame && frame._setDynamicAtlasFrame(packedFrame);
+        }
+        var material = comp._materials[0];
+        if (!material) return false;
+        if (this.checkAndSwitchMaterial(comp, frame._texture, material)) return true;
+        if (material.material.isMultiSupport()) comp._texIdDirty = true; else if (material.getProperty("texture") !== frame._texture._texture) {
+          comp._vertsDirty = true;
+          comp._updateMaterial();
+        }
+        return false;
+      };
+      _proto.checkAndSwitchMaterial = function checkAndSwitchMaterial(comp, texture, material) {
+        var autoSwitchMaterial = comp.autoSwitchMaterial;
+        if ((cc.sp.autoSwitchMaterial && 0 === autoSwitchMaterial || 1 === autoSwitchMaterial) && texture._multiMaterial && material.material !== texture._multiMaterial) {
+          true;
+          comp.node._inJsbDirtyList = true;
+          comp.setMaterial(0, texture._multiMaterial);
+          true;
+          comp.node._inJsbDirtyList = false;
+          if (!this.isMulti) {
+            comp._assembler && comp._assembler.updateRenderDataForSwitchMaterial(comp);
+            return true;
+          }
+        }
       };
       return Assembler;
     })();
@@ -48342,7 +48663,8 @@
     module.exports = exports["default"];
   }), {
     "./assembler-pool": 301,
-    "./webgl/vertex-format": 362
+    "./utils/dynamic-atlas/manager": 324,
+    "./webgl/vertex-format": 371
   } ],
   303: [ (function(require, module, exports) {
     "use strict";
@@ -49624,9 +49946,9 @@
     exports["default"] = _default;
     module.exports = exports["default"];
   }), {
-    "../../renderer/core/input-assembler": 410,
-    "../../renderer/core/pass": 411,
-    "../../renderer/gfx": 414,
+    "../../renderer/core/input-assembler": 423,
+    "../../renderer/core/pass": 424,
+    "../../renderer/gfx": 427,
     "../../renderer/renderers/forward-renderer": void 0,
     "../../renderer/scene/scene": void 0,
     "./canvas": 306,
@@ -49857,130 +50179,32 @@
   }), {} ],
   324: [ (function(require, module, exports) {
     "use strict";
-    var RenderTexture = require("../../../assets/CCRenderTexture");
-    var space = 2;
-    function Atlas(width, height) {
-      var texture = new RenderTexture();
-      texture.initWithSize(width, height);
-      texture.update();
-      this._texture = texture;
-      this._x = space;
-      this._y = space;
-      this._nexty = space;
-      this._width = width;
-      this._height = height;
-      this._innerTextureInfos = {};
-      this._innerSpriteFrames = [];
-      this._count = 0;
-    }
-    Atlas.DEFAULT_HASH = new RenderTexture()._getHash();
-    cc.js.mixin(Atlas.prototype, {
-      insertSpriteFrame: function insertSpriteFrame(spriteFrame) {
-        var rect = spriteFrame._rect, texture = spriteFrame._texture, info = this._innerTextureInfos[texture._id];
-        var sx = rect.x, sy = rect.y;
-        if (info) {
-          sx += info.x;
-          sy += info.y;
-        } else {
-          var width = texture.width, height = texture.height;
-          if (this._x + width + space > this._width) {
-            this._x = space;
-            this._y = this._nexty;
-          }
-          this._y + height + space > this._nexty && (this._nexty = this._y + height + space);
-          if (this._nexty > this._height) return null;
-          if (cc.dynamicAtlasManager.textureBleeding) {
-            if (width <= 8 || height <= 8) {
-              this._texture.drawTextureAt(texture, this._x - 1, this._y - 1);
-              this._texture.drawTextureAt(texture, this._x - 1, this._y + 1);
-              this._texture.drawTextureAt(texture, this._x + 1, this._y - 1);
-              this._texture.drawTextureAt(texture, this._x + 1, this._y + 1);
-            }
-            this._texture.drawTextureAt(texture, this._x - 1, this._y);
-            this._texture.drawTextureAt(texture, this._x + 1, this._y);
-            this._texture.drawTextureAt(texture, this._x, this._y - 1);
-            this._texture.drawTextureAt(texture, this._x, this._y + 1);
-          }
-          this._texture.drawTextureAt(texture, this._x, this._y);
-          this._innerTextureInfos[texture._id] = {
-            x: this._x,
-            y: this._y,
-            texture: texture
-          };
-          this._count++;
-          sx += this._x;
-          sy += this._y;
-          this._x += width + space;
-          this._dirty = true;
-        }
-        var frame = {
-          x: sx,
-          y: sy,
-          texture: this._texture
-        };
-        this._innerSpriteFrames.push(spriteFrame);
-        return frame;
-      },
-      update: function update() {
-        if (!this._dirty) return;
-        this._texture.update();
-        this._dirty = false;
-      },
-      deleteInnerTexture: function deleteInnerTexture(texture) {
-        if (texture && this._innerTextureInfos[texture._id]) {
-          delete this._innerTextureInfos[texture._id];
-          this._count--;
-        }
-      },
-      isEmpty: function isEmpty() {
-        return this._count <= 0;
-      },
-      reset: function reset() {
-        this._x = space;
-        this._y = space;
-        this._nexty = space;
-        var frames = this._innerSpriteFrames;
-        for (var i = 0, l = frames.length; i < l; i++) {
-          var frame = frames[i];
-          if (!frame.isValid) continue;
-          frame._resetDynamicAtlasFrame();
-        }
-        this._innerSpriteFrames.length = 0;
-        this._innerTextureInfos = {};
-      },
-      destroy: function destroy() {
-        this.reset();
-        this._texture.destroy();
-      }
-    });
-    module.exports = Atlas;
-  }), {
-    "../../../assets/CCRenderTexture": 145
-  } ],
-  325: [ (function(require, module, exports) {
-    "use strict";
-    var Atlas = require("./atlas");
+    var _reusableAtlas = require("./reusable-atlas");
     var _atlases = [];
     var _atlasIndex = -1;
-    var _maxAtlasCount = 5;
+    var _maxAtlasCount = -1;
     var _textureSize = 2048;
     var _maxFrameSize = 512;
     var _textureBleeding = true;
+    var _autoMultiBatch = true;
+    var _autoResetBeforeSceneLoad = true;
     var _debugNode = null;
     function newAtlas() {
       var atlas = _atlases[++_atlasIndex];
       if (!atlas) {
-        atlas = new Atlas(_textureSize, _textureSize);
+        atlas = new _reusableAtlas.Atlas(_textureSize, _textureSize);
         _atlases.push(atlas);
+        dynamicAtlasManager.autoMultiBatch && cc.sp.multiBatcher.requsetMaterial(atlas._texture);
       }
       return atlas;
     }
     function beforeSceneLoad() {
-      dynamicAtlasManager.reset();
+      _autoResetBeforeSceneLoad && dynamicAtlasManager.reset();
     }
     var _enabled = false;
     var dynamicAtlasManager = {
-      Atlas: Atlas,
+      Atlas: _reusableAtlas.Atlas,
+      Rect: _reusableAtlas.Rect,
       get enabled() {
         return _enabled;
       },
@@ -50017,20 +50241,64 @@
         return _maxFrameSize;
       },
       set maxFrameSize(value) {
+        value > _textureSize && (value = _textureSize);
         _maxFrameSize = value;
       },
+      get autoMultiBatch() {
+        return _autoMultiBatch;
+      },
+      set autoMultiBatch(enable) {
+        if (_autoMultiBatch === enable) return;
+        if (enable) for (var i = 0, l = _atlases.length; i < l; i++) cc.sp.multiBatcher.requsetMaterial(_atlases[i]._texture);
+        _autoMultiBatch = enable;
+      },
+      get autoResetBeforeSceneLoad() {
+        return _autoResetBeforeSceneLoad;
+      },
+      set autoResetBeforeSceneLoad(enable) {
+        if (_autoResetBeforeSceneLoad === enable) return;
+        _autoResetBeforeSceneLoad = enable;
+      },
+      get atlases() {
+        return _atlases;
+      },
+      rects: Object.create(null),
       insertSpriteFrame: function insertSpriteFrame(spriteFrame) {
         false;
-        if (!_enabled || _atlasIndex === _maxAtlasCount || !spriteFrame || spriteFrame._original) return null;
-        if (!spriteFrame._texture.packable) return null;
-        var atlas = _atlases[_atlasIndex];
-        atlas || (atlas = newAtlas());
-        var frame = atlas.insertSpriteFrame(spriteFrame);
-        if (!frame && _atlasIndex !== _maxAtlasCount) {
+        if (!_enabled || !spriteFrame || spriteFrame._original) return null;
+        var atlas, frame;
+        var rect = spriteFrame._rect, texture = spriteFrame._texture, info = this.rects[texture._uuid];
+        var sx = rect.x, sy = rect.y;
+        if (info) {
+          sx += info.x;
+          sy += info.y;
+          info.spriteFrames.push(spriteFrame);
+          frame = {
+            x: sx,
+            y: sy,
+            texture: info.atlas._texture
+          };
+          return frame;
+        }
+        for (var i = 0; i <= _atlasIndex; i++) {
+          atlas = _atlases[i];
+          frame = atlas.insertSpriteFrame(spriteFrame);
+          if (frame) return frame;
+        }
+        if (_atlasIndex + 1 < _maxAtlasCount) {
           atlas = newAtlas();
           return atlas.insertSpriteFrame(spriteFrame);
         }
         return frame;
+      },
+      deleteSpriteFrame: function deleteSpriteFrame(spriteFrame) {
+        if (spriteFrame && true && spriteFrame._original) {
+          this.deleteAtlasSpriteFrame(spriteFrame);
+          spriteFrame._resetDynamicAtlasFrame();
+        }
+      },
+      deleteTexture: function deleteTexture(texture) {
+        this.deleteAtlasTexture(texture);
       },
       reset: function reset() {
         for (var i = 0, l = _atlases.length; i < l; i++) _atlases[i].destroy();
@@ -50040,17 +50308,10 @@
       deleteAtlasSpriteFrame: function deleteAtlasSpriteFrame(spriteFrame) {
         if (!spriteFrame._original) return;
         var texture = spriteFrame._original._texture;
-        this.deleteAtlasTexture(texture);
+        for (var i = _atlases.length - 1; i >= 0; i--) if (_atlases[i].deleteSpriteFrame(texture, spriteFrame)) return;
       },
       deleteAtlasTexture: function deleteAtlasTexture(texture) {
-        if (texture) for (var i = _atlases.length - 1; i >= 0; i--) {
-          _atlases[i].deleteInnerTexture(texture);
-          if (_atlases[i].isEmpty()) {
-            _atlases[i].destroy();
-            _atlases.splice(i, 1);
-            _atlasIndex--;
-          }
-        }
+        if (texture) for (var i = _atlases.length - 1; i >= 0; i--) if (_atlases[i].deleteInnerTexture(texture, true)) return;
       },
       showDebug: function showDebug(show) {
         if (show) {
@@ -50100,7 +50361,395 @@
     };
     module.exports = cc.dynamicAtlasManager = dynamicAtlasManager;
   }), {
-    "./atlas": 324
+    "./reusable-atlas": 325
+  } ],
+  325: [ (function(require, module, exports) {
+    "use strict";
+    exports.__esModule = true;
+    exports.Rect = exports.Atlas = void 0;
+    function _createForOfIteratorHelperLoose(o, allowArrayLike) {
+      var it = "undefined" !== typeof Symbol && o[Symbol.iterator] || o["@@iterator"];
+      if (it) return (it = it.call(o)).next.bind(it);
+      if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && "number" === typeof o.length) {
+        it && (o = it);
+        var i = 0;
+        return function() {
+          if (i >= o.length) return {
+            done: true
+          };
+          return {
+            done: false,
+            value: o[i++]
+          };
+        };
+      }
+      throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+    }
+    function _unsupportedIterableToArray(o, minLen) {
+      if (!o) return;
+      if ("string" === typeof o) return _arrayLikeToArray(o, minLen);
+      var n = Object.prototype.toString.call(o).slice(8, -1);
+      "Object" === n && o.constructor && (n = o.constructor.name);
+      if ("Map" === n || "Set" === n) return Array.from(o);
+      if ("Arguments" === n || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+    }
+    function _arrayLikeToArray(arr, len) {
+      (null == len || len > arr.length) && (len = arr.length);
+      for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i];
+      return arr2;
+    }
+    function _defineProperties(target, props) {
+      for (var i = 0; i < props.length; i++) {
+        var descriptor = props[i];
+        descriptor.enumerable = descriptor.enumerable || false;
+        descriptor.configurable = true;
+        "value" in descriptor && (descriptor.writable = true);
+        Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor);
+      }
+    }
+    function _createClass(Constructor, protoProps, staticProps) {
+      protoProps && _defineProperties(Constructor.prototype, protoProps);
+      staticProps && _defineProperties(Constructor, staticProps);
+      Object.defineProperty(Constructor, "prototype", {
+        writable: false
+      });
+      return Constructor;
+    }
+    function _toPropertyKey(arg) {
+      var key = _toPrimitive(arg, "string");
+      return "symbol" === typeof key ? key : String(key);
+    }
+    function _toPrimitive(input, hint) {
+      if ("object" !== typeof input || null === input) return input;
+      var prim = input[Symbol.toPrimitive];
+      if (void 0 !== prim) {
+        var res = prim.call(input, hint || "default");
+        if ("object" !== typeof res) return res;
+        throw new TypeError("@@toPrimitive must return a primitive value.");
+      }
+      return ("string" === hint ? String : Number)(input);
+    }
+    var RenderTexture = require("../../../assets/CCRenderTexture");
+    var Rect = (function() {
+      Rect.reuse = function reuse(atlas, width, height, x, y) {
+        if (0 === this.pointer) {
+          for (var i = 0; i < 128; i++) Rect.pool[i] = new Rect(atlas, 0, 0, 0, 0);
+          this.pointer += 128;
+        }
+        this.pointer--;
+        var rect = this.pool[this.pointer];
+        rect.atlas = atlas;
+        rect.width = width;
+        rect.height = height;
+        rect.x = x;
+        rect.y = y;
+        return rect;
+      };
+      Rect.recycle = function recycle(rect) {
+        rect.atlas = void 0;
+        rect.uuid = "";
+        rect.spriteFrames.length = 0;
+        rect.parentRect = void 0;
+        rect.subRectA = void 0;
+        rect.subRectB = void 0;
+        rect.subRectC = void 0;
+        rect.cacheIndex = -1;
+        this.pool[this.pointer] = rect;
+        this.pointer++;
+      };
+      function Rect(atlas, width, height, x, y) {
+        this.atlas = void 0;
+        this.width = 0;
+        this.height = 0;
+        this.x = 0;
+        this.y = 0;
+        this.cacheIndex = -1;
+        this.uuid = "";
+        this.spriteFrames = [];
+        this.parentRect = void 0;
+        this.subRectA = void 0;
+        this.subRectB = void 0;
+        this.subRectC = void 0;
+        this.used = 0;
+        this.atlas = atlas;
+        this.width = width;
+        this.height = height;
+        this.x = x;
+        this.y = y;
+      }
+      _createClass(Rect, [ {
+        key: "sizes",
+        get: function get() {
+          return this.width * this.height;
+        }
+      } ]);
+      return Rect;
+    })();
+    exports.Rect = Rect;
+    Rect.pool = [];
+    Rect.pointer = 0;
+    var Atlas = (function() {
+      function Atlas(width, height, padding, border) {
+        void 0 === padding && (padding = 2);
+        void 0 === border && (border = 2);
+        this.width = 0;
+        this.height = 0;
+        this.padding = 0;
+        this.border = 0;
+        this.rootRect = void 0;
+        this.freeRects = [];
+        this._count = 0;
+        this._texture = void 0;
+        this._dirty = false;
+        var texture = new RenderTexture();
+        texture.initWithSize(width, height);
+        texture.update();
+        this._texture = texture;
+        this.width = width;
+        this.height = height;
+        this.padding = padding;
+        this.border = border;
+        this.rootRect = Rect.reuse(this, this.width + this.padding - 2 * this.border, this.height + this.padding - 2 * this.border, this.border, this.border);
+        this.pushFreeRect(this.rootRect);
+      }
+      var _proto = Atlas.prototype;
+      _proto.pushFreeRect = function pushFreeRect(rect) {
+        var i = this.freeRects.push(rect) - 1;
+        rect.cacheIndex = i;
+      };
+      _proto.removeFreeRect = function removeFreeRect(index) {
+        var temp = this.freeRects[index];
+        var temp2 = this.freeRects[this.freeRects.length - 1];
+        temp2.cacheIndex = index;
+        temp.cacheIndex = -1;
+        this.freeRects[index] = temp2;
+        this.freeRects.pop();
+      };
+      _proto.replaceFreeRect = function replaceFreeRect(index, rect) {
+        this.freeRects[index].cacheIndex = -1;
+        rect.cacheIndex = index;
+        this.freeRects[index] = rect;
+      };
+      _proto.insertSpriteFrame = function insertSpriteFrame(spriteFrame) {
+        var rect = spriteFrame._rect, texture = spriteFrame._texture;
+        var sx = rect.x, sy = rect.y;
+        var width = texture.width, height = texture.height;
+        if (0 === this.rootRect.used && width > this.rootRect.width && height > this.rootRect.height) return this.insertSpriteFrameMax(spriteFrame);
+        var result = this.insert(texture);
+        if (!result) return null;
+        if (cc.dynamicAtlasManager.textureBleeding) {
+          if (width <= 8 || height <= 8) {
+            this._texture.drawTextureAt(texture, result.x - 1, result.y - 1);
+            this._texture.drawTextureAt(texture, result.x - 1, result.y + 1);
+            this._texture.drawTextureAt(texture, result.x + 1, result.y - 1);
+            this._texture.drawTextureAt(texture, result.x + 1, result.y + 1);
+          }
+          this._texture.drawTextureAt(texture, result.x - 1, result.y);
+          this._texture.drawTextureAt(texture, result.x + 1, result.y);
+          this._texture.drawTextureAt(texture, result.x, result.y - 1);
+          this._texture.drawTextureAt(texture, result.x, result.y + 1);
+        }
+        this._texture.drawTextureAt(texture, result.x, result.y);
+        this._count++;
+        sx += result.x;
+        sy += result.y;
+        result.spriteFrames.push(spriteFrame);
+        this._dirty = true;
+        var frame = {
+          x: sx,
+          y: sy,
+          texture: this._texture
+        };
+        return frame;
+      };
+      _proto.insertSpriteFrameMax = function insertSpriteFrameMax(spriteFrame) {
+        var rect = spriteFrame._rect;
+        var texture = spriteFrame._texture;
+        var original = this.rootRect;
+        original.uuid = texture._uuid;
+        original.used++;
+        original.parentRect && original.parentRect.used++;
+        cc.dynamicAtlasManager.rects[texture._uuid] = original;
+        this.removeFreeRect(0);
+        this._texture.drawTextureAt(texture, 0, 0);
+        this._count++;
+        original.spriteFrames.push(spriteFrame);
+        this._dirty = true;
+        var frame = {
+          x: rect.x,
+          y: rect.y,
+          texture: this._texture
+        };
+        return frame;
+      };
+      _proto.insert = function insert(texture) {
+        var width = texture.width + this.padding, height = texture.height + this.padding;
+        var score = Number.MAX_VALUE;
+        var areaFit = 0;
+        var original = void 0;
+        var originalIndex = 0;
+        for (var i = 0; i < this.freeRects.length; i++) {
+          var rect = this.freeRects[i];
+          if (rect.width >= width && rect.height >= height) {
+            areaFit = rect.sizes - width * height;
+            if (areaFit < score) {
+              original = rect;
+              originalIndex = i;
+              score = areaFit;
+            }
+          }
+        }
+        if (original) {
+          if (original.width === width && original.height === height) {
+            original.uuid = texture._uuid;
+            original.used++;
+            original.parentRect && original.parentRect.used++;
+            cc.dynamicAtlasManager.rects[texture._uuid] = original;
+            this.removeFreeRect(originalIndex);
+            return original;
+          }
+          var best = Rect.reuse(this, width, height, original.x, original.y);
+          var tmp;
+          if (best.y + best.height < original.y + original.height) {
+            tmp = Rect.reuse(this, original.width, original.y + original.height - (best.y + best.height), original.x, best.y + best.height);
+            tmp.parentRect = original;
+            original.subRectB = tmp;
+            if (tmp.width > Atlas.ignoreRectSize && tmp.height > Atlas.ignoreRectSize) {
+              this.replaceFreeRect(originalIndex, tmp);
+              originalIndex = -1;
+            }
+          }
+          if (best.x + best.width < original.x + original.width) {
+            tmp = Rect.reuse(this, original.x + original.width - (best.x + best.width), original.height - (original.y + original.height - (best.y + best.height)), best.x + best.width, original.y);
+            tmp.parentRect = original;
+            original.subRectC = tmp;
+            if (tmp.width > Atlas.ignoreRectSize && tmp.height > Atlas.ignoreRectSize) if (-1 !== originalIndex) {
+              this.replaceFreeRect(originalIndex, tmp);
+              originalIndex = -1;
+            } else this.pushFreeRect(tmp);
+          }
+          -1 !== originalIndex && this.removeFreeRect(originalIndex);
+          best.parentRect = original;
+          original.subRectA = best;
+          best.used++;
+          original.used++;
+          1 === original.used && original.parentRect && original.parentRect.used++;
+          best.uuid = texture._uuid;
+          cc.dynamicAtlasManager.rects[texture._uuid] = best;
+          return best;
+        }
+        return;
+      };
+      _proto.update = function update() {
+        if (!this._dirty) return;
+        this._texture.update();
+        this._dirty = false;
+      };
+      _proto.deleteSpriteFrame = function deleteSpriteFrame(texture, frame) {
+        if (texture) {
+          var rect = cc.dynamicAtlasManager.rects[texture._uuid];
+          if (rect) {
+            var index = rect.spriteFrames.indexOf(frame);
+            if (-1 !== index) {
+              rect.spriteFrames.splice(index, 1);
+              0 === rect.spriteFrames.length && rect.atlas.deleteInnerRect(rect);
+            } else cc.warn("[Dynamic Atlas] can't find spriteFrame in Rect.");
+            return true;
+          }
+        }
+        return false;
+      };
+      _proto.deleteInnerRect = function deleteInnerRect(rect) {
+        delete cc.dynamicAtlasManager.rects[rect.uuid];
+        rect.uuid = "";
+        this._count--;
+        for (var _iterator = _createForOfIteratorHelperLoose(rect.spriteFrames), _step; !(_step = _iterator()).done; ) {
+          var spriteFrame = _step.value;
+          spriteFrame.isValid && spriteFrame._resetDynamicAtlasFrame();
+        }
+        rect.spriteFrames.length = 0;
+        this.tryMergeRecycle(rect);
+      };
+      _proto.deleteInnerTexture = function deleteInnerTexture(texture) {
+        if (texture) {
+          var rect = cc.dynamicAtlasManager.rects[texture._uuid];
+          if (rect) {
+            rect.atlas.deleteInnerRect(rect);
+            return true;
+          }
+        }
+        return false;
+      };
+      _proto.tryMergeRecycle = function tryMergeRecycle(rect) {
+        var old = void 0;
+        var parent = rect;
+        while (parent) {
+          parent.used--;
+          if (0 === parent.used) {
+            if (parent.subRectA) {
+              var i = parent.subRectA.cacheIndex;
+              -1 !== i && this.removeFreeRect(i);
+              Rect.recycle(parent.subRectA);
+              parent.subRectA = void 0;
+            }
+            if (parent.subRectB) {
+              var _i = parent.subRectB.cacheIndex;
+              -1 !== _i && this.removeFreeRect(_i);
+              Rect.recycle(parent.subRectB);
+              parent.subRectB = void 0;
+            }
+            if (parent.subRectC) {
+              var _i2 = parent.subRectC.cacheIndex;
+              -1 !== _i2 && this.removeFreeRect(_i2);
+              Rect.recycle(parent.subRectC);
+              parent.subRectC = void 0;
+            }
+            old = parent;
+            parent = parent.parentRect;
+          } else {
+            old && old.width > Atlas.ignoreRectSize && old.height > Atlas.ignoreRectSize && this.pushFreeRect(old);
+            old = parent;
+            parent = void 0;
+          }
+        }
+        old === this.rootRect && 0 === old.used && this.pushFreeRect(old);
+      };
+      _proto.isEmpty = function isEmpty() {
+        return this._count <= 0;
+      };
+      _proto.reset = function reset() {
+        var rects = cc.dynamicAtlasManager.rects;
+        for (var key in rects) {
+          var rect = rects[key];
+          if (rect.atlas === this) {
+            delete rects[key];
+            for (var _iterator2 = _createForOfIteratorHelperLoose(rect.spriteFrames), _step2; !(_step2 = _iterator2()).done; ) {
+              var spriteFrame = _step2.value;
+              spriteFrame.isValid && spriteFrame._resetDynamicAtlasFrame();
+            }
+            Rect.recycle(rect);
+          }
+        }
+        for (var _iterator3 = _createForOfIteratorHelperLoose(this.freeRects), _step3; !(_step3 = _iterator3()).done; ) {
+          var _rect = _step3.value;
+          Rect.recycle(_rect);
+        }
+        this.freeRects.length = 0;
+        this._count = 0;
+        this.rootRect = Rect.reuse(this, this.width + this.padding - 2 * this.border, this.height + this.padding - 2 * this.border, this.border, this.border);
+        this.pushFreeRect(this.rootRect);
+      };
+      _proto.destroy = function destroy() {
+        this.reset();
+        this._texture.destroy();
+      };
+      return Atlas;
+    })();
+    exports.Atlas = Atlas;
+    Atlas.ignoreRectSize = 10;
+    Atlas.DEFAULT_HASH = new RenderTexture()._getHash();
+  }), {
+    "../../../assets/CCRenderTexture": 145
   } ],
   326: [ (function(require, module, exports) {
     "use strict";
@@ -50166,6 +50815,8 @@
     var _labelWidth = 0;
     var _labelHeight = 0;
     var _maxLineWidth = 0;
+    var _isRetina = false;
+    var _retinaScale = 1;
     var BmfontAssembler = (function(_Assembler2D) {
       _inheritsLoose(BmfontAssembler, _Assembler2D);
       function BmfontAssembler() {
@@ -50177,11 +50828,28 @@
         if (_comp === comp) return;
         _comp = comp;
         this._reserveQuads(comp, comp.string.toString().length);
-        this._updateFontFamily(comp);
+        var assemblerChanged = this._updateFontFamily(comp);
+        assemblerChanged || this._aftUpdateRenderData(comp);
+        return assemblerChanged;
+      };
+      _proto._preUpdateRenderData = function _preUpdateRenderData(comp) {
+        _comp = comp;
+        this._reserveQuads(comp, comp.string.toString().length);
+        var fontAsset = comp.font;
+        _spriteFrame = fontAsset.spriteFrame;
+        _fntConfig = fontAsset._fntConfig;
+        shareLabelInfo.fontAtlas = fontAsset._fontDefDictionary;
+      };
+      _proto._aftUpdateRenderData = function _aftUpdateRenderData(comp) {
         this._updateProperties(comp);
         this._updateLabelInfo(comp);
         this._updateContent();
         this.updateWorldVerts(comp);
+        if (_isRetina) {
+          _contentSize.width /= _retinaScale;
+          _contentSize.height /= _retinaScale;
+          _fontSize /= _retinaScale;
+        }
         _comp._actualFontSize = _fontSize;
         _comp.node.setContentSize(_contentSize);
         _comp._vertsDirty = false;
@@ -50196,14 +50864,19 @@
         _spriteFrame = fontAsset.spriteFrame;
         _fntConfig = fontAsset._fntConfig;
         shareLabelInfo.fontAtlas = fontAsset._fontDefDictionary;
-        this.packToDynamicAtlas(comp, _spriteFrame);
+        return this.packDynamicAtlasAndCheckMaterial(comp, _spriteFrame);
       };
       _proto._updateLabelInfo = function _updateLabelInfo() {
         shareLabelInfo.hash = "";
         shareLabelInfo.margin = 0;
       };
+      _proto.getTTFTextureSizeScale = function getTTFTextureSizeScale() {
+        return _isRetina ? _retinaScale : 1;
+      };
       _proto._updateProperties = function _updateProperties(comp) {
         _string = comp.string.toString();
+        _isRetina = !(comp.font instanceof cc.BitmapFont) && cc.sp.enableLabelRetina && 0 === comp.enableRetina || 1 === comp.enableRetina;
+        _retinaScale = cc.sp.labelRetinaScale;
         _fontSize = comp.fontSize;
         _originFontSize = _fntConfig ? _fntConfig.fontSize : comp.fontSize;
         _hAlign = comp.horizontalAlign;
@@ -50213,6 +50886,14 @@
         _lineHeight = comp._lineHeight;
         _contentSize.width = comp.node.width;
         _contentSize.height = comp.node.height;
+        if (_isRetina) {
+          _fontSize *= _retinaScale;
+          _fntConfig || (_originFontSize *= _retinaScale);
+          _contentSize.width *= _retinaScale;
+          _contentSize.height *= _retinaScale;
+          _lineHeight *= _retinaScale;
+          shareLabelInfo.margin *= _retinaScale;
+        }
         if (_overflow === Overflow.NONE) {
           _isWrapText = false;
           _contentSize.width += 2 * shareLabelInfo.margin;
@@ -50323,6 +51004,7 @@
           longestLine < letterRight && (longestLine = letterRight);
           index += tokenLen;
         }
+        this._finishMultilineTextWrap();
         _linesWidth.push(letterRight);
         _numberOfLines = lineIndex + 1;
         _textDesiredHeight = _numberOfLines * _lineHeight * this._getFontScale();
@@ -50493,7 +51175,7 @@
           if (_tmpRect.height > 0 && _tmpRect.width > 0) {
             var isRotated = this._determineRect(_tmpRect);
             var letterPositionX = letterInfo.x + _linesOffsetX[letterInfo.line];
-            this.appendQuad(_comp, texture, _tmpRect, isRotated, letterPositionX - appx, py - appy, _bmfontScale);
+            this.appendQuad(_comp, texture, _tmpRect, isRotated, letterPositionX - appx, py - appy, _bmfontScale, letterDef);
           }
         }
         this._quadsUpdated(_comp);
@@ -50549,9 +51231,10 @@
         _maxLineWidth = newWidth;
       };
       _proto.updateWorldVerts = function updateWorldVerts() {};
-      _proto.appendQuad = function appendQuad(comp, texture, rect, rotated, x, y, scale) {};
+      _proto.appendQuad = function appendQuad(comp, texture, rect, rotated, x, y, scale, letter) {};
       _proto._quadsUpdated = function _quadsUpdated(comp) {};
       _proto._reserveQuads = function _reserveQuads() {};
+      _proto._finishMultilineTextWrap = function _finishMultilineTextWrap() {};
       return BmfontAssembler;
     })(_assembler2d["default"]);
     exports["default"] = BmfontAssembler;
@@ -50559,7 +51242,7 @@
   }), {
     "../../../components/CCLabel": 183,
     "../../../platform/CCMacro": 277,
-    "../../../utils/text-utils": 380,
+    "../../../utils/text-utils": 393,
     "../../assembler-2d": 299,
     "../utils": 330
   } ],
@@ -50628,6 +51311,7 @@
     exports.__esModule = true;
     exports["default"] = void 0;
     var _bmfont = _interopRequireDefault(require("../../webgl/assemblers/label/2d/bmfont"));
+    var _vertexFormat = require("../../webgl/vertex-format");
     function _interopRequireDefault(obj) {
       return obj && obj.__esModule ? obj : {
         default: obj
@@ -50644,6 +51328,37 @@
         return o;
       };
       return _setPrototypeOf(o, p);
+    }
+    function _createForOfIteratorHelperLoose(o, allowArrayLike) {
+      var it = "undefined" !== typeof Symbol && o[Symbol.iterator] || o["@@iterator"];
+      if (it) return (it = it.call(o)).next.bind(it);
+      if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && "number" === typeof o.length) {
+        it && (o = it);
+        var i = 0;
+        return function() {
+          if (i >= o.length) return {
+            done: true
+          };
+          return {
+            done: false,
+            value: o[i++]
+          };
+        };
+      }
+      throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+    }
+    function _unsupportedIterableToArray(o, minLen) {
+      if (!o) return;
+      if ("string" === typeof o) return _arrayLikeToArray(o, minLen);
+      var n = Object.prototype.toString.call(o).slice(8, -1);
+      "Object" === n && o.constructor && (n = o.constructor.name);
+      if ("Map" === n || "Set" === n) return Array.from(o);
+      if ("Arguments" === n || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+    }
+    function _arrayLikeToArray(arr, len) {
+      (null == len || len > arr.length) && (len = arr.length);
+      for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i];
+      return arr2;
     }
     var Label = require("../../../components/CCLabel");
     var LabelOutline = require("../../../components/CCLabelOutline");
@@ -50717,100 +51432,258 @@
         this._texture.handleLoadedTexture();
       },
       destroy: function destroy() {
+        this._texture._packable = false;
         this._texture.destroy();
         this._texture = null;
         Label._canvasPool.put(this._data);
       }
     };
-    function LetterAtlas(width, height) {
+    function LetterAtlas(atlases, width, height) {
       var texture = new RenderTexture();
       texture.initWithSize(width, height);
       texture.update();
-      this._fontDefDictionary = new FontAtlas(texture);
+      this._atlases = atlases;
+      this._texture = texture;
+      this._id = 0;
+      this._tmpId = -1;
       this._x = space;
       this._y = space;
       this._nexty = space;
+      this.frees = [];
+      this.waitCleans = [];
       this._width = width;
       this._height = height;
-      cc.director.on(cc.Director.EVENT_BEFORE_SCENE_LAUNCH, this.beforeSceneLoad, this);
     }
     cc.js.mixin(LetterAtlas.prototype, {
       insertLetterTexture: function insertLetterTexture(letterTexture) {
         var texture = letterTexture._texture;
         var width = texture.width, height = texture.height;
+        if (this.frees.length > 0) {
+          var score = Number.MAX_VALUE;
+          var areaFit = 0;
+          var original = null;
+          var originalIndex = 0;
+          for (var i = 0; i < this.frees.length; i++) {
+            var freeLetter = this.frees[i];
+            if (freeLetter._width === width && freeLetter._height === height) {
+              areaFit = freeLetter._width * freeLetter._height - width * height;
+              if (areaFit < score) {
+                original = freeLetter;
+                originalIndex = i;
+                score = areaFit;
+              }
+            }
+          }
+          if (original) {
+            original._hash = letterTexture._hash;
+            original.w = letterTexture._width - bleed;
+            original.h = letterTexture._height - bleed;
+            original.xAdvance = original.w;
+            original.offsetY = letterTexture._offsetY;
+            this._texture.drawTextureAt(texture, original.u - bleed / 2, original.v - bleed / 2);
+            this._dirty = true;
+            this.removeFreeLetter(originalIndex);
+            this._atlases._fontDefDictionary.addLetterDefinitions(letterTexture._hash, original);
+            return original;
+          }
+        }
+        var oldx = this._x, oldy = this._y, oldnexty = this._nexty;
         if (this._x + width + space > this._width) {
           this._x = space;
           this._y = this._nexty;
         }
         this._y + height > this._nexty && (this._nexty = this._y + height + space);
-        if (this._nexty > this._height) return null;
-        this._fontDefDictionary._texture.drawTextureAt(texture, this._x, this._y);
+        if (this._nexty > this._height) {
+          this._x = oldx;
+          this._y = oldy;
+          this._nexty = oldnexty;
+          if (this.waitCleans.length > 0) {
+            for (var _iterator = _createForOfIteratorHelperLoose(this.waitCleans), _step; !(_step = _iterator()).done; ) {
+              var _letter = _step.value;
+              _letter._inCleans = false;
+              if (0 === _letter.ref) {
+                delete this._atlases._fontDefDictionary._letterDefinitions[_letter._hash];
+                this.frees.push(_letter);
+              }
+            }
+            this.waitCleans.length = 0;
+            return this.insertLetterTexture(letterTexture);
+          }
+          return null;
+        }
+        this._texture.drawTextureAt(texture, this._x, this._y);
         this._dirty = true;
         var letter = new FontLetterDefinition();
         letter.u = this._x + bleed / 2;
         letter.v = this._y + bleed / 2;
-        letter.texture = this._fontDefDictionary._texture;
+        letter.texture = this._texture;
+        letter.atlas = this;
+        letter.ref = 0;
         letter.valid = true;
         letter.w = letterTexture._width - bleed;
         letter.h = letterTexture._height - bleed;
+        letter._inCleans = false;
+        letter._hash = letterTexture._hash;
+        letter._width = width;
+        letter._height = height;
         letter.xAdvance = letter.w;
         letter.offsetY = letterTexture._offsetY;
         this._x += width + space;
-        this._fontDefDictionary.addLetterDefinitions(letterTexture._hash, letter);
+        this._atlases._fontDefDictionary.addLetterDefinitions(letterTexture._hash, letter);
         return letter;
+      },
+      pushFreeLetter: function pushFreeLetter(letter) {
+        var i = this.frees.push(letter) - 1;
+      },
+      removeFreeLetter: function removeFreeLetter(index) {
+        var temp = this.frees[index];
+        var temp2 = this.frees[this.frees.length - 1];
+        this.frees[index] = temp2;
+        this.frees.pop();
       },
       update: function update() {
         if (!this._dirty) return;
-        this._fontDefDictionary._texture.update();
+        this._texture.update();
         this._dirty = false;
       },
       reset: function reset() {
         this._x = space;
         this._y = space;
         this._nexty = space;
-        var chars = this._fontDefDictionary._letterDefinitions;
-        for (var i = 0, l = chars.length; i < l; i++) {
-          var _char2 = chars[i];
-          if (!_char2.isValid) continue;
-          _char2.destroy();
+        var defs = this._atlases._fontDefDictionary._letterDefinitions;
+        for (var key in defs) {
+          var def = defs[key];
+          def.atlas === this && delete defs[key];
         }
-        this._fontDefDictionary.clear();
+        this.frees.length = 0;
+        this.waitCleans.length = 0;
       },
       destroy: function destroy() {
         this.reset();
-        this._fontDefDictionary._texture.destroy();
-        this._fontDefDictionary._texture = null;
-      },
-      beforeSceneLoad: function beforeSceneLoad() {
-        this.clearAllCache();
-      },
-      clearAllCache: function clearAllCache() {
-        this.destroy();
-        var texture = new RenderTexture();
-        texture.initWithSize(this._width, this._height);
-        texture.update();
-        this._fontDefDictionary._texture = texture;
-      },
-      getLetter: function getLetter(key) {
+        var handler = this._atlases.material.getMultiHandler();
+        handler.removeTexture(this._texture);
+        this._texture.destroy();
+        this._texture = null;
+      }
+    });
+    var LetterAtlases = (function() {
+      function LetterAtlases() {
+        this.atlases = [];
+        this.material = null;
+        this.fakeMaterial = {
+          material: null
+        };
+        this._fontDefDictionary = new FontAtlas(null);
+        var handler = new cc.sp.MultiHandler();
+        this.material = handler.material;
+        this.fakeMaterial.material = this.material;
+        cc.director.on(cc.Director.EVENT_BEFORE_SCENE_LAUNCH, this.beforeSceneLoad, this);
+      }
+      var _proto = LetterAtlases.prototype;
+      _proto.insertLetterTexture = function insertLetterTexture(letterTexture) {
+        for (var _iterator2 = _createForOfIteratorHelperLoose(this.atlases), _step2; !(_step2 = _iterator2()).done; ) {
+          var _atlas = _step2.value;
+          var letter = _atlas.insertLetterTexture(letterTexture);
+          if (letter) return letter;
+        }
+        if (this.atlases.length >= 8) return null;
+        var atlas = new LetterAtlas(this, _atlasWidth, _atlasHeight);
+        var len = this.atlases.push(atlas);
+        atlas._id = len - 1;
+        var handler = this.material.getMultiHandler();
+        handler.setTexture(atlas._id, atlas._texture);
+        (true, cc.sp.charAtlasAutoBatchCount >= len) && cc.sp.multiBatcher.requsetMaterial(atlas._texture);
+        return atlas.insertLetterTexture(letterTexture);
+      };
+      _proto.deleteLetter = function deleteLetter(letter) {
+        letter.ref--;
+        if (0 === letter.ref && !letter._inCleans) {
+          letter._inCleans = true;
+          letter.atlas.waitCleans.push(letter);
+        }
+      };
+      _proto.update = function update() {
+        for (var _iterator3 = _createForOfIteratorHelperLoose(this.atlases), _step3; !(_step3 = _iterator3()).done; ) {
+          var atlas = _step3.value;
+          atlas.update();
+        }
+      };
+      _proto.reset = function reset() {
+        this._fontDefDictionary.clear();
+        for (var _iterator4 = _createForOfIteratorHelperLoose(this.atlases), _step4; !(_step4 = _iterator4()).done; ) {
+          var atlas = _step4.value;
+          atlas.reset();
+        }
+      };
+      _proto.destroy = function destroy() {
+        this._fontDefDictionary.clear();
+        for (var _iterator5 = _createForOfIteratorHelperLoose(this.atlases), _step5; !(_step5 = _iterator5()).done; ) {
+          var atlas = _step5.value;
+          atlas.destroy();
+        }
+        this.atlases.length = 0;
+      };
+      _proto.beforeSceneLoad = function beforeSceneLoad() {
+        cc.sp.charAtlasAutoResetBeforeSceneLoad && this.clearAllCache();
+      };
+      _proto.clearAllCache = function clearAllCache() {
+        this.reset();
+      };
+      _proto.getTexture = function getTexture() {
+        if (!_emptyTexture) {
+          _emptyTexture = new RenderTexture();
+          _emptyTexture.initWithSize(_atlasWidth, _atlasHeight);
+          _emptyTexture.update();
+        }
+        return _emptyTexture;
+      };
+      _proto.getLetter = function getLetter(key) {
         return this._fontDefDictionary._letterDefinitions[key];
-      },
-      getTexture: function getTexture() {
-        return this._fontDefDictionary.getTexture();
-      },
-      getLetterDefinitionForChar: function getLetterDefinitionForChar(_char3, labelInfo) {
-        var hash = _char3.charCodeAt(0) + labelInfo.hash;
+      };
+      _proto.getLetterDefinitionForChar = function getLetterDefinitionForChar(_char2, labelInfo) {
+        var hash = _char2.charCodeAt(0) + labelInfo.hash;
         var letter = this._fontDefDictionary._letterDefinitions[hash];
         if (!letter) {
-          var temp = new LetterTexture(_char3, labelInfo);
+          var temp = new LetterTexture(_char2, labelInfo);
           temp.updateRenderData();
           letter = this.insertLetterTexture(temp);
           temp.destroy();
         }
+        if (letter && _firstTraverse) {
+          letter.ref++;
+          _assembler._letterRefs.push(letter);
+          this.checkMaterialAndUpdateTexId(letter);
+        }
         return letter;
-      }
-    });
+      };
+      _proto.checkMaterialAndUpdateTexId = function checkMaterialAndUpdateTexId(letter) {
+        var atlas = letter.atlas;
+        var comp = _assembler._renderComp;
+        if (!_usedMaterial) return;
+        if (_needCheckMaterial) {
+          _needCheckMaterial = false;
+          if (_usedMaterial.material !== _shareAtlas.material) {
+            _assembler.checkAndSwitchMaterial(comp, atlas._texture, _usedMaterial);
+            _usedMaterial = comp._materials[0];
+          }
+        }
+        if (_usedMaterial.material !== _shareAtlas.material && -1 === atlas._tmpId) {
+          var handler = _usedMaterial.material.getMultiHandler();
+          if (handler) {
+            var index = handler.getIndex(atlas._texture.getImpl());
+            if (-1 !== index) {
+              atlas._tmpId = index;
+              return;
+            }
+          }
+          comp.setMaterial(0, _shareAtlas.material);
+          _usedMaterial = _shareAtlas.fakeMaterial;
+        }
+      };
+      return LetterAtlases;
+    })();
     function computeHash(labelInfo) {
-      var hashData = "";
+      var hashData = "|";
       var color = labelInfo.color.toHEX();
       var out = "";
       labelInfo.isOutlined && labelInfo.margin > 0 && (out = out + labelInfo.margin + labelInfo.out.toHEX());
@@ -50820,20 +51693,39 @@
     var _atlasWidth = 2048;
     var _atlasHeight = 2048;
     var _isBold = false;
+    var _usedMaterial = null;
+    var _needCheckMaterial = false;
+    var _firstTraverse = false;
+    var _assembler = null;
+    var _emptyTexture = null;
     var LetterFontAssembler = (function(_WebglBmfontAssembler) {
       _inheritsLoose(LetterFontAssembler, _WebglBmfontAssembler);
       function LetterFontAssembler() {
-        return _WebglBmfontAssembler.apply(this, arguments) || this;
+        var _this;
+        for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) args[_key] = arguments[_key];
+        _this = _WebglBmfontAssembler.call.apply(_WebglBmfontAssembler, [ this ].concat(args)) || this;
+        _this._letterRefs = [];
+        return _this;
       }
-      var _proto = LetterFontAssembler.prototype;
-      _proto._getAssemblerData = function _getAssemblerData() {
+      var _proto2 = LetterFontAssembler.prototype;
+      _proto2.initData = function initData() {
+        var data = this._renderData;
+        data.createFlexData(0, this.verticesCount, this.indicesCount, this.getVfmt());
+      };
+      _proto2.getVfmt = function getVfmt() {
+        return _vertexFormat.vfmtPosUvColorTexId;
+      };
+      _proto2.getBuffer = function getBuffer() {
+        return cc.renderer._handle.getBuffer("mesh", this.getVfmt());
+      };
+      _proto2._getAssemblerData = function _getAssemblerData() {
         if (!_shareAtlas) {
-          _shareAtlas = new LetterAtlas(_atlasWidth, _atlasHeight);
+          _shareAtlas = new LetterAtlases();
           cc.Label._shareAtlas = _shareAtlas;
         }
         return _shareAtlas.getTexture();
       };
-      _proto._updateFontFamily = function _updateFontFamily(comp) {
+      _proto2._updateFontFamily = function _updateFontFamily(comp) {
         shareLabelInfo.fontAtlas = _shareAtlas;
         shareLabelInfo.fontFamily = getFontFamily(comp);
         var outline = OUTLINE_SUPPORTED && comp.getComponent(LabelOutline);
@@ -50847,32 +51739,78 @@
           shareLabelInfo.margin = 0;
         }
       };
-      _proto._updateLabelInfo = function _updateLabelInfo(comp) {
+      _proto2._updateLabelInfo = function _updateLabelInfo(comp) {
         shareLabelInfo.fontDesc = this._getFontDesc();
         shareLabelInfo.color = comp.node.color;
         shareLabelInfo.hash = computeHash(shareLabelInfo);
       };
-      _proto._getFontDesc = function _getFontDesc() {
+      _proto2._getFontDesc = function _getFontDesc() {
         var fontDesc = shareLabelInfo.fontSize.toString() + "px ";
         fontDesc += shareLabelInfo.fontFamily;
         _isBold && (fontDesc = "bold " + fontDesc);
         return fontDesc;
       };
-      _proto._computeHorizontalKerningForText = function _computeHorizontalKerningForText() {};
-      _proto._determineRect = function _determineRect(tempRect) {
+      _proto2._computeHorizontalKerningForText = function _computeHorizontalKerningForText() {};
+      _proto2._determineRect = function _determineRect(tempRect) {
         return false;
+      };
+      _proto2._aftUpdateRenderData = function _aftUpdateRenderData(comp) {
+        _assembler = this;
+        _usedMaterial = _assembler._renderComp._materials[0];
+        _needCheckMaterial = true;
+        _firstTraverse = true;
+        for (var _iterator6 = _createForOfIteratorHelperLoose(_shareAtlas.atlases), _step6; !(_step6 = _iterator6()).done; ) {
+          var atlas = _step6.value;
+          atlas._tmpId = -1;
+        }
+        this._recycleLetterRef();
+        _WebglBmfontAssembler.prototype._aftUpdateRenderData.call(this, comp);
+        _usedMaterial = null;
+        _assembler = null;
+      };
+      _proto2._finishMultilineTextWrap = function _finishMultilineTextWrap() {
+        _firstTraverse = false;
+      };
+      _proto2._recycleLetterRef = function _recycleLetterRef() {
+        for (var _iterator7 = _createForOfIteratorHelperLoose(this._letterRefs), _step7; !(_step7 = _iterator7()).done; ) {
+          var letter = _step7.value;
+          _shareAtlas.deleteLetter(letter);
+        }
+        this._letterRefs.length = 0;
+      };
+      _proto2._resetAssemblerData = function _resetAssemblerData(assemblerData) {
+        0 !== this._letterRefs.length && this._recycleLetterRef();
+      };
+      _proto2.appendVerts = function appendVerts(comp, offset, l, r, b, t, letter) {
+        _WebglBmfontAssembler.prototype.appendVerts.call(this, comp, offset, l, r, b, t, letter);
+        var renderData = this._renderData;
+        var verts = renderData.vDatas[0];
+        var floatsPerVert = this.floatsPerVert;
+        var texIdOffset = offset + this.texIdOffset;
+        var id = _usedMaterial ? _usedMaterial.material !== _shareAtlas.material ? letter.atlas._tmpId : letter.atlas._id : 0;
+        verts[texIdOffset] = id;
+        texIdOffset += floatsPerVert;
+        verts[texIdOffset] = id;
+        texIdOffset += floatsPerVert;
+        verts[texIdOffset] = id;
+        texIdOffset += floatsPerVert;
+        verts[texIdOffset] = id;
       };
       return LetterFontAssembler;
     })(_bmfont["default"]);
     exports["default"] = LetterFontAssembler;
+    LetterFontAssembler.prototype.floatsPerVert = 6;
+    LetterFontAssembler.prototype.texIdOffset = 5;
+    LetterFontAssembler.prototype.isMulti = true;
     module.exports = exports["default"];
   }), {
     "../../../assets/CCRenderTexture": 145,
     "../../../components/CCComponent": 181,
     "../../../components/CCLabel": 183,
     "../../../components/CCLabelOutline": 184,
-    "../../../utils/text-utils": 380,
-    "../../webgl/assemblers/label/2d/bmfont": 335,
+    "../../../utils/text-utils": 393,
+    "../../webgl/assemblers/label/2d/bmfont": 337,
+    "../../webgl/vertex-format": 371,
     "../utils": 330
   } ],
   329: [ (function(require, module, exports) {
@@ -50880,7 +51818,6 @@
     exports.__esModule = true;
     exports["default"] = void 0;
     var _assembler2d = _interopRequireDefault(require("../../assembler-2d"));
-    var _mat = _interopRequireDefault(require("../../../value-types/mat4"));
     function _interopRequireDefault(obj) {
       return obj && obj.__esModule ? obj : {
         default: obj
@@ -50925,6 +51862,8 @@
     var _overflow = Overflow.NONE;
     var _isWrapText = false;
     var _premultiply = false;
+    var _isRetina = false;
+    var _retinaScale = 1;
     var _outlineComp = null;
     var _outlineColor = cc.Color.WHITE;
     var _shadowComp = null;
@@ -50956,12 +51895,21 @@
       };
       _proto.updateRenderData = function updateRenderData(comp) {
         _Assembler2D.prototype.updateRenderData.call(this, comp);
-        if (!comp._vertsDirty) return;
+        if (!comp._vertsDirty) return false;
         this._updateProperties(comp);
         this._calculateLabelFont();
         this._updateLabelDimensions();
         this._updateTexture(comp);
-        this._calDynamicAtlas(comp);
+        var assemblerChanged = this._calDynamicAtlas(comp);
+        assemblerChanged || this._aftUpdateRenderData(comp);
+        return assemblerChanged;
+      };
+      _proto._aftUpdateRenderData = function _aftUpdateRenderData(comp) {
+        if (_isRetina) {
+          _fontSize /= _retinaScale;
+          _nodeContentSize.width /= _retinaScale;
+          _nodeContentSize.height /= _retinaScale;
+        }
         comp._actualFontSize = _fontSize;
         comp.node.setContentSize(_nodeContentSize);
         this.updateVerts(comp);
@@ -50970,6 +51918,9 @@
         _canvas = null;
         _texture = null;
       };
+      _proto.getTTFTextureSizeScale = function getTTFTextureSizeScale() {
+        return _isRetina ? _retinaScale : 1;
+      };
       _proto.updateVerts = function updateVerts() {};
       _proto._updatePaddingRect = function _updatePaddingRect() {
         var top = 0, bottom = 0, left = 0, right = 0;
@@ -50977,6 +51928,7 @@
         _contentSizeExtend.width = _contentSizeExtend.height = 0;
         if (_outlineComp) {
           outlineWidth = _outlineComp.width;
+          _isRetina && (outlineWidth *= _retinaScale);
           top = bottom = left = right = outlineWidth;
           _contentSizeExtend.width = _contentSizeExtend.height = 2 * outlineWidth;
         }
@@ -51002,15 +51954,25 @@
         _context = assemblerData.context;
         _canvas = assemblerData.canvas;
         _texture = comp._frame._original ? comp._frame._original._texture : comp._frame._texture;
+        _isRetina = cc.sp.enableLabelRetina && 0 === comp.enableRetina || 1 === comp.enableRetina;
+        _retinaScale = cc.sp.labelRetinaScale;
         _string = comp.string.toString();
         _fontSize = comp._fontSize;
-        _drawFontSize = _fontSize;
-        _underlineThickness = comp.underlineHeight || _drawFontSize / 8;
-        _overflow = comp.overflow;
-        _canvasSize.width = comp.node.width;
-        _canvasSize.height = comp.node.height;
         _nodeContentSize = comp.node.getContentSize();
         _lineHeight = comp._lineHeight;
+        _drawFontSize = _fontSize;
+        _underlineThickness = comp.underlineHeight || _drawFontSize / 8;
+        if (_isRetina) {
+          _fontSize *= _retinaScale;
+          _nodeContentSize.width *= _retinaScale;
+          _nodeContentSize.height *= _retinaScale;
+          _lineHeight *= _retinaScale;
+          comp.underlineHeight && (_underlineThickness *= _retinaScale);
+          _drawFontSize = _fontSize;
+        }
+        _overflow = comp.overflow;
+        _canvasSize.width = _nodeContentSize.width;
+        _canvasSize.height = _nodeContentSize.height;
         _hAlign = comp.horizontalAlign;
         _vAlign = comp.verticalAlign;
         _color = comp.node.color;
@@ -51051,13 +52013,13 @@
       };
       _proto._setupOutline = function _setupOutline() {
         _context.strokeStyle = "rgba(" + _outlineColor.r + ", " + _outlineColor.g + ", " + _outlineColor.b + ", " + _outlineColor.a / 255 + ")";
-        _context.lineWidth = 2 * _outlineComp.width;
+        _context.lineWidth = 2 * _outlineComp.width * (_isRetina ? _retinaScale : 1);
       };
       _proto._setupShadow = function _setupShadow() {
         _context.shadowColor = "rgba(" + _shadowColor.r + ", " + _shadowColor.g + ", " + _shadowColor.b + ", " + _shadowColor.a / 255 + ")";
-        _context.shadowBlur = _shadowComp.blur;
-        _context.shadowOffsetX = _shadowComp.offset.x;
-        _context.shadowOffsetY = -_shadowComp.offset.y;
+        _context.shadowBlur = _shadowComp.blur * (_isRetina ? _retinaScale : 1);
+        _context.shadowOffsetX = _shadowComp.offset.x * (_isRetina ? _retinaScale : 1);
+        _context.shadowOffsetY = -_shadowComp.offset.y * (_isRetina ? _retinaScale : 1);
       };
       _proto._drawTextEffect = function _drawTextEffect(startPosition, lineHeight) {
         if (!_shadowComp && !_outlineComp && !_enableUnderline) return;
@@ -51104,11 +52066,20 @@
         _texture.handleLoadedTexture();
       };
       _proto._calDynamicAtlas = function _calDynamicAtlas(comp) {
-        if (comp.cacheMode !== Label.CacheMode.BITMAP) return;
+        if (comp.cacheMode !== Label.CacheMode.BITMAP) return false;
         var frame = comp._frame;
         deleteFromDynamicAtlas(comp, frame);
         frame._original || frame.setRect(cc.rect(0, 0, _canvas.width, _canvas.height));
-        this.packToDynamicAtlas(comp, frame);
+        return this.packDynamicAtlasAndCheckMaterial(comp, frame);
+      };
+      _proto.packDynamicAtlasAndCheckMaterial = function packDynamicAtlasAndCheckMaterial(comp, frame) {
+        var allowDynamicAtlas = comp.allowDynamicAtlas;
+        if (cc.sp.allowDynamicAtlas && 0 === allowDynamicAtlas || 1 === allowDynamicAtlas) {
+          frame._texture._uuid = _fontDesc + _overflow + (_premultiply ? "P" : "NP") + comp.node.color.toHEX() + (_enableUnderline ? "UL" : "NUL") + _string;
+          _outlineComp && (frame._texture._uuid += _outlineComp.color.toHEX() + "," + _outlineComp.width + ",");
+          _shadowComp && (frame._texture._uuid += _shadowComp.color.toHEX() + _shadowComp.offset.x + "," + _shadowComp.offset.y + "," + _shadowComp.blur);
+        }
+        return _Assembler2D.prototype.packDynamicAtlasAndCheckMaterial.call(this, comp, frame);
       };
       _proto._updateLabelDimensions = function _updateLabelDimensions() {
         var maxTextureSize = cc.renderer.device.caps ? cc.renderer.device.caps.maxTextureSize : MAX_SIZE;
@@ -51255,7 +52226,7 @@
     "../../../components/CCLabelOutline": 184,
     "../../../components/CCLabelShadow": 185,
     "../../../platform/CCMacro": 277,
-    "../../../utils/text-utils": 380,
+    "../../../utils/text-utils": 393,
     "../../assembler-2d": 299,
     "../utils": 330
   } ],
@@ -51298,7 +52269,7 @@
       shareLabelInfo: shareLabelInfo
     };
   }), {
-    "./dynamic-atlas/manager": 325
+    "./dynamic-atlas/manager": 324
   } ],
   331: [ (function(require, module, exports) {
     "use strict";
@@ -52339,12 +53310,12 @@
     _assembler["default"].register(cc.Graphics, GraphicsAssembler);
     module.exports = exports["default"];
   }), {
-    "../../../../../renderer/core/input-assembler": 410,
+    "../../../../../renderer/core/input-assembler": 423,
     "../../../../graphics/graphics": 235,
     "../../../../graphics/types": 238,
     "../../../assembler": 302,
     "../../../index": 322,
-    "../../mesh-buffer": 359,
+    "../../mesh-buffer": 368,
     "./earcut": 331,
     "./impl": 332
   } ],
@@ -52356,14 +53327,147 @@
     require("./graphics");
     require("./label");
     require("./motion-streak");
+    require("./motion-streak-multi");
   }), {
     "./graphics": 333,
-    "./label": 342,
-    "./mask-assembler": 343,
-    "./motion-streak": 344,
-    "./sprite": 357
+    "./label": 344,
+    "./mask-assembler": 345,
+    "./motion-streak": 347,
+    "./motion-streak-multi": 346,
+    "./sprite": 366
   } ],
   335: [ (function(require, module, exports) {
+    "use strict";
+    exports.__esModule = true;
+    exports["default"] = void 0;
+    var _bmfont = _interopRequireDefault(require("../2d/bmfont"));
+    var _vertexFormat = require("../../../../webgl/vertex-format");
+    function _interopRequireDefault(obj) {
+      return obj && obj.__esModule ? obj : {
+        default: obj
+      };
+    }
+    function _inheritsLoose(subClass, superClass) {
+      subClass.prototype = Object.create(superClass.prototype);
+      subClass.prototype.constructor = subClass;
+      _setPrototypeOf(subClass, superClass);
+    }
+    function _setPrototypeOf(o, p) {
+      _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) {
+        o.__proto__ = p;
+        return o;
+      };
+      return _setPrototypeOf(o, p);
+    }
+    var MultiWebglBmfontAssembler = (function(_WebglBmfontAssembler) {
+      _inheritsLoose(MultiWebglBmfontAssembler, _WebglBmfontAssembler);
+      function MultiWebglBmfontAssembler() {
+        return _WebglBmfontAssembler.apply(this, arguments) || this;
+      }
+      var _proto = MultiWebglBmfontAssembler.prototype;
+      _proto.initData = function initData() {
+        var data = this._renderData;
+        data.createFlexData(0, this.verticesCount, this.indicesCount, this.getVfmt());
+      };
+      _proto.getVfmt = function getVfmt() {
+        return _vertexFormat.vfmtPosUvColorTexId;
+      };
+      _proto.getBuffer = function getBuffer() {
+        return cc.renderer._handle.getBuffer("mesh", this.getVfmt());
+      };
+      _proto.updateRenderData = function updateRenderData(comp) {
+        _WebglBmfontAssembler.prototype.updateRenderData.call(this, comp);
+        comp._texIdDirty && comp._updateMultiTexId(comp.getMaterial(0), comp._frame._texture);
+        this.updateTexId(comp);
+        comp._texIdDirty = false;
+      };
+      _proto.updateRenderDataForSwitchMaterial = function updateRenderDataForSwitchMaterial(comp) {
+        _WebglBmfontAssembler.prototype._preUpdateRenderData.call(this, comp);
+        _WebglBmfontAssembler.prototype._aftUpdateRenderData.call(this, comp);
+        comp._texIdDirty && comp._updateMultiTexId(comp.getMaterial(0), comp._frame._texture);
+        this.updateTexId(comp);
+        comp._texIdDirty = false;
+        true;
+        this._aftUpdateRenderDataForNative();
+      };
+      return MultiWebglBmfontAssembler;
+    })(_bmfont["default"]);
+    exports["default"] = MultiWebglBmfontAssembler;
+    MultiWebglBmfontAssembler.prototype.floatsPerVert = 6;
+    MultiWebglBmfontAssembler.prototype.texIdOffset = 5;
+    MultiWebglBmfontAssembler.prototype.isMulti = true;
+    module.exports = exports["default"];
+  }), {
+    "../../../../webgl/vertex-format": 371,
+    "../2d/bmfont": 337
+  } ],
+  336: [ (function(require, module, exports) {
+    "use strict";
+    exports.__esModule = true;
+    exports["default"] = void 0;
+    var _ttf = _interopRequireDefault(require("../2d/ttf"));
+    var _vertexFormat = require("../../../../webgl/vertex-format");
+    function _interopRequireDefault(obj) {
+      return obj && obj.__esModule ? obj : {
+        default: obj
+      };
+    }
+    function _inheritsLoose(subClass, superClass) {
+      subClass.prototype = Object.create(superClass.prototype);
+      subClass.prototype.constructor = subClass;
+      _setPrototypeOf(subClass, superClass);
+    }
+    function _setPrototypeOf(o, p) {
+      _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) {
+        o.__proto__ = p;
+        return o;
+      };
+      return _setPrototypeOf(o, p);
+    }
+    var MultiWebglTTFAssembler = (function(_WebglTTFAssembler) {
+      _inheritsLoose(MultiWebglTTFAssembler, _WebglTTFAssembler);
+      function MultiWebglTTFAssembler() {
+        return _WebglTTFAssembler.apply(this, arguments) || this;
+      }
+      var _proto = MultiWebglTTFAssembler.prototype;
+      _proto.initData = function initData() {
+        var data = this._renderData;
+        data.createFlexData(0, this.verticesCount, this.indicesCount, this.getVfmt());
+        var indices = data.iDatas[0];
+        data.initQuadIndices(indices);
+      };
+      _proto.getVfmt = function getVfmt() {
+        return _vertexFormat.vfmtPosUvColorTexId;
+      };
+      _proto.getBuffer = function getBuffer() {
+        return cc.renderer._handle.getBuffer("mesh", this.getVfmt());
+      };
+      _proto.updateRenderData = function updateRenderData(comp) {
+        _WebglTTFAssembler.prototype.updateRenderData.call(this, comp);
+        comp._texIdDirty && comp._updateMultiTexId(comp.getMaterial(0), comp._frame._texture);
+        this.updateTexId(comp);
+        comp._texIdDirty = false;
+      };
+      _proto.updateRenderDataForSwitchMaterial = function updateRenderDataForSwitchMaterial(comp) {
+        _WebglTTFAssembler.prototype._aftUpdateRenderData.call(this, comp);
+        comp._texIdDirty && comp._updateMultiTexId(comp.getMaterial(0), comp._frame._texture);
+        this.updateTexId(comp);
+        comp._texIdDirty = false;
+        true;
+        this._aftUpdateRenderDataForNative();
+      };
+      return MultiWebglTTFAssembler;
+    })(_ttf["default"]);
+    exports["default"] = MultiWebglTTFAssembler;
+    MultiWebglTTFAssembler.prototype.floatsPerVert = 6;
+    MultiWebglTTFAssembler.prototype.texIdOffset = 5;
+    MultiWebglTTFAssembler.prototype.isMulti = true;
+    module.exports = exports["default"];
+  }), {
+    "../../../../webgl/vertex-format": 371,
+    "../2d/ttf": 340
+  } ],
+  337: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -52420,7 +53524,7 @@
       _proto._getColor = function _getColor(comp) {
         return comp.node._color._val;
       };
-      _proto.appendQuad = function appendQuad(comp, texture, rect, rotated, x, y, scale) {
+      _proto.appendQuad = function appendQuad(comp, texture, rect, rotated, x, y, scale, letter) {
         var renderData = this._renderData;
         var verts = renderData.vDatas[0], uintVerts = renderData.uintVDatas[0];
         this.verticesCount += 4;
@@ -52462,11 +53566,16 @@
           verts[uvDataOffset] = r;
           verts[uvDataOffset + 1] = t;
         }
+        var retinaScale = this.getTTFTextureSizeScale();
+        x /= retinaScale;
+        y /= retinaScale;
+        rectWidth /= retinaScale;
+        rectHeight /= retinaScale;
         l = x;
         r = x + rectWidth * scale;
         b = y - rectHeight * scale;
         t = y;
-        this.appendVerts(comp, _dataOffset, l, r, b, t);
+        this.appendVerts(comp, _dataOffset, l, r, b, t, letter);
         var colorOffset = _dataOffset + this.colorOffset;
         for (var i = 0; i < 4; i++) {
           uintVerts[colorOffset] = color;
@@ -52474,7 +53583,7 @@
         }
         _dataOffset += 4 * this.floatsPerVert;
       };
-      _proto.appendVerts = function appendVerts(comp, offset, l, r, b, t) {
+      _proto.appendVerts = function appendVerts(comp, offset, l, r, b, t, letter) {
         var local = this._local;
         var floatsPerVert = this.floatsPerVert;
         local[offset] = l;
@@ -52510,7 +53619,7 @@
   }), {
     "../../../../utils/label/bmfont": 326
   } ],
-  336: [ (function(require, module, exports) {
+  338: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -52554,9 +53663,9 @@
   }), {
     "../../../../../platform/js": 294,
     "../../../../utils/label/letter-font": 328,
-    "./bmfont": 335
+    "./bmfont": 337
   } ],
-  337: [ (function(require, module, exports) {
+  339: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -52885,7 +53994,7 @@
     "../../../../../components/CCLabelOutline": 184,
     "../../../../../components/CCLabelShadow": 185
   } ],
-  338: [ (function(require, module, exports) {
+  340: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -52933,7 +54042,8 @@
         _TTFAssembler.prototype.updateColor.call(this, comp, color);
       };
       _proto.updateVerts = function updateVerts(comp) {
-        var node = comp.node, canvasWidth = comp._ttfTexture.width, canvasHeight = comp._ttfTexture.height, appx = node.anchorX * node.width, appy = node.anchorY * node.height;
+        var scale = this.getTTFTextureSizeScale();
+        var node = comp.node, canvasWidth = comp._ttfTexture.width / scale, canvasHeight = comp._ttfTexture.height / scale, appx = node.anchorX * node.width, appy = node.anchorY * node.height;
         var shadow = LabelShadow && comp.getComponent(LabelShadow);
         if (shadow && shadow._enabled) {
           var offsetX = (canvasWidth - node.width) / 2;
@@ -52958,7 +54068,7 @@
     "../../../../../components/CCLabelShadow": 185,
     "../../../../utils/label/ttf": 329
   } ],
-  339: [ (function(require, module, exports) {
+  341: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -53009,11 +54119,11 @@
     });
     module.exports = exports["default"];
   }), {
-    "../../../../../value-types/vec3": 398,
+    "../../../../../value-types/vec3": 411,
     "../../../../assembler-3d": 300,
-    "../2d/bmfont": 335
+    "../2d/bmfont": 337
   } ],
-  340: [ (function(require, module, exports) {
+  342: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -53064,11 +54174,11 @@
     });
     module.exports = exports["default"];
   }), {
-    "../../../../../value-types/vec3": 398,
+    "../../../../../value-types/vec3": 411,
     "../../../../assembler-3d": 300,
-    "../2d/letter": 336
+    "../2d/letter": 338
   } ],
-  341: [ (function(require, module, exports) {
+  343: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -53098,9 +54208,9 @@
     module.exports = exports["default"];
   }), {
     "../../../../assembler-3d": 300,
-    "../2d/ttf": 338
+    "../2d/ttf": 340
   } ],
-  342: [ (function(require, module, exports) {
+  344: [ (function(require, module, exports) {
     "use strict";
     var _assembler = _interopRequireDefault(require("../../../assembler"));
     var _CCLabel = _interopRequireDefault(require("../../../../components/CCLabel"));
@@ -53110,6 +54220,8 @@
     var _ttf2 = _interopRequireDefault(require("./3d/ttf"));
     var _bmfont2 = _interopRequireDefault(require("./3d/bmfont"));
     var _letter2 = _interopRequireDefault(require("./3d/letter"));
+    var _ttf3 = _interopRequireDefault(require("./2d-multi/ttf"));
+    var _bmfont3 = _interopRequireDefault(require("./2d-multi/bmfont"));
     function _interopRequireDefault(obj) {
       return obj && obj.__esModule ? obj : {
         default: obj
@@ -53141,8 +54253,10 @@
     _assembler["default"].register(cc.Label, {
       getConstructor: function getConstructor(label) {
         var is3DNode = label.node.is3DNode;
-        var ctor = is3DNode ? _ttf2["default"] : _ttf["default"];
-        label.font instanceof cc.BitmapFont ? ctor = is3DNode ? _bmfont2["default"] : _bmfont["default"] : label.cacheMode === _CCLabel["default"].CacheMode.CHAR && ((true, 
+        var material = label.getMaterials()[0];
+        var isMultiMaterial = material && material.material.isMultiSupport();
+        var ctor = is3DNode ? _ttf2["default"] : isMultiMaterial ? _ttf3["default"] : _ttf["default"];
+        label.font instanceof cc.BitmapFont ? ctor = is3DNode ? _bmfont2["default"] : isMultiMaterial ? _bmfont3["default"] : _bmfont["default"] : label.cacheMode === _CCLabel["default"].CacheMode.CHAR && ((true, 
         !is3DNode) && !!jsb.LabelRenderer && label.font instanceof cc.TTFFont && label._useNativeTTF() ? ctor = NativeTTF : cc.sys.platform === cc.sys.WECHAT_GAME_SUB ? cc.warn("sorry, subdomain does not support CHAR mode currently!") : ctor = is3DNode ? _letter2["default"] : _letter["default"]);
         return ctor;
       },
@@ -53152,20 +54266,24 @@
       TTF3D: _ttf2["default"],
       Bmfont3D: _bmfont2["default"],
       Letter3D: _letter2["default"],
-      NativeTTF: NativeTTF
+      NativeTTF: NativeTTF,
+      TTFMulti: _ttf3["default"],
+      BmfontMulti: _bmfont3["default"]
     });
   }), {
     "../../../../components/CCLabel": 183,
     "../../../assembler": 302,
-    "./2d/bmfont": 335,
-    "./2d/letter": 336,
-    "./2d/nativeTTF": 337,
-    "./2d/ttf": 338,
-    "./3d/bmfont": 339,
-    "./3d/letter": 340,
-    "./3d/ttf": 341
+    "./2d-multi/bmfont": 335,
+    "./2d-multi/ttf": 336,
+    "./2d/bmfont": 337,
+    "./2d/letter": 338,
+    "./2d/nativeTTF": 339,
+    "./2d/ttf": 340,
+    "./3d/bmfont": 341,
+    "./3d/letter": 342,
+    "./3d/ttf": 343
   } ],
-  343: [ (function(require, module, exports) {
+  345: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports.MaskAssembler = void 0;
@@ -53302,15 +54420,223 @@
     exports.MaskAssembler = MaskAssembler;
     _assembler["default"].register(Mask, MaskAssembler);
   }), {
-    "../../../../renderer/gfx": 414,
+    "../../../../renderer/gfx": 427,
     "../../../components/CCMask": 187,
     "../../assembler": 302,
     "../../render-flow": 323,
-    "../vertex-format": 362,
+    "../vertex-format": 371,
     "./graphics": 333,
-    "./sprite/2d/simple": 348
+    "./sprite/2d/simple": 357
   } ],
-  344: [ (function(require, module, exports) {
+  346: [ (function(require, module, exports) {
+    "use strict";
+    exports.__esModule = true;
+    exports["default"] = void 0;
+    var _motionStreak = _interopRequireDefault(require("./motion-streak"));
+    var _vertexFormat = require("../../webgl/vertex-format");
+    var _mat = _interopRequireDefault(require("../../../value-types/mat4"));
+    function _interopRequireDefault(obj) {
+      return obj && obj.__esModule ? obj : {
+        default: obj
+      };
+    }
+    function _inheritsLoose(subClass, superClass) {
+      subClass.prototype = Object.create(superClass.prototype);
+      subClass.prototype.constructor = subClass;
+      _setPrototypeOf(subClass, superClass);
+    }
+    function _setPrototypeOf(o, p) {
+      _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) {
+        o.__proto__ = p;
+        return o;
+      };
+      return _setPrototypeOf(o, p);
+    }
+    var MotionStreak = require("../../../components/CCMotionStreak");
+    var RenderFlow = require("../../render-flow");
+    function Point(point, dir) {
+      this.point = point || cc.v2();
+      this.dir = dir || cc.v2();
+      this.distance = 0;
+      this.time = 0;
+    }
+    Point.prototype.setPoint = function(x, y) {
+      this.point.x = x;
+      this.point.y = y;
+    };
+    Point.prototype.setDir = function(x, y) {
+      this.dir.x = x;
+      this.dir.y = y;
+    };
+    var _normal = cc.v2();
+    var _vec2 = cc.v2();
+    var _worldMat = new _mat["default"]();
+    function normal(out, dir) {
+      out.x = -dir.y;
+      out.y = dir.x;
+      return out;
+    }
+    var MultiMotionStreakAssembler = (function(_MotionStreakAssemble) {
+      _inheritsLoose(MultiMotionStreakAssembler, _MotionStreakAssemble);
+      function MultiMotionStreakAssembler() {
+        return _MotionStreakAssemble.apply(this, arguments) || this;
+      }
+      var _proto = MultiMotionStreakAssembler.prototype;
+      _proto.initData = function initData() {
+        this._renderData.createFlexData(0, 16, 42, this.getVfmt());
+      };
+      _proto.getVfmt = function getVfmt() {
+        return _vertexFormat.vfmtPosUvColorTexId;
+      };
+      _proto.getBuffer = function getBuffer() {
+        return cc.renderer._handle.getBuffer("mesh", this.getVfmt());
+      };
+      _proto.update = function update(comp, dt) {
+        false;
+        var stroke = comp._stroke / 2;
+        var node = comp.node;
+        node.getWorldMatrix(_worldMat);
+        var tx = _worldMat.m[12], ty = _worldMat.m[13];
+        var points = comp._points;
+        var lastPos = comp._lastWPos;
+        var fadeTime = comp._fadeTime;
+        var moved = comp._lastWPosUpdated && (lastPos.x !== tx || lastPos.y !== ty);
+        if (moved) {
+          var cur;
+          var newHead = false;
+          if (0 === points.length) {
+            var _prev = new Point();
+            _prev.setPoint(lastPos.x, lastPos.y);
+            this._tailShortenTime = _prev.time = fadeTime;
+            points.push(_prev);
+            cur = new Point();
+            points.unshift(cur);
+          } else {
+            cur = points[0];
+            var _prev2 = points[1];
+            var difx = _prev2.point.x - tx;
+            var dify = _prev2.point.y - ty;
+            newHead = difx * difx + dify * dify >= comp.minSeg * comp.minSeg;
+          }
+          cur.setPoint(tx, ty);
+          cur.time = fadeTime + dt;
+          var prev = points[1];
+          cur.distance = cur.point.sub(prev.point, _vec2).mag();
+          _vec2.normalizeSelf();
+          cur.setDir(_vec2.x, _vec2.y);
+          var prevIsTail = 2 === points.length;
+          prevIsTail && prev.setDir(_vec2.x, _vec2.y);
+          if (newHead) {
+            var point = new Point(cur.point.clone(), cur.dir.clone());
+            point.distance = cur.distance;
+            point.time = cur.time;
+            points.unshift(point);
+          }
+        }
+        lastPos.x = tx;
+        lastPos.y = ty;
+        comp._lastWPosUpdated = true;
+        if (points.length < 2) return;
+        var color = comp._color, ca = color.a;
+        var crgb = color.b << 16 | color.g << 8 | color.r;
+        var verticesCount = 0;
+        var indicesCount = 0;
+        var flexBuffer = this._renderData._flexBuffer;
+        flexBuffer.reserve(2 * points.length, 6 * (points.length - 1));
+        var vData = flexBuffer.vData;
+        var uintVData = flexBuffer.uintVData;
+        var vertsOffset = 6;
+        for (var i = points.length - 1; i >= 0; i--) {
+          var p = points[i];
+          var _point = p.point;
+          var dir = p.dir;
+          p.time -= dt;
+          var isLast = i === points.length - 1;
+          if (p.time <= 0) {
+            isLast && i - 1 >= 0 && (this._tailShortenTime = points[i - 1].time - dt);
+            points.splice(i, 1);
+            continue;
+          }
+          var progress = p.time / fadeTime;
+          if (isLast) {
+            var next = points[i - 1];
+            if (!next) {
+              points.splice(i, 1);
+              continue;
+            }
+            var nextIsStatic = points.length >= 3;
+            if (nextIsStatic) {
+              var segmentProgress = p.time / this._tailShortenTime;
+              if (segmentProgress <= 1) {
+                _point.x = next.point.x - next.distance * next.dir.x * segmentProgress;
+                _point.y = next.point.y - next.distance * next.dir.y * segmentProgress;
+              }
+            } else this._tailShortenTime = p.time;
+          }
+          normal(_normal, dir);
+          var da = progress * ca;
+          var c = da << 24 >>> 0 | crgb;
+          var offset = verticesCount * vertsOffset;
+          vData[offset] = _point.x + _normal.x * stroke;
+          vData[offset + 1] = _point.y + _normal.y * stroke;
+          vData[offset + 2] = 1;
+          vData[offset + 3] = progress;
+          uintVData[offset + 4] = c;
+          vData[offset + 5] = comp._texId;
+          offset += vertsOffset;
+          vData[offset] = _point.x - _normal.x * stroke;
+          vData[offset + 1] = _point.y - _normal.y * stroke;
+          vData[offset + 2] = 0;
+          vData[offset + 3] = progress;
+          uintVData[offset + 4] = c;
+          vData[offset + 5] = comp._texId;
+          verticesCount += 2;
+        }
+        indicesCount = verticesCount <= 2 ? 0 : 3 * (verticesCount - 2);
+        flexBuffer.used(verticesCount, indicesCount);
+      };
+      _proto.fillBuffers = function fillBuffers(comp, renderer) {
+        var _this$_renderData$_fl = this._renderData._flexBuffer, vData = _this$_renderData$_fl.vData, usedVertices = _this$_renderData$_fl.usedVertices, usedIndices = _this$_renderData$_fl.usedIndices, usedVerticesFloats = _this$_renderData$_fl.usedVerticesFloats;
+        var buffer = this.getBuffer(renderer);
+        var offsetInfo = buffer.request(usedVertices, usedIndices);
+        var vertexOffset = offsetInfo.byteOffset >> 2, vbuf = buffer._vData;
+        vData.length + vertexOffset > vbuf.length ? vbuf.set(vData.subarray(0, usedVerticesFloats), vertexOffset) : vbuf.set(vData, vertexOffset);
+        var ibuf = buffer._iData, indiceOffset = offsetInfo.indiceOffset, vertexId = offsetInfo.vertexOffset;
+        for (var i = 0, l = usedVertices; i < l; i += 2) {
+          var start = vertexId + i;
+          ibuf[indiceOffset++] = start;
+          ibuf[indiceOffset++] = start + 2;
+          ibuf[indiceOffset++] = start + 1;
+          ibuf[indiceOffset++] = start + 1;
+          ibuf[indiceOffset++] = start + 2;
+          ibuf[indiceOffset++] = start + 3;
+        }
+        comp.node._renderFlag |= RenderFlow.FLAG_UPDATE_RENDER_DATA;
+      };
+      return MultiMotionStreakAssembler;
+    })(_motionStreak["default"]);
+    exports["default"] = MultiMotionStreakAssembler;
+    _motionStreak["default"].register(MotionStreak, {
+      getConstructor: function getConstructor(comp) {
+        var material = comp.getMaterials()[0];
+        var isMultiMaterial = material && material.material.isMultiSupport();
+        return isMultiMaterial ? MultiMotionStreakAssembler : _motionStreak["default"];
+      },
+      MotionStreakAssembler: _motionStreak["default"],
+      MultiMotionStreakAssembler: MultiMotionStreakAssembler
+    });
+    MultiMotionStreakAssembler.prototype.floatsPerVert = 6;
+    MultiMotionStreakAssembler.prototype.texIdOffset = 5;
+    MultiMotionStreakAssembler.prototype.isMulti = true;
+    module.exports = exports["default"];
+  }), {
+    "../../../components/CCMotionStreak": 188,
+    "../../../value-types/mat4": 403,
+    "../../render-flow": 323,
+    "../../webgl/vertex-format": 371,
+    "./motion-streak": 347
+  } ],
+  347: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -53333,7 +54659,6 @@
       };
       return _setPrototypeOf(o, p);
     }
-    var MotionStreak = require("../../../components/CCMotionStreak");
     var RenderFlow = require("../../render-flow");
     function Point(point, dir) {
       this.point = point || cc.v2();
@@ -53505,15 +54830,507 @@
       return MotionStreakAssembler;
     })(_assembler2d["default"]);
     exports["default"] = MotionStreakAssembler;
-    MotionStreakAssembler.register(MotionStreak, MotionStreakAssembler);
     module.exports = exports["default"];
   }), {
-    "../../../components/CCMotionStreak": 188,
-    "../../../value-types/mat4": 390,
+    "../../../value-types/mat4": 403,
     "../../assembler-2d": 299,
     "../../render-flow": 323
   } ],
-  345: [ (function(require, module, exports) {
+  348: [ (function(require, module, exports) {
+    "use strict";
+    exports.__esModule = true;
+    exports["default"] = void 0;
+    var _vertexFormat = require("../../../../webgl/vertex-format");
+    var _barFilled = _interopRequireDefault(require("../2d/bar-filled"));
+    function _interopRequireDefault(obj) {
+      return obj && obj.__esModule ? obj : {
+        default: obj
+      };
+    }
+    function _inheritsLoose(subClass, superClass) {
+      subClass.prototype = Object.create(superClass.prototype);
+      subClass.prototype.constructor = subClass;
+      _setPrototypeOf(subClass, superClass);
+    }
+    function _setPrototypeOf(o, p) {
+      _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) {
+        o.__proto__ = p;
+        return o;
+      };
+      return _setPrototypeOf(o, p);
+    }
+    var BarFilledAssemblerMulti = (function(_BarFilledAssembler) {
+      _inheritsLoose(BarFilledAssemblerMulti, _BarFilledAssembler);
+      function BarFilledAssemblerMulti() {
+        return _BarFilledAssembler.apply(this, arguments) || this;
+      }
+      var _proto = BarFilledAssemblerMulti.prototype;
+      _proto.initData = function initData() {
+        var data = this._renderData;
+        data.createFlexData(0, this.verticesCount, this.indicesCount, this.getVfmt());
+        var indices = data.iDatas[0];
+        data.initQuadIndices(indices);
+      };
+      _proto.getVfmt = function getVfmt() {
+        return _vertexFormat.vfmtPosUvColorTexId;
+      };
+      _proto.getBuffer = function getBuffer() {
+        return cc.renderer._handle.getBuffer("mesh", this.getVfmt());
+      };
+      _proto.updateRenderData = function updateRenderData(sprite) {
+        _BarFilledAssembler.prototype.updateRenderData.call(this, sprite);
+        if (sprite._texIdDirty) {
+          sprite._updateMultiTexId(sprite.getMaterial(0), sprite._spriteFrame._texture);
+          if (sprite._texIdDirty) {
+            this.updateTexId(sprite);
+            sprite._texIdDirty = false;
+          }
+        }
+      };
+      _proto.updateRenderDataForSwitchMaterial = function updateRenderDataForSwitchMaterial(sprite) {
+        if (sprite._vertsDirty) {
+          var fillStart = sprite._fillStart;
+          var fillRange = sprite._fillRange;
+          if (fillRange < 0) {
+            fillStart += fillRange;
+            fillRange = -fillRange;
+          }
+          fillRange = fillStart + fillRange;
+          fillStart = fillStart > 1 ? 1 : fillStart;
+          fillStart = fillStart < 0 ? 0 : fillStart;
+          fillRange = fillRange > 1 ? 1 : fillRange;
+          fillRange = fillRange < 0 ? 0 : fillRange;
+          fillRange -= fillStart;
+          fillRange = fillRange < 0 ? 0 : fillRange;
+          var fillEnd = fillStart + fillRange;
+          fillEnd = fillEnd > 1 ? 1 : fillEnd;
+          this.updateUVs(sprite, fillStart, fillEnd);
+          this.updateVerts(sprite, fillStart, fillEnd);
+          sprite._vertsDirty = false;
+        }
+        if (sprite._texIdDirty) {
+          sprite._updateMultiTexId(sprite.getMaterial(0), sprite._spriteFrame._texture);
+          if (sprite._texIdDirty) {
+            this.updateTexId(sprite);
+            sprite._texIdDirty = false;
+          }
+        }
+        true;
+        this._aftUpdateRenderDataForNative();
+      };
+      return BarFilledAssemblerMulti;
+    })(_barFilled["default"]);
+    exports["default"] = BarFilledAssemblerMulti;
+    BarFilledAssemblerMulti.prototype.floatsPerVert = 6;
+    BarFilledAssemblerMulti.prototype.texIdOffset = 5;
+    BarFilledAssemblerMulti.prototype.isMulti = true;
+    module.exports = exports["default"];
+  }), {
+    "../../../../webgl/vertex-format": 371,
+    "../2d/bar-filled": 354
+  } ],
+  349: [ (function(require, module, exports) {
+    "use strict";
+    exports.__esModule = true;
+    exports["default"] = void 0;
+    var _vertexFormat = require("../../../../webgl/vertex-format");
+    var _mesh = _interopRequireDefault(require("../2d/mesh"));
+    function _interopRequireDefault(obj) {
+      return obj && obj.__esModule ? obj : {
+        default: obj
+      };
+    }
+    function _inheritsLoose(subClass, superClass) {
+      subClass.prototype = Object.create(superClass.prototype);
+      subClass.prototype.constructor = subClass;
+      _setPrototypeOf(subClass, superClass);
+    }
+    function _setPrototypeOf(o, p) {
+      _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) {
+        o.__proto__ = p;
+        return o;
+      };
+      return _setPrototypeOf(o, p);
+    }
+    var MultiMeshSpriteAssembler = (function(_MeshSpriteAssembler) {
+      _inheritsLoose(MultiMeshSpriteAssembler, _MeshSpriteAssembler);
+      function MultiMeshSpriteAssembler() {
+        return _MeshSpriteAssembler.apply(this, arguments) || this;
+      }
+      var _proto = MultiMeshSpriteAssembler.prototype;
+      _proto.getVfmt = function getVfmt() {
+        return _vertexFormat.vfmtPosUvColorTexId;
+      };
+      _proto.getBuffer = function getBuffer() {
+        return cc.renderer._handle.getBuffer("mesh", this.getVfmt());
+      };
+      _proto.updateRenderData = function updateRenderData(sprite) {
+        var frame = sprite.spriteFrame;
+        _MeshSpriteAssembler.prototype.updateRenderData.call(this, sprite);
+        if (frame) {
+          sprite._texIdDirty && sprite._updateMultiTexId(sprite.getMaterial(0), frame._texture);
+          this.updateTexId(sprite);
+          sprite._texIdDirty = false;
+        }
+      };
+      _proto.updateRenderDataForSwitchMaterial = function updateRenderDataForSwitchMaterial(sprite) {
+        var frame = sprite.spriteFrame;
+        if (frame) {
+          var vertices = frame.vertices;
+          if (vertices) {
+            this.verticesCount = vertices.x.length;
+            this.indicesCount = vertices.triangles.length;
+            var renderData = this._renderData;
+            var flexBuffer = renderData._flexBuffer;
+            if (flexBuffer.reserve(this.verticesCount, this.indicesCount)) {
+              this.updateColor(sprite);
+              sprite._vertsDirty = true;
+            }
+            flexBuffer.used(this.verticesCount, this.indicesCount);
+            this.updateIndices(vertices.triangles);
+            if (sprite._vertsDirty) {
+              this.updateUVs(sprite);
+              this.updateVerts(sprite);
+              this.updateWorldVerts(sprite);
+              sprite._vertsDirty = false;
+            }
+          }
+        }
+        sprite._texIdDirty && sprite._updateMultiTexId(sprite.getMaterial(0), frame._texture);
+        this.updateTexId(sprite);
+        sprite._texIdDirty = false;
+        true;
+        this._aftUpdateRenderDataForNative();
+      };
+      return MultiMeshSpriteAssembler;
+    })(_mesh["default"]);
+    exports["default"] = MultiMeshSpriteAssembler;
+    MultiMeshSpriteAssembler.prototype.floatsPerVert = 6;
+    MultiMeshSpriteAssembler.prototype.texIdOffset = 5;
+    MultiMeshSpriteAssembler.prototype.isMulti = true;
+    module.exports = exports["default"];
+  }), {
+    "../../../../webgl/vertex-format": 371,
+    "../2d/mesh": 355
+  } ],
+  350: [ (function(require, module, exports) {
+    "use strict";
+    exports.__esModule = true;
+    exports["default"] = void 0;
+    var _vertexFormat = require("../../../../webgl/vertex-format");
+    var _radialFilled = _interopRequireDefault(require("../2d/radial-filled"));
+    function _interopRequireDefault(obj) {
+      return obj && obj.__esModule ? obj : {
+        default: obj
+      };
+    }
+    function _inheritsLoose(subClass, superClass) {
+      subClass.prototype = Object.create(superClass.prototype);
+      subClass.prototype.constructor = subClass;
+      _setPrototypeOf(subClass, superClass);
+    }
+    function _setPrototypeOf(o, p) {
+      _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) {
+        o.__proto__ = p;
+        return o;
+      };
+      return _setPrototypeOf(o, p);
+    }
+    var MultiRadialFilledAssembler = (function(_RadialFilledAssemble) {
+      _inheritsLoose(MultiRadialFilledAssembler, _RadialFilledAssemble);
+      function MultiRadialFilledAssembler() {
+        return _RadialFilledAssemble.apply(this, arguments) || this;
+      }
+      var _proto = MultiRadialFilledAssembler.prototype;
+      _proto.initData = function initData(sprite) {
+        this._renderData.createFlexData(0, 4, 6, this.getVfmt());
+        this.updateIndices();
+      };
+      _proto.getVfmt = function getVfmt() {
+        return _vertexFormat.vfmtPosUvColorTexId;
+      };
+      _proto.getBuffer = function getBuffer() {
+        return cc.renderer._handle.getBuffer("mesh", this.getVfmt());
+      };
+      _proto.updateRenderData = function updateRenderData(sprite) {
+        _RadialFilledAssemble.prototype.updateRenderData.call(this, sprite);
+        sprite._texIdDirty && sprite._updateMultiTexId(sprite.getMaterial(0), sprite.spriteFrame._texture);
+        this.updateTexId(sprite);
+        sprite._texIdDirty = false;
+      };
+      _proto.updateRenderDataForSwitchMaterial = function updateRenderDataForSwitchMaterial(sprite) {
+        this._aftUpdateRenderData(sprite);
+        sprite._texIdDirty && sprite._updateMultiTexId(sprite.getMaterial(0), sprite.spriteFrame._texture);
+        this.updateTexId(sprite);
+        sprite._texIdDirty = false;
+        true;
+        this._aftUpdateRenderDataForNative();
+      };
+      return MultiRadialFilledAssembler;
+    })(_radialFilled["default"]);
+    exports["default"] = MultiRadialFilledAssembler;
+    MultiRadialFilledAssembler.prototype.floatsPerVert = 6;
+    MultiRadialFilledAssembler.prototype.texIdOffset = 5;
+    MultiRadialFilledAssembler.prototype.isMulti = true;
+    module.exports = exports["default"];
+  }), {
+    "../../../../webgl/vertex-format": 371,
+    "../2d/radial-filled": 356
+  } ],
+  351: [ (function(require, module, exports) {
+    "use strict";
+    exports.__esModule = true;
+    exports["default"] = void 0;
+    var _vertexFormat = require("../../../../webgl/vertex-format");
+    var _simple = _interopRequireDefault(require("../2d/simple"));
+    function _interopRequireDefault(obj) {
+      return obj && obj.__esModule ? obj : {
+        default: obj
+      };
+    }
+    function _inheritsLoose(subClass, superClass) {
+      subClass.prototype = Object.create(superClass.prototype);
+      subClass.prototype.constructor = subClass;
+      _setPrototypeOf(subClass, superClass);
+    }
+    function _setPrototypeOf(o, p) {
+      _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) {
+        o.__proto__ = p;
+        return o;
+      };
+      return _setPrototypeOf(o, p);
+    }
+    var MultiSimpleSpriteAssembler = (function(_SimpleSpriteAssemble) {
+      _inheritsLoose(MultiSimpleSpriteAssembler, _SimpleSpriteAssemble);
+      function MultiSimpleSpriteAssembler() {
+        return _SimpleSpriteAssemble.apply(this, arguments) || this;
+      }
+      var _proto = MultiSimpleSpriteAssembler.prototype;
+      _proto.initData = function initData() {
+        var data = this._renderData;
+        data.createFlexData(0, this.verticesCount, this.indicesCount, this.getVfmt());
+        var indices = data.iDatas[0];
+        data.initQuadIndices(indices);
+      };
+      _proto.getVfmt = function getVfmt() {
+        return _vertexFormat.vfmtPosUvColorTexId;
+      };
+      _proto.getBuffer = function getBuffer() {
+        return cc.renderer._handle.getBuffer("mesh", this.getVfmt());
+      };
+      _proto.updateRenderData = function updateRenderData(sprite) {
+        _SimpleSpriteAssemble.prototype.updateRenderData.call(this, sprite);
+        if (sprite._texIdDirty) {
+          sprite._updateMultiTexId(sprite.getMaterial(0), sprite._spriteFrame._texture);
+          if (sprite._texIdDirty) {
+            this.updateTexId(sprite);
+            sprite._texIdDirty = false;
+          }
+        }
+      };
+      _proto.updateRenderDataForSwitchMaterial = function updateRenderDataForSwitchMaterial(sprite) {
+        if (sprite._vertsDirty) {
+          this.updateUVs(sprite);
+          this.updateVerts(sprite);
+          sprite._vertsDirty = false;
+        }
+        if (sprite._texIdDirty) {
+          sprite._updateMultiTexId(sprite.getMaterial(0), sprite._spriteFrame._texture);
+          if (sprite._texIdDirty) {
+            this.updateTexId(sprite);
+            sprite._texIdDirty = false;
+          }
+        }
+        true;
+        this._aftUpdateRenderDataForNative();
+      };
+      return MultiSimpleSpriteAssembler;
+    })(_simple["default"]);
+    exports["default"] = MultiSimpleSpriteAssembler;
+    MultiSimpleSpriteAssembler.prototype.floatsPerVert = 6;
+    MultiSimpleSpriteAssembler.prototype.texIdOffset = 5;
+    MultiSimpleSpriteAssembler.prototype.isMulti = true;
+    module.exports = exports["default"];
+  }), {
+    "../../../../webgl/vertex-format": 371,
+    "../2d/simple": 357
+  } ],
+  352: [ (function(require, module, exports) {
+    "use strict";
+    exports.__esModule = true;
+    exports["default"] = void 0;
+    var _vertexFormat = require("../../../../webgl/vertex-format");
+    var _sliced = _interopRequireDefault(require("../2d/sliced"));
+    function _interopRequireDefault(obj) {
+      return obj && obj.__esModule ? obj : {
+        default: obj
+      };
+    }
+    function _inheritsLoose(subClass, superClass) {
+      subClass.prototype = Object.create(superClass.prototype);
+      subClass.prototype.constructor = subClass;
+      _setPrototypeOf(subClass, superClass);
+    }
+    function _setPrototypeOf(o, p) {
+      _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) {
+        o.__proto__ = p;
+        return o;
+      };
+      return _setPrototypeOf(o, p);
+    }
+    var MultiSlicedAssembler = (function(_SlicedAssembler) {
+      _inheritsLoose(MultiSlicedAssembler, _SlicedAssembler);
+      function MultiSlicedAssembler() {
+        return _SlicedAssembler.apply(this, arguments) || this;
+      }
+      var _proto = MultiSlicedAssembler.prototype;
+      _proto.initData = function initData(sprite) {
+        if (this._renderData.meshCount > 0) return;
+        this._renderData.createFlexData(0, this.verticesCount, this.indicesCount, this.getVfmt());
+        var indices = this._renderData.iDatas[0];
+        var indexOffset = 0;
+        for (var r = 0; r < 3; ++r) for (var c = 0; c < 3; ++c) {
+          var start = 4 * r + c;
+          indices[indexOffset++] = start;
+          indices[indexOffset++] = start + 1;
+          indices[indexOffset++] = start + 4;
+          indices[indexOffset++] = start + 1;
+          indices[indexOffset++] = start + 5;
+          indices[indexOffset++] = start + 4;
+        }
+      };
+      _proto.getVfmt = function getVfmt() {
+        return _vertexFormat.vfmtPosUvColorTexId;
+      };
+      _proto.getBuffer = function getBuffer() {
+        return cc.renderer._handle.getBuffer("mesh", this.getVfmt());
+      };
+      _proto.updateRenderData = function updateRenderData(sprite) {
+        _SlicedAssembler.prototype.updateRenderData.call(this, sprite);
+        if (sprite._texIdDirty) {
+          sprite._updateMultiTexId(sprite.getMaterial(0), sprite._spriteFrame._texture);
+          if (sprite._texIdDirty) {
+            this.updateTexId(sprite);
+            sprite._texIdDirty = false;
+          }
+        }
+      };
+      _proto.updateRenderDataForSwitchMaterial = function updateRenderDataForSwitchMaterial(sprite) {
+        if (sprite._vertsDirty) {
+          this.updateUVs(sprite);
+          this.updateVerts(sprite);
+          sprite._vertsDirty = false;
+        }
+        if (sprite._texIdDirty) {
+          sprite._updateMultiTexId(sprite.getMaterial(0), sprite._spriteFrame._texture);
+          if (sprite._texIdDirty) {
+            this.updateTexId(sprite);
+            sprite._texIdDirty = false;
+          }
+        }
+        true;
+        this._aftUpdateRenderDataForNative();
+      };
+      return MultiSlicedAssembler;
+    })(_sliced["default"]);
+    exports["default"] = MultiSlicedAssembler;
+    MultiSlicedAssembler.prototype.floatsPerVert = 6;
+    MultiSlicedAssembler.prototype.texIdOffset = 5;
+    MultiSlicedAssembler.prototype.isMulti = true;
+    module.exports = exports["default"];
+  }), {
+    "../../../../webgl/vertex-format": 371,
+    "../2d/sliced": 358
+  } ],
+  353: [ (function(require, module, exports) {
+    "use strict";
+    exports.__esModule = true;
+    exports["default"] = void 0;
+    var _vertexFormat = require("../../../../webgl/vertex-format");
+    var _tiled = _interopRequireDefault(require("../2d/tiled"));
+    function _interopRequireDefault(obj) {
+      return obj && obj.__esModule ? obj : {
+        default: obj
+      };
+    }
+    function _inheritsLoose(subClass, superClass) {
+      subClass.prototype = Object.create(superClass.prototype);
+      subClass.prototype.constructor = subClass;
+      _setPrototypeOf(subClass, superClass);
+    }
+    function _setPrototypeOf(o, p) {
+      _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) {
+        o.__proto__ = p;
+        return o;
+      };
+      return _setPrototypeOf(o, p);
+    }
+    var MultiTiledAssembler = (function(_TiledAssembler) {
+      _inheritsLoose(MultiTiledAssembler, _TiledAssembler);
+      function MultiTiledAssembler() {
+        return _TiledAssembler.apply(this, arguments) || this;
+      }
+      var _proto = MultiTiledAssembler.prototype;
+      _proto.getVfmt = function getVfmt() {
+        return _vertexFormat.vfmtPosUvColorTexId;
+      };
+      _proto.getBuffer = function getBuffer() {
+        return cc.renderer._handle.getBuffer("mesh", this.getVfmt());
+      };
+      _proto.updateRenderData = function updateRenderData(sprite) {
+        _TiledAssembler.prototype.updateRenderData.call(this, sprite);
+        sprite._texIdDirty && sprite._updateMultiTexId(sprite.getMaterial(0), sprite.spriteFrame._texture);
+        this.updateTexId(sprite);
+        sprite._texIdDirty = false;
+      };
+      _proto.updateRenderDataForSwitchMaterial = function updateRenderDataForSwitchMaterial(sprite) {
+        var frame = sprite._spriteFrame;
+        var node = sprite.node;
+        var contentWidth = this.contentWidth = Math.abs(node.width);
+        var contentHeight = this.contentHeight = Math.abs(node.height);
+        var rect = frame._rect;
+        var leftWidth = frame.insetLeft, rightWidth = frame.insetRight, centerWidth = rect.width - leftWidth - rightWidth, topHeight = frame.insetTop, bottomHeight = frame.insetBottom, centerHeight = rect.height - topHeight - bottomHeight;
+        this.sizableWidth = contentWidth - leftWidth - rightWidth;
+        this.sizableHeight = contentHeight - topHeight - bottomHeight;
+        this.sizableWidth = this.sizableWidth > 0 ? this.sizableWidth : 0;
+        this.sizableHeight = this.sizableHeight > 0 ? this.sizableHeight : 0;
+        var hRepeat = this.hRepeat = 0 === centerWidth ? this.sizableWidth : this.sizableWidth / centerWidth;
+        var vRepeat = this.vRepeat = 0 === centerHeight ? this.sizableHeight : this.sizableHeight / centerHeight;
+        var row = this.row = Math.ceil(vRepeat + 2);
+        var col = this.col = Math.ceil(hRepeat + 2);
+        var count = row * col;
+        this.verticesCount = 4 * count;
+        this.indicesCount = 6 * count;
+        var renderData = this._renderData;
+        var flexBuffer = renderData._flexBuffer;
+        if (flexBuffer.reserve(this.verticesCount, this.indicesCount)) {
+          this._updateIndices();
+          this.updateColor(sprite);
+        }
+        flexBuffer.used(this.verticesCount, this.indicesCount);
+        if (sprite._vertsDirty) {
+          this.updateUVs(sprite);
+          this.updateVerts(sprite);
+          sprite._vertsDirty = false;
+        }
+        sprite._texIdDirty && sprite._updateMultiTexId(sprite.getMaterial(0), sprite.spriteFrame._texture);
+        this.updateTexId(sprite);
+        sprite._texIdDirty = false;
+        true;
+        this._aftUpdateRenderDataForNative();
+      };
+      return MultiTiledAssembler;
+    })(_tiled["default"]);
+    exports["default"] = MultiTiledAssembler;
+    MultiTiledAssembler.prototype.floatsPerVert = 6;
+    MultiTiledAssembler.prototype.texIdOffset = 5;
+    MultiTiledAssembler.prototype.isMulti = true;
+    module.exports = exports["default"];
+  }), {
+    "../../../../webgl/vertex-format": 371,
+    "../2d/tiled": 359
+  } ],
+  354: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -53545,26 +55362,28 @@
       var _proto = BarFilledAssembler.prototype;
       _proto.updateRenderData = function updateRenderData(sprite) {
         var frame = sprite._spriteFrame;
-        this.packToDynamicAtlas(sprite, frame);
-        if (!sprite._vertsDirty) return;
-        var fillStart = sprite._fillStart;
-        var fillRange = sprite._fillRange;
-        if (fillRange < 0) {
-          fillStart += fillRange;
-          fillRange = -fillRange;
+        var assemblerChanged = this.packDynamicAtlasAndCheckMaterial(sprite, frame);
+        if (!assemblerChanged && sprite._vertsDirty) {
+          var fillStart = sprite._fillStart;
+          var fillRange = sprite._fillRange;
+          if (fillRange < 0) {
+            fillStart += fillRange;
+            fillRange = -fillRange;
+          }
+          fillRange = fillStart + fillRange;
+          fillStart = fillStart > 1 ? 1 : fillStart;
+          fillStart = fillStart < 0 ? 0 : fillStart;
+          fillRange = fillRange > 1 ? 1 : fillRange;
+          fillRange = fillRange < 0 ? 0 : fillRange;
+          fillRange -= fillStart;
+          fillRange = fillRange < 0 ? 0 : fillRange;
+          var fillEnd = fillStart + fillRange;
+          fillEnd = fillEnd > 1 ? 1 : fillEnd;
+          this.updateUVs(sprite, fillStart, fillEnd);
+          this.updateVerts(sprite, fillStart, fillEnd);
+          sprite._vertsDirty = false;
         }
-        fillRange = fillStart + fillRange;
-        fillStart = fillStart > 1 ? 1 : fillStart;
-        fillStart = fillStart < 0 ? 0 : fillStart;
-        fillRange = fillRange > 1 ? 1 : fillRange;
-        fillRange = fillRange < 0 ? 0 : fillRange;
-        fillRange -= fillStart;
-        fillRange = fillRange < 0 ? 0 : fillRange;
-        var fillEnd = fillStart + fillRange;
-        fillEnd = fillEnd > 1 ? 1 : fillEnd;
-        this.updateUVs(sprite, fillStart, fillEnd);
-        this.updateVerts(sprite, fillStart, fillEnd);
-        sprite._vertsDirty = false;
+        return assemblerChanged;
       };
       _proto.updateUVs = function updateUVs(sprite, fillStart, fillEnd) {
         var spriteFrame = sprite._spriteFrame;
@@ -53659,7 +55478,7 @@
     "../../../../../components/CCSprite": 198,
     "../../../../assembler-2d": 299
   } ],
-  346: [ (function(require, module, exports) {
+  355: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -53691,9 +55510,9 @@
         this._renderData.createFlexData(0, 4, 6, this.getVfmt());
       };
       _proto.updateRenderData = function updateRenderData(sprite) {
-        this.packToDynamicAtlas(sprite, sprite._spriteFrame);
         var frame = sprite.spriteFrame;
-        if (frame) {
+        var assemblerChanged = this.packDynamicAtlasAndCheckMaterial(sprite, frame);
+        if (!assemblerChanged && frame) {
           var vertices = frame.vertices;
           if (vertices) {
             this.verticesCount = vertices.x.length;
@@ -53714,6 +55533,7 @@
             }
           }
         }
+        return assemblerChanged;
       };
       _proto.updateIndices = function updateIndices(triangles) {
         this._renderData.iDatas[0].set(triangles);
@@ -53768,7 +55588,7 @@
   }), {
     "../../../../assembler-2d": 299
   } ],
-  347: [ (function(require, module, exports) {
+  356: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -53897,7 +55717,12 @@
       _proto.updateRenderData = function updateRenderData(sprite) {
         _Assembler2D.prototype.updateRenderData.call(this, sprite);
         var frame = sprite.spriteFrame;
-        this.packToDynamicAtlas(sprite, frame);
+        var assemblerChanged = this.packDynamicAtlasAndCheckMaterial(sprite, frame);
+        assemblerChanged || this._aftUpdateRenderData(sprite);
+        return assemblerChanged;
+      };
+      _proto._aftUpdateRenderData = function _aftUpdateRenderData(sprite) {
+        var frame = sprite.spriteFrame;
         if (sprite._vertsDirty) {
           var fillStart = sprite._fillStart;
           var fillRange = sprite._fillRange;
@@ -54036,7 +55861,7 @@
   }), {
     "../../../../assembler-2d": 299
   } ],
-  348: [ (function(require, module, exports) {
+  357: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -54065,12 +55890,13 @@
       }
       var _proto = SimpleSpriteAssembler.prototype;
       _proto.updateRenderData = function updateRenderData(sprite) {
-        this.packToDynamicAtlas(sprite, sprite._spriteFrame);
-        if (sprite._vertsDirty) {
+        var assemblerChanged = this.packDynamicAtlasAndCheckMaterial(sprite, sprite._spriteFrame);
+        if (!assemblerChanged && sprite._vertsDirty) {
           this.updateUVs(sprite);
           this.updateVerts(sprite);
           sprite._vertsDirty = false;
         }
+        return assemblerChanged;
       };
       _proto.updateUVs = function updateUVs(sprite) {
         var uv = sprite._spriteFrame.uv;
@@ -54116,7 +55942,7 @@
   }), {
     "../../../../assembler-2d": 299
   } ],
-  349: [ (function(require, module, exports) {
+  358: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -54165,12 +55991,13 @@
       };
       _proto.updateRenderData = function updateRenderData(sprite) {
         var frame = sprite._spriteFrame;
-        this.packToDynamicAtlas(sprite, frame);
-        if (sprite._vertsDirty) {
+        var assemblerChanged = this.packDynamicAtlasAndCheckMaterial(sprite, frame);
+        if (!assemblerChanged && sprite._vertsDirty) {
           this.updateUVs(sprite);
           this.updateVerts(sprite);
           sprite._vertsDirty = false;
         }
+        return assemblerChanged;
       };
       _proto.updateVerts = function updateVerts(sprite) {
         var node = sprite.node, width = node.width, height = node.height, appx = node.anchorX * width, appy = node.anchorY * height;
@@ -54238,7 +56065,7 @@
   }), {
     "../../../../assembler-2d": 299
   } ],
-  350: [ (function(require, module, exports) {
+  359: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -54298,35 +56125,38 @@
       };
       _proto.updateRenderData = function updateRenderData(sprite) {
         var frame = sprite._spriteFrame;
-        this.packToDynamicAtlas(sprite, frame);
-        var node = sprite.node;
-        var contentWidth = this.contentWidth = Math.abs(node.width);
-        var contentHeight = this.contentHeight = Math.abs(node.height);
-        var rect = frame._rect;
-        var leftWidth = frame.insetLeft, rightWidth = frame.insetRight, centerWidth = rect.width - leftWidth - rightWidth, topHeight = frame.insetTop, bottomHeight = frame.insetBottom, centerHeight = rect.height - topHeight - bottomHeight;
-        this.sizableWidth = contentWidth - leftWidth - rightWidth;
-        this.sizableHeight = contentHeight - topHeight - bottomHeight;
-        this.sizableWidth = this.sizableWidth > 0 ? this.sizableWidth : 0;
-        this.sizableHeight = this.sizableHeight > 0 ? this.sizableHeight : 0;
-        var hRepeat = this.hRepeat = 0 === centerWidth ? this.sizableWidth : this.sizableWidth / centerWidth;
-        var vRepeat = this.vRepeat = 0 === centerHeight ? this.sizableHeight : this.sizableHeight / centerHeight;
-        var row = this.row = Math.ceil(vRepeat + 2);
-        var col = this.col = Math.ceil(hRepeat + 2);
-        var count = row * col;
-        this.verticesCount = 4 * count;
-        this.indicesCount = 6 * count;
-        var renderData = this._renderData;
-        var flexBuffer = renderData._flexBuffer;
-        if (flexBuffer.reserve(this.verticesCount, this.indicesCount)) {
-          this._updateIndices();
-          this.updateColor(sprite);
+        var assemblerChanged = this.packDynamicAtlasAndCheckMaterial(sprite, frame);
+        if (!assemblerChanged) {
+          var node = sprite.node;
+          var contentWidth = this.contentWidth = Math.abs(node.width);
+          var contentHeight = this.contentHeight = Math.abs(node.height);
+          var rect = frame._rect;
+          var leftWidth = frame.insetLeft, rightWidth = frame.insetRight, centerWidth = rect.width - leftWidth - rightWidth, topHeight = frame.insetTop, bottomHeight = frame.insetBottom, centerHeight = rect.height - topHeight - bottomHeight;
+          this.sizableWidth = contentWidth - leftWidth - rightWidth;
+          this.sizableHeight = contentHeight - topHeight - bottomHeight;
+          this.sizableWidth = this.sizableWidth > 0 ? this.sizableWidth : 0;
+          this.sizableHeight = this.sizableHeight > 0 ? this.sizableHeight : 0;
+          var hRepeat = this.hRepeat = 0 === centerWidth ? this.sizableWidth : this.sizableWidth / centerWidth;
+          var vRepeat = this.vRepeat = 0 === centerHeight ? this.sizableHeight : this.sizableHeight / centerHeight;
+          var row = this.row = Math.ceil(vRepeat + 2);
+          var col = this.col = Math.ceil(hRepeat + 2);
+          var count = row * col;
+          this.verticesCount = 4 * count;
+          this.indicesCount = 6 * count;
+          var renderData = this._renderData;
+          var flexBuffer = renderData._flexBuffer;
+          if (flexBuffer.reserve(this.verticesCount, this.indicesCount)) {
+            this._updateIndices();
+            this.updateColor(sprite);
+          }
+          flexBuffer.used(this.verticesCount, this.indicesCount);
+          if (sprite._vertsDirty) {
+            this.updateUVs(sprite);
+            this.updateVerts(sprite);
+            sprite._vertsDirty = false;
+          }
         }
-        flexBuffer.used(this.verticesCount, this.indicesCount);
-        if (sprite._vertsDirty) {
-          this.updateUVs(sprite);
-          this.updateVerts(sprite);
-          sprite._vertsDirty = false;
-        }
+        return assemblerChanged;
       };
       _proto.updateVerts = function updateVerts(sprite) {
         var frame = sprite._spriteFrame;
@@ -54476,7 +56306,7 @@
   }), {
     "../../../../assembler-2d": 299
   } ],
-  351: [ (function(require, module, exports) {
+  360: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -54506,9 +56336,9 @@
     module.exports = exports["default"];
   }), {
     "../../../../assembler-3d": 300,
-    "../2d/bar-filled": 345
+    "../2d/bar-filled": 354
   } ],
-  352: [ (function(require, module, exports) {
+  361: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -54559,11 +56389,11 @@
     });
     module.exports = exports["default"];
   }), {
-    "../../../../../value-types/vec3": 398,
+    "../../../../../value-types/vec3": 411,
     "../../../../assembler-3d": 300,
-    "../2d/mesh": 346
+    "../2d/mesh": 355
   } ],
-  353: [ (function(require, module, exports) {
+  362: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -54614,11 +56444,11 @@
     });
     module.exports = exports["default"];
   }), {
-    "../../../../../value-types/vec3": 398,
+    "../../../../../value-types/vec3": 411,
     "../../../../assembler-3d": 300,
-    "../2d/radial-filled": 347
+    "../2d/radial-filled": 356
   } ],
-  354: [ (function(require, module, exports) {
+  363: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -54648,9 +56478,9 @@
     module.exports = exports["default"];
   }), {
     "../../../../assembler-3d": 300,
-    "../2d/simple": 348
+    "../2d/simple": 357
   } ],
-  355: [ (function(require, module, exports) {
+  364: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -54706,11 +56536,11 @@
     });
     module.exports = exports["default"];
   }), {
-    "../../../../../value-types/vec3": 398,
+    "../../../../../value-types/vec3": 411,
     "../../../../assembler-3d": 300,
-    "../2d/sliced": 349
+    "../2d/sliced": 358
   } ],
-  356: [ (function(require, module, exports) {
+  365: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -54778,11 +56608,11 @@
     });
     module.exports = exports["default"];
   }), {
-    "../../../../../value-types/vec3": 398,
+    "../../../../../value-types/vec3": 411,
     "../../../../assembler-3d": 300,
-    "../2d/tiled": 350
+    "../2d/tiled": 359
   } ],
-  357: [ (function(require, module, exports) {
+  366: [ (function(require, module, exports) {
     "use strict";
     var _assembler = _interopRequireDefault(require("../../../assembler"));
     var _CCSprite = require("../../../../components/CCSprite");
@@ -54798,6 +56628,12 @@
     var _radialFilled2 = _interopRequireDefault(require("./3d/radial-filled"));
     var _barFilled2 = _interopRequireDefault(require("./3d/bar-filled"));
     var _mesh2 = _interopRequireDefault(require("./3d/mesh"));
+    var _simple3 = _interopRequireDefault(require("./2d-multi/simple"));
+    var _sliced3 = _interopRequireDefault(require("./2d-multi/sliced"));
+    var _tiled3 = _interopRequireDefault(require("./2d-multi/tiled"));
+    var _radialFilled3 = _interopRequireDefault(require("./2d-multi/radial-filled"));
+    var _barFilled3 = _interopRequireDefault(require("./2d-multi/bar-filled"));
+    var _mesh3 = _interopRequireDefault(require("./2d-multi/mesh"));
     function _interopRequireDefault(obj) {
       return obj && obj.__esModule ? obj : {
         default: obj
@@ -54806,22 +56642,24 @@
     var ctor = {
       getConstructor: function getConstructor(sprite) {
         var is3DNode = sprite.node.is3DNode;
-        var ctor = is3DNode ? _simple2["default"] : _simple["default"];
+        var material = sprite.getMaterials()[0];
+        var isMultiMaterial = material && material.material.isMultiSupport();
+        var ctor = is3DNode ? _simple2["default"] : isMultiMaterial ? _simple3["default"] : _simple["default"];
         switch (sprite.type) {
          case _CCSprite.Type.SLICED:
-          ctor = is3DNode ? _sliced2["default"] : _sliced["default"];
+          ctor = is3DNode ? _sliced2["default"] : isMultiMaterial ? _sliced3["default"] : _sliced["default"];
           break;
 
          case _CCSprite.Type.TILED:
-          ctor = is3DNode ? _tiled2["default"] : _tiled["default"];
+          ctor = is3DNode ? _tiled2["default"] : isMultiMaterial ? _tiled3["default"] : _tiled["default"];
           break;
 
          case _CCSprite.Type.FILLED:
-          ctor = sprite._fillType === _CCSprite.FillType.RADIAL ? is3DNode ? _radialFilled2["default"] : _radialFilled["default"] : is3DNode ? _barFilled2["default"] : _barFilled["default"];
+          ctor = sprite._fillType === _CCSprite.FillType.RADIAL ? is3DNode ? _radialFilled2["default"] : isMultiMaterial ? _radialFilled3["default"] : _radialFilled["default"] : is3DNode ? _barFilled2["default"] : isMultiMaterial ? _barFilled3["default"] : _barFilled["default"];
           break;
 
          case _CCSprite.Type.MESH:
-          ctor = is3DNode ? _mesh2["default"] : _mesh["default"];
+          ctor = is3DNode ? _mesh2["default"] : isMultiMaterial ? _mesh3["default"] : _mesh["default"];
         }
         return ctor;
       },
@@ -54836,26 +56674,38 @@
       Tiled3D: _tiled2["default"],
       RadialFilled3D: _radialFilled2["default"],
       BarFilled3D: _barFilled2["default"],
-      Mesh3D: _mesh2["default"]
+      Mesh3D: _mesh2["default"],
+      SimpleMulti: _simple3["default"],
+      SlicedMulti: _sliced3["default"],
+      TiledMulti: _tiled3["default"],
+      RadialFilledMulti: _radialFilled3["default"],
+      BarFilledMulti: _barFilled3["default"],
+      MeshMulti: _mesh3["default"]
     };
     _assembler["default"].register(cc.Sprite, ctor);
   }), {
     "../../../../components/CCSprite": 198,
     "../../../assembler": 302,
-    "./2d/bar-filled": 345,
-    "./2d/mesh": 346,
-    "./2d/radial-filled": 347,
-    "./2d/simple": 348,
-    "./2d/sliced": 349,
-    "./2d/tiled": 350,
-    "./3d/bar-filled": 351,
-    "./3d/mesh": 352,
-    "./3d/radial-filled": 353,
-    "./3d/simple": 354,
-    "./3d/sliced": 355,
-    "./3d/tiled": 356
+    "./2d-multi/bar-filled": 348,
+    "./2d-multi/mesh": 349,
+    "./2d-multi/radial-filled": 350,
+    "./2d-multi/simple": 351,
+    "./2d-multi/sliced": 352,
+    "./2d-multi/tiled": 353,
+    "./2d/bar-filled": 354,
+    "./2d/mesh": 355,
+    "./2d/radial-filled": 356,
+    "./2d/simple": 357,
+    "./2d/sliced": 358,
+    "./2d/tiled": 359,
+    "./3d/bar-filled": 360,
+    "./3d/mesh": 361,
+    "./3d/radial-filled": 362,
+    "./3d/simple": 363,
+    "./3d/sliced": 364,
+    "./3d/tiled": 365
   } ],
-  358: [ (function(require, module, exports) {
+  367: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -54918,7 +56768,7 @@
     cc.FlexBuffer = FlexBuffer;
     module.exports = exports["default"];
   }), {} ],
-  359: [ (function(require, module, exports) {
+  368: [ (function(require, module, exports) {
     "use strict";
     var _gfx = _interopRequireDefault(require("../../../renderer/gfx"));
     function _interopRequireDefault(obj) {
@@ -55032,6 +56882,40 @@
         this.requestStatic(vertexCount, indiceCount);
         return this._offsetInfo;
       },
+      requestForSpine: function requestForSpine(vertexCount, indiceCount) {
+        if (this._batcher._buffer !== this) {
+          this._batcher._flush();
+          this._batcher._buffer = this;
+        }
+        this.requestStaticForSpine(vertexCount, indiceCount);
+        return this._offsetInfo;
+      },
+      requestStaticForSpine: function requestStaticForSpine(vertexCount, indiceCount) {
+        this.checkAndSwitchBuffer(vertexCount);
+        var byteOffset = this.byteOffset + vertexCount * this._vertexBytes;
+        var indiceOffset = this.indiceOffset + indiceCount;
+        var byteLength = this._vData.byteLength;
+        var indiceLength = this._iData.length;
+        if (byteOffset > byteLength || indiceOffset > indiceLength) {
+          while (byteLength < byteOffset || indiceLength < indiceOffset) {
+            this._initVDataCount *= 2;
+            this._initIDataCount *= 2;
+            byteLength = 4 * this._initVDataCount;
+            indiceLength = this._initIDataCount;
+          }
+          this._reallocBuffer();
+        }
+        var offsetInfo = this._offsetInfo;
+        offsetInfo.vertexOffset = this.vertexOffset;
+        offsetInfo.indiceOffset = this.indiceOffset;
+        offsetInfo.byteOffset = this.byteOffset;
+      },
+      adjustForSpine: function adjustForSpine(vertexCount, indiceCount) {
+        this.vertexOffset += vertexCount;
+        this.indiceOffset += indiceCount;
+        this.byteOffset = this.byteOffset + vertexCount * this._vertexBytes;
+        this._dirty = true;
+      },
       _reallocBuffer: function _reallocBuffer() {
         this._reallocVData(true);
         this._reallocIData(true);
@@ -55095,9 +56979,9 @@
     }
     cc.MeshBuffer = module.exports = MeshBuffer;
   }), {
-    "../../../renderer/gfx": 414
+    "../../../renderer/gfx": 427
   } ],
-  360: [ (function(require, module, exports) {
+  369: [ (function(require, module, exports) {
     "use strict";
     var MeshBuffer = require("./mesh-buffer");
     var QuadBuffer = cc.Class({
@@ -55137,9 +57021,9 @@
     });
     cc.QuadBuffer = module.exports = QuadBuffer;
   }), {
-    "./mesh-buffer": 359
+    "./mesh-buffer": 368
   } ],
-  361: [ (function(require, module, exports) {
+  370: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = RenderData;
@@ -55204,10 +57088,10 @@
     cc.RenderData = RenderData;
     module.exports = exports["default"];
   }), {
-    "./flex-buffer": 358,
-    "./vertex-format": 362
+    "./flex-buffer": 367,
+    "./vertex-format": 371
   } ],
-  362: [ (function(require, module, exports) {
+  371: [ (function(require, module, exports) {
     "use strict";
     var _gfx = _interopRequireDefault(require("../../../renderer/gfx"));
     function _interopRequireDefault(obj) {
@@ -55247,6 +57131,26 @@
     } ]);
     vfmtPosUvColor.name = "vfmtPosUvColor";
     _gfx["default"].VertexFormat.XY_UV_Color = vfmtPosUvColor;
+    var vfmtPosUvColorTexId = new _gfx["default"].VertexFormat([ {
+      name: _gfx["default"].ATTR_POSITION,
+      type: _gfx["default"].ATTR_TYPE_FLOAT32,
+      num: 2
+    }, {
+      name: _gfx["default"].ATTR_UV0,
+      type: _gfx["default"].ATTR_TYPE_FLOAT32,
+      num: 2
+    }, {
+      name: _gfx["default"].ATTR_COLOR,
+      type: _gfx["default"].ATTR_TYPE_UINT8,
+      num: 4,
+      normalize: true
+    }, {
+      name: _gfx["default"].ATTR_TEX_ID,
+      type: _gfx["default"].ATTR_TYPE_FLOAT32,
+      num: 1
+    } ]);
+    vfmtPosUvColorTexId.name = "vfmtPosUvColorTexId";
+    _gfx["default"].VertexFormat.XY_UV_Color_TexId = vfmtPosUvColorTexId;
     var vfmtPosUvTwoColor = new _gfx["default"].VertexFormat([ {
       name: _gfx["default"].ATTR_POSITION,
       type: _gfx["default"].ATTR_TYPE_FLOAT32,
@@ -55268,6 +57172,31 @@
     } ]);
     vfmtPosUvTwoColor.name = "vfmtPosUvTwoColor";
     _gfx["default"].VertexFormat.XY_UV_Two_Color = vfmtPosUvTwoColor;
+    var vfmtPosUvTwoColorTexId = new _gfx["default"].VertexFormat([ {
+      name: _gfx["default"].ATTR_POSITION,
+      type: _gfx["default"].ATTR_TYPE_FLOAT32,
+      num: 2
+    }, {
+      name: _gfx["default"].ATTR_UV0,
+      type: _gfx["default"].ATTR_TYPE_FLOAT32,
+      num: 2
+    }, {
+      name: _gfx["default"].ATTR_COLOR,
+      type: _gfx["default"].ATTR_TYPE_UINT8,
+      num: 4,
+      normalize: true
+    }, {
+      name: _gfx["default"].ATTR_COLOR0,
+      type: _gfx["default"].ATTR_TYPE_UINT8,
+      num: 4,
+      normalize: true
+    }, {
+      name: _gfx["default"].ATTR_TEX_ID,
+      type: _gfx["default"].ATTR_TYPE_FLOAT32,
+      num: 1
+    } ]);
+    vfmtPosUvTwoColorTexId.name = "vfmtPosUvTwoColorTexId";
+    _gfx["default"].VertexFormat.XY_UV_Two_Color_TexId = vfmtPosUvTwoColorTexId;
     var vfmtPosUv = new _gfx["default"].VertexFormat([ {
       name: _gfx["default"].ATTR_POSITION,
       type: _gfx["default"].ATTR_TYPE_FLOAT32,
@@ -55304,12 +57233,206 @@
       vfmtPosUvTwoColor: vfmtPosUvTwoColor,
       vfmtPosUv: vfmtPosUv,
       vfmtPosColor: vfmtPosColor,
-      vfmtPos: vfmtPos
+      vfmtPos: vfmtPos,
+      vfmtPosUvColorTexId: vfmtPosUvColorTexId,
+      vfmtPosUvTwoColorTexId: vfmtPosUvTwoColorTexId
     };
   }), {
-    "../../../renderer/gfx": 414
+    "../../../renderer/gfx": 427
   } ],
-  363: [ (function(require, module, exports) {
+  372: [ (function(require, module, exports) {
+    "use strict";
+    require("./sp");
+    require("./multi-handler");
+    require("./multi-batcher");
+  }), {
+    "./multi-batcher": 373,
+    "./multi-handler": 374,
+    "./sp": 375
+  } ],
+  373: [ (function(require, module, exports) {
+    "use strict";
+    exports.__esModule = true;
+    exports.MultiBatcher = void 0;
+    var _multiHandler = require("./multi-handler");
+    function _createForOfIteratorHelperLoose(o, allowArrayLike) {
+      var it = "undefined" !== typeof Symbol && o[Symbol.iterator] || o["@@iterator"];
+      if (it) return (it = it.call(o)).next.bind(it);
+      if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && "number" === typeof o.length) {
+        it && (o = it);
+        var i = 0;
+        return function() {
+          if (i >= o.length) return {
+            done: true
+          };
+          return {
+            done: false,
+            value: o[i++]
+          };
+        };
+      }
+      throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+    }
+    function _unsupportedIterableToArray(o, minLen) {
+      if (!o) return;
+      if ("string" === typeof o) return _arrayLikeToArray(o, minLen);
+      var n = Object.prototype.toString.call(o).slice(8, -1);
+      "Object" === n && o.constructor && (n = o.constructor.name);
+      if ("Map" === n || "Set" === n) return Array.from(o);
+      if ("Arguments" === n || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+    }
+    function _arrayLikeToArray(arr, len) {
+      (null == len || len > arr.length) && (len = arr.length);
+      for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i];
+      return arr2;
+    }
+    var MultiBatcher = (function() {
+      function MultiBatcher() {
+        this.handlers = [];
+        this.nextHandler = void 0;
+      }
+      var _proto = MultiBatcher.prototype;
+      _proto.init = function init() {
+        var handler = new _multiHandler.MultiHandler();
+        this.handlers.push(handler);
+        this.nextHandler = handler;
+      };
+      _proto.requsetMaterial = function requsetMaterial(texture) {
+        if (!texture._multiMaterial) {
+          var handler = this.nextHandler;
+          var index = handler.getEmptyIndex();
+          if (-1 === index) {
+            for (var _iterator = _createForOfIteratorHelperLoose(this.handlers), _step; !(_step = _iterator()).done; ) {
+              var _handler = _step.value;
+              index = _handler.getEmptyIndex();
+              if (-1 !== index) {
+                handler = _handler;
+                this.nextHandler = handler;
+                break;
+              }
+            }
+            if (-1 === index) {
+              handler = new _multiHandler.MultiHandler();
+              this.handlers.push(handler);
+              this.nextHandler = handler;
+              index = 0;
+            }
+          }
+          texture.linkMaterial(handler.material, index);
+        }
+        return texture._multiMaterial;
+      };
+      _proto.reset = function reset() {
+        this.handlers.length = 0;
+      };
+      return MultiBatcher;
+    })();
+    exports.MultiBatcher = MultiBatcher;
+    cc.sp.multiBatcher = new MultiBatcher();
+    cc.sp.MultiBatcher = MultiBatcher;
+  }), {
+    "./multi-handler": 374
+  } ],
+  374: [ (function(require, module, exports) {
+    "use strict";
+    exports.__esModule = true;
+    exports.MultiHandler = void 0;
+    var MultiHandler = (function() {
+      function MultiHandler(material) {
+        this.material = void 0;
+        this.textures = [];
+        this.hasEmptySlot = false;
+        if (material) this.material = material; else {
+          this.material = cc.Material.create(cc.sp.multi2dSpriteEffectAsset);
+          this.material.name = "multi-2d-universal";
+          this.material.define("USE_TEXTURE", true);
+          this.material.define("USE_MULTI_TEXTURE", true);
+        }
+        this.material._multiHandler = this;
+        this.syncTextures();
+      }
+      var _proto = MultiHandler.prototype;
+      _proto.syncTextures = function syncTextures() {
+        var effect = this.material["effect"];
+        var properties = effect.passes[0]._properties;
+        this.textures[0] = properties.texture.value;
+        this.textures[1] = properties.texture2.value;
+        this.textures[2] = properties.texture3.value;
+        this.textures[3] = properties.texture4.value;
+        this.textures[4] = properties.texture5.value;
+        this.textures[5] = properties.texture6.value;
+        this.textures[6] = properties.texture7.value;
+        this.textures[7] = properties.texture8.value;
+        this.hasEmptySlot = true;
+        this.getEmptyIndex();
+      };
+      _proto.setTexture = function setTexture(index, texture) {
+        this.textures[index] = texture ? texture.getImpl() : null;
+        this.material.setProperty(cc.sp.propertyIndex2Name(index), texture);
+        null == texture && (this.hasEmptySlot = true);
+      };
+      _proto.removeTexture = function removeTexture(texture) {
+        var index = this.getIndex(texture);
+        -1 !== index && this.setTexture(index, null);
+      };
+      _proto.hasTexture = function hasTexture(texture) {
+        return -1 !== this.textures.indexOf(texture);
+      };
+      _proto.getIndex = function getIndex(texture) {
+        return this.textures.indexOf(texture);
+      };
+      _proto.getTexture = function getTexture(index) {
+        return this.textures[index];
+      };
+      _proto.getEmptyIndex = function getEmptyIndex() {
+        if (!this.hasEmptySlot) return -1;
+        var index = this.textures.indexOf(null);
+        if (-1 !== index) return index;
+        this.hasEmptySlot = false;
+        return -1;
+      };
+      _proto.autoSetTexture = function autoSetTexture(texture) {
+        var index = this.getEmptyIndex();
+        if (-1 === index) return -1;
+        this.setTexture(index, texture);
+        return index;
+      };
+      return MultiHandler;
+    })();
+    exports.MultiHandler = MultiHandler;
+    cc.sp.MultiHandler = MultiHandler;
+  }), {} ],
+  375: [ (function(require, module, exports) {
+    "use strict";
+    cc.sp = {
+      inited: false,
+      version: "1.2.0",
+      MAX_MULTITEXTURE_NUM: -1,
+      autoSwitchMaterial: true,
+      allowDynamicAtlas: true,
+      enableLabelRetina: true,
+      labelRetinaScale: 1,
+      charAtlasAutoBatchCount: 1,
+      charAtlasAutoResetBeforeSceneLoad: true,
+      multi2dSpriteEffectAsset: null,
+      i2nMap: [ "texture" ],
+      n2iMap: {
+        texture: 0
+      },
+      propertyIndex2Name: function propertyIndex2Name(index) {
+        return this.i2nMap[index];
+      },
+      propertyName2Index: function propertyName2Index(name) {
+        return this.n2iMap[name];
+      }
+    };
+    for (var i = 1; i < 8; i++) {
+      var name = "texture" + (i + 1);
+      cc.sp.i2nMap[i] = name;
+      cc.sp.n2iMap[name] = i;
+    }
+  }), {} ],
+  376: [ (function(require, module, exports) {
     "use strict";
     require("../platform/CCSys");
     var EXTNAME_RE = /(\.[^\.\/\?\\]*)(\?.*)?$/;
@@ -55389,7 +57512,7 @@
   }), {
     "../platform/CCSys": 281
   } ],
-  364: [ (function(require, module, exports) {
+  377: [ (function(require, module, exports) {
     "use strict";
     var AffineTransform = function AffineTransform(a, b, c, d, tx, ty) {
       this.a = a;
@@ -55525,7 +57648,7 @@
     };
     cc.AffineTransform = module.exports = AffineTransform;
   }), {} ],
-  365: [ (function(require, module, exports) {
+  378: [ (function(require, module, exports) {
     "use strict";
     var Flags = require("../platform/CCObject").Flags;
     var misc = require("./misc");
@@ -56036,9 +58159,9 @@
     "../platform/id-generater": 290,
     "../platform/js": 294,
     "../renderer/render-flow": 323,
-    "./misc": 373
+    "./misc": 386
   } ],
-  366: [ (function(require, module, exports) {
+  379: [ (function(require, module, exports) {
     "use strict";
     var EPSILON = 1e-6;
     function binarySearchEpsilon(array, value) {
@@ -56055,7 +58178,7 @@
       binarySearchEpsilon: binarySearchEpsilon
     };
   }), {} ],
-  367: [ (function(require, module, exports) {
+  380: [ (function(require, module, exports) {
     "use strict";
     var RenderComponent = require("../components/CCRenderComponent");
     var BlendFactor = require("../platform/CCMacro").BlendFactor;
@@ -56118,11 +58241,11 @@
     });
     module.exports = cc.BlendFunc = BlendFunc;
   }), {
-    "../../renderer/gfx": 414,
+    "../../renderer/gfx": 427,
     "../components/CCRenderComponent": 192,
     "../platform/CCMacro": 277
   } ],
-  368: [ (function(require, module, exports) {
+  381: [ (function(require, module, exports) {
     "use strict";
     var Base64Values = require("./misc").BASE64_VALUES;
     var HexChars = "0123456789abcdef".split("");
@@ -56146,9 +58269,9 @@
     };
     false;
   }), {
-    "./misc": 373
+    "./misc": 386
   } ],
-  369: [ (function(require, module, exports) {
+  382: [ (function(require, module, exports) {
     "use strict";
     cc.find = module.exports = function(path, referenceNode) {
       if (null == path) {
@@ -56192,7 +58315,7 @@
       return match;
     };
   }), {} ],
-  370: [ (function(require, module, exports) {
+  383: [ (function(require, module, exports) {
     "use strict";
     var _materialVariant = _interopRequireDefault(require("../assets/material/material-variant"));
     function _interopRequireDefault(obj) {
@@ -56249,7 +58372,7 @@
     "../assets/material/CCMaterial": 156,
     "../assets/material/material-variant": 163
   } ],
-  371: [ (function(require, module, exports) {
+  384: [ (function(require, module, exports) {
     "use strict";
     var eventRegx = /^(click)(\s)*=|(param)(\s)*=/;
     var imageAttrReg = /(\s)*src(\s)*=|(\s)*height(\s)*=|(\s)*width(\s)*=|(\s)*align(\s)*=|(\s)*offset(\s)*=|(\s)*click(\s)*=|(\s)*param(\s)*=/;
@@ -56502,7 +58625,7 @@
     false;
     module.exports = HtmlTextParser;
   }), {} ],
-  372: [ (function(require, module, exports) {
+  385: [ (function(require, module, exports) {
     "use strict";
     require("./CCPath");
     true;
@@ -56510,12 +58633,12 @@
     require("./find");
     require("./mutable-forward-iterator");
   }), {
-    "./CCPath": 363,
-    "./find": 369,
-    "./mutable-forward-iterator": 374,
-    "./profiler/CCProfiler": 377
+    "./CCPath": 376,
+    "./find": 382,
+    "./mutable-forward-iterator": 387,
+    "./profiler/CCProfiler": 390
   } ],
-  373: [ (function(require, module, exports) {
+  386: [ (function(require, module, exports) {
     "use strict";
     var js = require("../platform/js");
     var misc = {};
@@ -56591,7 +58714,7 @@
   }), {
     "../platform/js": 294
   } ],
-  374: [ (function(require, module, exports) {
+  387: [ (function(require, module, exports) {
     "use strict";
     function MutableForwardIterator(array) {
       this.i = 0;
@@ -56621,7 +58744,7 @@
     };
     module.exports = MutableForwardIterator;
   }), {} ],
-  375: [ (function(require, module, exports) {
+  388: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -56644,7 +58767,7 @@
     };
     module.exports = exports["default"];
   }), {} ],
-  376: [ (function(require, module, exports) {
+  389: [ (function(require, module, exports) {
     "use strict";
     cc._PrefabInfo = cc.Class({
       name: "cc.PrefabInfo",
@@ -56701,7 +58824,7 @@
       }
     };
   }), {} ],
-  377: [ (function(require, module, exports) {
+  390: [ (function(require, module, exports) {
     "use strict";
     var macro = require("../../platform/CCMacro");
     var PerfCounter = require("./perf-counter");
@@ -56843,9 +58966,9 @@
     };
   }), {
     "../../platform/CCMacro": 277,
-    "./perf-counter": 379
+    "./perf-counter": 392
   } ],
-  378: [ (function(require, module, exports) {
+  391: [ (function(require, module, exports) {
     "use strict";
     var Counter = cc.Class({
       name: "cc.Counter",
@@ -56895,7 +59018,7 @@
     });
     module.exports = Counter;
   }), {} ],
-  379: [ (function(require, module, exports) {
+  392: [ (function(require, module, exports) {
     "use strict";
     var Counter = require("./counter");
     var PerfCounter = cc.Class({
@@ -56930,9 +59053,9 @@
     });
     module.exports = PerfCounter;
   }), {
-    "./counter": 378
+    "./counter": 391
   } ],
-  380: [ (function(require, module, exports) {
+  393: [ (function(require, module, exports) {
     "use strict";
     var _js = _interopRequireDefault(require("../platform/js"));
     function _interopRequireDefault(obj) {
@@ -57131,7 +59254,7 @@
   }), {
     "../platform/js": 294
   } ],
-  381: [ (function(require, module, exports) {
+  394: [ (function(require, module, exports) {
     "use strict";
     var Texture2D = require("../assets/CCTexture2D");
     var textureUtil = {
@@ -57176,7 +59299,7 @@
   }), {
     "../assets/CCTexture2D": 152
   } ],
-  382: [ (function(require, module, exports) {
+  395: [ (function(require, module, exports) {
     "use strict";
     var NodeUnit = require("./node-unit");
     var NodeMemPool = require("./node-mem-pool");
@@ -57184,10 +59307,10 @@
       NodeMemPool: new NodeMemPool(NodeUnit)
     };
   }), {
-    "./node-mem-pool": 384,
-    "./node-unit": 385
+    "./node-mem-pool": 397,
+    "./node-unit": 398
   } ],
-  383: [ (function(require, module, exports) {
+  396: [ (function(require, module, exports) {
     "use strict";
     var MemPool = function MemPool(unitClass) {
       this._unitClass = unitClass;
@@ -57258,7 +59381,7 @@
     };
     module.exports = MemPool;
   }), {} ],
-  384: [ (function(require, module, exports) {
+  397: [ (function(require, module, exports) {
     "use strict";
     var MemPool = require("./mem-pool");
     var NodeMemPool = function NodeMemPool(unitClass) {
@@ -57280,9 +59403,9 @@
     };
     module.exports = NodeMemPool;
   }), {
-    "./mem-pool": 383
+    "./mem-pool": 396
   } ],
-  385: [ (function(require, module, exports) {
+  398: [ (function(require, module, exports) {
     "use strict";
     var _utils = require("../../value-types/utils");
     var Uint32_Bytes = 4;
@@ -57354,10 +59477,10 @@
     })();
     module.exports = NodeUnit;
   }), {
-    "../../value-types/utils": 395,
-    "./unit-base": 386
+    "../../value-types/utils": 408,
+    "./unit-base": 399
   } ],
-  386: [ (function(require, module, exports) {
+  399: [ (function(require, module, exports) {
     "use strict";
     var POINTER_INVALID_FLAG = 65535;
     var SPACE_FREE_FLAG = 0;
@@ -57438,7 +59561,7 @@
     };
     module.exports = UnitBase;
   }), {} ],
-  387: [ (function(require, module, exports) {
+  400: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -57920,10 +60043,10 @@
     module.exports = exports["default"];
   }), {
     "../platform/CCClass": 272,
-    "../utils/misc": 373,
-    "./value-type": 396
+    "../utils/misc": 386,
+    "./value-type": 409
   } ],
-  388: [ (function(require, module, exports) {
+  401: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     var _exportNames = {
@@ -57973,19 +60096,19 @@
     }
     cc.math = module.exports;
   }), {
-    "./color": 387,
-    "./mat3": 389,
-    "./mat4": 390,
-    "./quat": 391,
-    "./rect": 392,
-    "./size": 393,
-    "./trs": 394,
-    "./utils": 395,
-    "./vec2": 397,
-    "./vec3": 398,
-    "./vec4": 399
+    "./color": 400,
+    "./mat3": 402,
+    "./mat4": 403,
+    "./quat": 404,
+    "./rect": 405,
+    "./size": 406,
+    "./trs": 407,
+    "./utils": 408,
+    "./vec2": 410,
+    "./vec3": 411,
+    "./vec4": 412
   } ],
-  389: [ (function(require, module, exports) {
+  402: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -58432,10 +60555,10 @@
     cc.Mat3 = Mat3;
     module.exports = exports["default"];
   }), {
-    "../value-types/utils": 395,
-    "./vec3": 398
+    "../value-types/utils": 408,
+    "./vec3": 411
   } ],
-  390: [ (function(require, module, exports) {
+  403: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -59760,13 +61883,13 @@
     module.exports = exports["default"];
   }), {
     "../platform/CCClass": 272,
-    "./mat3": 389,
-    "./quat": 391,
-    "./utils": 395,
-    "./value-type": 396,
-    "./vec3": 398
+    "./mat3": 402,
+    "./quat": 404,
+    "./utils": 408,
+    "./value-type": 409,
+    "./vec3": 411
   } ],
-  391: [ (function(require, module, exports) {
+  404: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -60256,12 +62379,12 @@
     module.exports = exports["default"];
   }), {
     "../platform/CCClass": 272,
-    "./mat3": 389,
-    "./utils": 395,
-    "./value-type": 396,
-    "./vec3": 398
+    "./mat3": 402,
+    "./utils": 408,
+    "./value-type": 409,
+    "./vec3": 411
   } ],
-  392: [ (function(require, module, exports) {
+  405: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -60508,11 +62631,11 @@
     module.exports = exports["default"];
   }), {
     "../platform/CCClass": 272,
-    "./size": 393,
-    "./value-type": 396,
-    "./vec2": 397
+    "./size": 406,
+    "./value-type": 409,
+    "./vec2": 410
   } ],
-  393: [ (function(require, module, exports) {
+  406: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -60628,9 +62751,9 @@
     module.exports = exports["default"];
   }), {
     "../platform/CCClass": 272,
-    "./value-type": 396
+    "./value-type": 409
   } ],
-  394: [ (function(require, module, exports) {
+  407: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -60743,9 +62866,9 @@
     cc.Trs = Trs;
     module.exports = exports["default"];
   }), {
-    "./quat": 391
+    "./quat": 404
   } ],
-  395: [ (function(require, module, exports) {
+  408: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports.INT_MIN = exports.INT_MAX = exports.INT_BITS = exports.FLOAT_BYTES = exports.FLOAT_ARRAY_TYPE = exports.EPSILON = void 0;
@@ -60846,7 +62969,7 @@
       return (v > 0) - (v < 0);
     }
   }), {} ],
-  396: [ (function(require, module, exports) {
+  409: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -60886,7 +63009,7 @@
   }), {
     "../platform/js": 294
   } ],
-  397: [ (function(require, module, exports) {
+  410: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -61350,11 +63473,11 @@
     module.exports = exports["default"];
   }), {
     "../platform/CCClass": 272,
-    "../utils/misc": 373,
-    "./utils": 395,
-    "./value-type": 396
+    "../utils/misc": 386,
+    "./utils": 408,
+    "./value-type": 409
   } ],
-  398: [ (function(require, module, exports) {
+  411: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -61965,12 +64088,12 @@
     module.exports = exports["default"];
   }), {
     "../platform/CCClass": 272,
-    "../utils/misc": 373,
-    "./utils": 395,
-    "./value-type": 396,
-    "./vec2": 397
+    "../utils/misc": 386,
+    "./utils": 408,
+    "./value-type": 409,
+    "./vec2": 410
   } ],
-  399: [ (function(require, module, exports) {
+  412: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -62525,10 +64648,10 @@
     cc.Vec4 = Vec4;
   }), {
     "../platform/CCClass": 272,
-    "./utils": 395,
-    "./value-type": 396
+    "./utils": 408,
+    "./value-type": 409
   } ],
-  400: [ (function(require, module, exports) {
+  413: [ (function(require, module, exports) {
     "use strict";
     var js = cc.js;
     true;
@@ -63023,7 +65146,7 @@
     };
     markAsRemovedInObject(cc.audioEngine, [ "getProfile", "preload", "setMaxWebAudioSize" ], "cc.audioEngine");
   }), {} ],
-  401: [ (function(require, module, exports) {
+  414: [ (function(require, module, exports) {
     "use strict";
     require("./core/CCGame");
     require("./actions");
@@ -63031,7 +65154,7 @@
     "./actions": 8,
     "./core/CCGame": 103
   } ],
-  402: [ (function(require, module, exports) {
+  415: [ (function(require, module, exports) {
     "use strict";
     var zlib = require("../compression/zlib.min");
     var debug = require("../core/CCDebug");
@@ -63321,7 +65444,7 @@
     "../compression/zlib.min": 26,
     "../core/CCDebug": 101
   } ],
-  403: [ (function(require, module, exports) {
+  416: [ (function(require, module, exports) {
     "use strict";
     var Asset = require("../core/assets/CCAsset");
     var CCSpriteFrame = require("../core/assets/CCSpriteFrame");
@@ -63340,8 +65463,9 @@
     "../core/assets/CCAsset": 137,
     "../core/assets/CCSpriteFrame": 149
   } ],
-  404: [ (function(require, module, exports) {
+  417: [ (function(require, module, exports) {
     "use strict";
+    var _cc$Class;
     var macro = require("../core/platform/CCMacro");
     var ParticleAsset = require("./CCParticleAsset");
     var RenderComponent = require("../core/components/CCRenderComponent");
@@ -63584,7 +65708,7 @@
       rotatePerS: 0,
       rotatePerSVar: 0
     };
-    var ParticleSystem = cc.Class({
+    var ParticleSystem = cc.Class((_cc$Class = {
       name: "cc.ParticleSystem",
       extends: RenderComponent,
       mixins: [ BlendFunc ],
@@ -63615,220 +65739,200 @@
       },
       onFocusInEditor: false,
       onLostFocusInEditor: false,
-      onRestore: false,
-      _startPreview: false,
-      _stopPreview: false,
-      _convertTextureToSpriteFrame: false,
-      __preload: function __preload() {
-        this._super();
-        false;
-        if (this._custom && this.spriteFrame && !this._renderSpriteFrame) this._applySpriteFrame(this.spriteFrame); else if (this._file) if (this._custom) {
-          var missCustomTexture = !this._getTexture();
-          missCustomTexture && this._applyFile();
-        } else this._applyFile();
-        true;
-        this.playOnLoad && this.resetSystem();
-        false;
-      },
-      onDestroy: function onDestroy() {
-        this.autoRemoveOnFinish && (this.autoRemoveOnFinish = false);
-        if (this._buffer) {
-          this._buffer.destroy();
-          this._buffer = null;
-        }
-        this._simulator._uvFilled = 0;
-        this._super();
-      },
-      lateUpdate: function lateUpdate(dt) {
-        this._simulator.finished || this._simulator.step(dt);
-      },
-      addParticle: function addParticle() {},
-      stopSystem: function stopSystem() {
-        this._stopped = true;
-        this._simulator.stop();
-      },
-      resetSystem: function resetSystem() {
-        this._stopped = false;
-        this._simulator.reset();
-        this.markForRender(true);
-      },
-      isFull: function isFull() {
-        return this.particleCount >= this.totalParticles;
-      },
-      setTextureWithRect: function setTextureWithRect(texture, rect) {
-        texture instanceof cc.Texture2D && (this.spriteFrame = new cc.SpriteFrame(texture, rect));
-      },
-      _applyFile: function _applyFile() {
-        var file = this._file;
-        if (file) {
-          var self = this;
-          cc.assetManager.postLoadNative(file, (function(err) {
-            if (err || !file._nativeAsset) {
-              cc.errorID(6029);
-              return;
-            }
-            if (!self.isValid) return;
-            self._plistFile = file.nativeUrl;
-            if (!self._custom) {
-              var isDiffFrame = self._spriteFrame !== file.spriteFrame;
-              isDiffFrame && (self.spriteFrame = file.spriteFrame);
-              self._initWithDictionary(file._nativeAsset);
-            }
-            self._spriteFrame ? !self._renderSpriteFrame && self._spriteFrame && self._applySpriteFrame(self.spriteFrame) : file.spriteFrame ? self.spriteFrame = file.spriteFrame : self._custom && self._initTextureWithDictionary(file._nativeAsset);
-          }));
-        }
-      },
-      _initTextureWithDictionary: function _initTextureWithDictionary(dict) {
-        var imgPath = cc.path.changeBasename(this._plistFile, dict["textureFileName"] || "");
-        if (dict["textureFileName"]) textureUtil.loadImage(imgPath, (function(error, texture) {
-          if (error) {
-            dict["textureFileName"] = void 0;
-            this._initTextureWithDictionary(dict);
-          } else {
-            cc.assetManager.assets.add(imgPath, texture);
-            this.spriteFrame = new cc.SpriteFrame(texture);
+      onRestore: false
+    }, _cc$Class["onRestore"] = false, _cc$Class._startPreview = false, _cc$Class._stopPreview = false, 
+    _cc$Class._convertTextureToSpriteFrame = false, _cc$Class.__preload = function __preload() {
+      this._super();
+      false;
+      if (this._custom && this.spriteFrame && !this._renderSpriteFrame) this._applySpriteFrame(this.spriteFrame); else if (this._file) if (this._custom) {
+        var missCustomTexture = !this._getTexture();
+        missCustomTexture && this._applyFile();
+      } else this._applyFile();
+      true;
+      this.playOnLoad && this.resetSystem();
+      false;
+    }, _cc$Class.onDestroy = function onDestroy() {
+      this.autoRemoveOnFinish && (this.autoRemoveOnFinish = false);
+      if (this._buffer) {
+        this._buffer.destroy();
+        this._buffer = null;
+      }
+      this._simulator._uvFilled = 0;
+      this._super();
+    }, _cc$Class.lateUpdate = function lateUpdate(dt) {
+      this._simulator.finished || this._simulator.step(dt);
+    }, _cc$Class.addParticle = function addParticle() {}, _cc$Class.stopSystem = function stopSystem() {
+      this._stopped = true;
+      this._simulator.stop();
+    }, _cc$Class.resetSystem = function resetSystem() {
+      this._stopped = false;
+      this._simulator.reset();
+      this.markForRender(true);
+    }, _cc$Class.isFull = function isFull() {
+      return this.particleCount >= this.totalParticles;
+    }, _cc$Class.setTextureWithRect = function setTextureWithRect(texture, rect) {
+      texture instanceof cc.Texture2D && (this.spriteFrame = new cc.SpriteFrame(texture, rect));
+    }, _cc$Class._applyFile = function _applyFile() {
+      var file = this._file;
+      if (file) {
+        var self = this;
+        cc.assetManager.postLoadNative(file, (function(err) {
+          if (err || !file._nativeAsset) {
+            cc.errorID(6029);
+            return;
           }
-        }), this); else if (dict["textureImageData"]) {
-          var textureData = dict["textureImageData"];
-          if (!(textureData && textureData.length > 0)) return false;
-          var tex = cc.assetManager.assets.get(imgPath);
-          if (!tex) {
-            var buffer = codec.unzipBase64AsArray(textureData, 1);
-            if (!buffer) {
-              cc.warnID(6030, this._file.name);
-              return false;
-            }
-            var imageFormat = getImageFormatByData(buffer);
-            if (imageFormat !== macro.ImageFormat.TIFF && imageFormat !== macro.ImageFormat.PNG) {
-              cc.warnID(6031, this._file.name);
-              return false;
-            }
-            var canvasObj = document.createElement("canvas");
-            if (imageFormat === macro.ImageFormat.PNG) {
-              var myPngObj = new PNGReader(buffer);
-              myPngObj.render(canvasObj);
-            } else tiffReader.parseTIFF(buffer, canvasObj);
-            tex = textureUtil.cacheImage(imgPath, canvasObj);
+          if (!self.isValid) return;
+          self._plistFile = file.nativeUrl;
+          if (!self._custom) {
+            var isDiffFrame = self._spriteFrame !== file.spriteFrame;
+            isDiffFrame && (self.spriteFrame = file.spriteFrame);
+            self._initWithDictionary(file._nativeAsset);
           }
-          tex || cc.warnID(6032, this._file.name);
-          this.spriteFrame = new cc.SpriteFrame(tex);
-        }
-        return true;
-      },
-      _initWithDictionary: function _initWithDictionary(dict) {
-        this.totalParticles = parseInt(dict["maxParticles"] || 0);
-        this.life = parseFloat(dict["particleLifespan"] || 0);
-        this.lifeVar = parseFloat(dict["particleLifespanVariance"] || 0);
-        var _tempEmissionRate = dict["emissionRate"];
-        this.emissionRate = _tempEmissionRate || Math.min(this.totalParticles / this.life, Number.MAX_VALUE);
-        this.duration = parseFloat(dict["duration"] || 0);
-        this.srcBlendFactor = parseInt(dict["blendFuncSource"] || macro.SRC_ALPHA);
-        this.dstBlendFactor = parseInt(dict["blendFuncDestination"] || macro.ONE_MINUS_SRC_ALPHA);
-        var locStartColor = this._startColor;
-        locStartColor.r = 255 * parseFloat(dict["startColorRed"] || 0);
-        locStartColor.g = 255 * parseFloat(dict["startColorGreen"] || 0);
-        locStartColor.b = 255 * parseFloat(dict["startColorBlue"] || 0);
-        locStartColor.a = 255 * parseFloat(dict["startColorAlpha"] || 0);
-        var locStartColorVar = this._startColorVar;
-        locStartColorVar.r = 255 * parseFloat(dict["startColorVarianceRed"] || 0);
-        locStartColorVar.g = 255 * parseFloat(dict["startColorVarianceGreen"] || 0);
-        locStartColorVar.b = 255 * parseFloat(dict["startColorVarianceBlue"] || 0);
-        locStartColorVar.a = 255 * parseFloat(dict["startColorVarianceAlpha"] || 0);
-        var locEndColor = this._endColor;
-        locEndColor.r = 255 * parseFloat(dict["finishColorRed"] || 0);
-        locEndColor.g = 255 * parseFloat(dict["finishColorGreen"] || 0);
-        locEndColor.b = 255 * parseFloat(dict["finishColorBlue"] || 0);
-        locEndColor.a = 255 * parseFloat(dict["finishColorAlpha"] || 0);
-        var locEndColorVar = this._endColorVar;
-        locEndColorVar.r = 255 * parseFloat(dict["finishColorVarianceRed"] || 0);
-        locEndColorVar.g = 255 * parseFloat(dict["finishColorVarianceGreen"] || 0);
-        locEndColorVar.b = 255 * parseFloat(dict["finishColorVarianceBlue"] || 0);
-        locEndColorVar.a = 255 * parseFloat(dict["finishColorVarianceAlpha"] || 0);
-        this.startSize = parseFloat(dict["startParticleSize"] || 0);
-        this.startSizeVar = parseFloat(dict["startParticleSizeVariance"] || 0);
-        this.endSize = parseFloat(dict["finishParticleSize"] || 0);
-        this.endSizeVar = parseFloat(dict["finishParticleSizeVariance"] || 0);
-        this.positionType = parseFloat(void 0 !== dict["positionType"] ? dict["positionType"] : PositionType.RELATIVE);
-        this.sourcePos.x = 0;
-        this.sourcePos.y = 0;
-        this.posVar.x = parseFloat(dict["sourcePositionVariancex"] || 0);
-        this.posVar.y = parseFloat(dict["sourcePositionVariancey"] || 0);
-        this.angle = parseFloat(dict["angle"] || 0);
-        this.angleVar = parseFloat(dict["angleVariance"] || 0);
-        this.startSpin = parseFloat(dict["rotationStart"] || 0);
-        this.startSpinVar = parseFloat(dict["rotationStartVariance"] || 0);
-        this.endSpin = parseFloat(dict["rotationEnd"] || 0);
-        this.endSpinVar = parseFloat(dict["rotationEndVariance"] || 0);
-        this.emitterMode = parseInt(dict["emitterType"] || EmitterMode.GRAVITY);
-        if (this.emitterMode === EmitterMode.GRAVITY) {
-          this.gravity.x = parseFloat(dict["gravityx"] || 0);
-          this.gravity.y = parseFloat(dict["gravityy"] || 0);
-          this.speed = parseFloat(dict["speed"] || 0);
-          this.speedVar = parseFloat(dict["speedVariance"] || 0);
-          this.radialAccel = parseFloat(dict["radialAcceleration"] || 0);
-          this.radialAccelVar = parseFloat(dict["radialAccelVariance"] || 0);
-          this.tangentialAccel = parseFloat(dict["tangentialAcceleration"] || 0);
-          this.tangentialAccelVar = parseFloat(dict["tangentialAccelVariance"] || 0);
-          var locRotationIsDir = dict["rotationIsDir"] || "";
-          if (null !== locRotationIsDir) {
-            locRotationIsDir = locRotationIsDir.toString().toLowerCase();
-            this.rotationIsDir = "true" === locRotationIsDir || "1" === locRotationIsDir;
-          } else this.rotationIsDir = false;
+          self._spriteFrame ? !self._renderSpriteFrame && self._spriteFrame && self._applySpriteFrame(self.spriteFrame) : file.spriteFrame ? self.spriteFrame = file.spriteFrame : self._custom && self._initTextureWithDictionary(file._nativeAsset);
+        }));
+      }
+    }, _cc$Class._initTextureWithDictionary = function _initTextureWithDictionary(dict) {
+      var imgPath = cc.path.changeBasename(this._plistFile, dict["textureFileName"] || "");
+      if (dict["textureFileName"]) textureUtil.loadImage(imgPath, (function(error, texture) {
+        if (error) {
+          dict["textureFileName"] = void 0;
+          this._initTextureWithDictionary(dict);
         } else {
-          if (this.emitterMode !== EmitterMode.RADIUS) {
-            cc.warnID(6009);
+          cc.assetManager.assets.add(imgPath, texture);
+          this.spriteFrame = new cc.SpriteFrame(texture);
+        }
+      }), this); else if (dict["textureImageData"]) {
+        var textureData = dict["textureImageData"];
+        if (!(textureData && textureData.length > 0)) return false;
+        var tex = cc.assetManager.assets.get(imgPath);
+        if (!tex) {
+          var buffer = codec.unzipBase64AsArray(textureData, 1);
+          if (!buffer) {
+            cc.warnID(6030, this._file.name);
             return false;
           }
-          this.startRadius = parseFloat(dict["maxRadius"] || 0);
-          this.startRadiusVar = parseFloat(dict["maxRadiusVariance"] || 0);
-          this.endRadius = parseFloat(dict["minRadius"] || 0);
-          this.endRadiusVar = parseFloat(dict["minRadiusVariance"] || 0);
-          this.rotatePerS = parseFloat(dict["rotatePerSecond"] || 0);
-          this.rotatePerSVar = parseFloat(dict["rotatePerSecondVariance"] || 0);
+          var imageFormat = getImageFormatByData(buffer);
+          if (imageFormat !== macro.ImageFormat.TIFF && imageFormat !== macro.ImageFormat.PNG) {
+            cc.warnID(6031, this._file.name);
+            return false;
+          }
+          var canvasObj = document.createElement("canvas");
+          if (imageFormat === macro.ImageFormat.PNG) {
+            var myPngObj = new PNGReader(buffer);
+            myPngObj.render(canvasObj);
+          } else tiffReader.parseTIFF(buffer, canvasObj);
+          tex = textureUtil.cacheImage(imgPath, canvasObj);
         }
-        this._initTextureWithDictionary(dict);
-        return true;
-      },
-      _validateRender: function _validateRender() {
-        var texture = this._getTexture();
-        if (!texture || !texture.loaded) {
-          this.disableRender();
-          return;
-        }
-        this._super();
-      },
-      _onTextureLoaded: function _onTextureLoaded() {
-        this._simulator.updateUVs(true);
-        this._syncAspect();
-        this._updateMaterial();
-        this.markForRender(true);
-      },
-      _syncAspect: function _syncAspect() {
-        var frameRect = this._renderSpriteFrame._rect;
-        this._aspectRatio = frameRect.width / frameRect.height;
-      },
-      _applySpriteFrame: function _applySpriteFrame() {
-        this._renderSpriteFrame = this._renderSpriteFrame || this._spriteFrame;
-        this._renderSpriteFrame && (this._renderSpriteFrame.textureLoaded() ? this._onTextureLoaded() : this._renderSpriteFrame.onTextureLoaded(this._onTextureLoaded, this));
-      },
-      _getTexture: function _getTexture() {
-        return this._renderSpriteFrame && this._renderSpriteFrame.getTexture() || this._texture;
-      },
-      _updateMaterial: function _updateMaterial() {
-        var material = this.getMaterial(0);
-        if (!material) return;
-        material.define("CC_USE_MODEL", this._positionType !== PositionType.FREE);
-        material.setProperty("texture", this._getTexture());
-        BlendFunc.prototype._updateMaterial.call(this);
-      },
-      _finishedSimulation: function _finishedSimulation() {
-        false;
-        this.resetSystem();
-        this.stopSystem();
-        this.disableRender();
-        this.autoRemoveOnFinish && this._stopped && this.node.destroy();
+        tex || cc.warnID(6032, this._file.name);
+        this.spriteFrame = new cc.SpriteFrame(tex);
       }
-    });
+      return true;
+    }, _cc$Class._initWithDictionary = function _initWithDictionary(dict) {
+      this.totalParticles = parseInt(dict["maxParticles"] || 0);
+      this.life = parseFloat(dict["particleLifespan"] || 0);
+      this.lifeVar = parseFloat(dict["particleLifespanVariance"] || 0);
+      var _tempEmissionRate = dict["emissionRate"];
+      this.emissionRate = _tempEmissionRate || Math.min(this.totalParticles / this.life, Number.MAX_VALUE);
+      this.duration = parseFloat(dict["duration"] || 0);
+      this.srcBlendFactor = parseInt(dict["blendFuncSource"] || macro.SRC_ALPHA);
+      this.dstBlendFactor = parseInt(dict["blendFuncDestination"] || macro.ONE_MINUS_SRC_ALPHA);
+      var locStartColor = this._startColor;
+      locStartColor.r = 255 * parseFloat(dict["startColorRed"] || 0);
+      locStartColor.g = 255 * parseFloat(dict["startColorGreen"] || 0);
+      locStartColor.b = 255 * parseFloat(dict["startColorBlue"] || 0);
+      locStartColor.a = 255 * parseFloat(dict["startColorAlpha"] || 0);
+      var locStartColorVar = this._startColorVar;
+      locStartColorVar.r = 255 * parseFloat(dict["startColorVarianceRed"] || 0);
+      locStartColorVar.g = 255 * parseFloat(dict["startColorVarianceGreen"] || 0);
+      locStartColorVar.b = 255 * parseFloat(dict["startColorVarianceBlue"] || 0);
+      locStartColorVar.a = 255 * parseFloat(dict["startColorVarianceAlpha"] || 0);
+      var locEndColor = this._endColor;
+      locEndColor.r = 255 * parseFloat(dict["finishColorRed"] || 0);
+      locEndColor.g = 255 * parseFloat(dict["finishColorGreen"] || 0);
+      locEndColor.b = 255 * parseFloat(dict["finishColorBlue"] || 0);
+      locEndColor.a = 255 * parseFloat(dict["finishColorAlpha"] || 0);
+      var locEndColorVar = this._endColorVar;
+      locEndColorVar.r = 255 * parseFloat(dict["finishColorVarianceRed"] || 0);
+      locEndColorVar.g = 255 * parseFloat(dict["finishColorVarianceGreen"] || 0);
+      locEndColorVar.b = 255 * parseFloat(dict["finishColorVarianceBlue"] || 0);
+      locEndColorVar.a = 255 * parseFloat(dict["finishColorVarianceAlpha"] || 0);
+      this.startSize = parseFloat(dict["startParticleSize"] || 0);
+      this.startSizeVar = parseFloat(dict["startParticleSizeVariance"] || 0);
+      this.endSize = parseFloat(dict["finishParticleSize"] || 0);
+      this.endSizeVar = parseFloat(dict["finishParticleSizeVariance"] || 0);
+      this.positionType = parseFloat(void 0 !== dict["positionType"] ? dict["positionType"] : PositionType.RELATIVE);
+      this.sourcePos.x = 0;
+      this.sourcePos.y = 0;
+      this.posVar.x = parseFloat(dict["sourcePositionVariancex"] || 0);
+      this.posVar.y = parseFloat(dict["sourcePositionVariancey"] || 0);
+      this.angle = parseFloat(dict["angle"] || 0);
+      this.angleVar = parseFloat(dict["angleVariance"] || 0);
+      this.startSpin = parseFloat(dict["rotationStart"] || 0);
+      this.startSpinVar = parseFloat(dict["rotationStartVariance"] || 0);
+      this.endSpin = parseFloat(dict["rotationEnd"] || 0);
+      this.endSpinVar = parseFloat(dict["rotationEndVariance"] || 0);
+      this.emitterMode = parseInt(dict["emitterType"] || EmitterMode.GRAVITY);
+      if (this.emitterMode === EmitterMode.GRAVITY) {
+        this.gravity.x = parseFloat(dict["gravityx"] || 0);
+        this.gravity.y = parseFloat(dict["gravityy"] || 0);
+        this.speed = parseFloat(dict["speed"] || 0);
+        this.speedVar = parseFloat(dict["speedVariance"] || 0);
+        this.radialAccel = parseFloat(dict["radialAcceleration"] || 0);
+        this.radialAccelVar = parseFloat(dict["radialAccelVariance"] || 0);
+        this.tangentialAccel = parseFloat(dict["tangentialAcceleration"] || 0);
+        this.tangentialAccelVar = parseFloat(dict["tangentialAccelVariance"] || 0);
+        var locRotationIsDir = dict["rotationIsDir"] || "";
+        if (null !== locRotationIsDir) {
+          locRotationIsDir = locRotationIsDir.toString().toLowerCase();
+          this.rotationIsDir = "true" === locRotationIsDir || "1" === locRotationIsDir;
+        } else this.rotationIsDir = false;
+      } else {
+        if (this.emitterMode !== EmitterMode.RADIUS) {
+          cc.warnID(6009);
+          return false;
+        }
+        this.startRadius = parseFloat(dict["maxRadius"] || 0);
+        this.startRadiusVar = parseFloat(dict["maxRadiusVariance"] || 0);
+        this.endRadius = parseFloat(dict["minRadius"] || 0);
+        this.endRadiusVar = parseFloat(dict["minRadiusVariance"] || 0);
+        this.rotatePerS = parseFloat(dict["rotatePerSecond"] || 0);
+        this.rotatePerSVar = parseFloat(dict["rotatePerSecondVariance"] || 0);
+      }
+      this._initTextureWithDictionary(dict);
+      return true;
+    }, _cc$Class._validateRender = function _validateRender() {
+      var texture = this._getTexture();
+      if (!texture || !texture.loaded) {
+        this.disableRender();
+        return;
+      }
+      this._super();
+    }, _cc$Class._onTextureLoaded = function _onTextureLoaded() {
+      this._simulator.updateUVs(true);
+      this._syncAspect();
+      this._updateMaterial();
+      this.markForRender(true);
+    }, _cc$Class._syncAspect = function _syncAspect() {
+      var frameRect = this._renderSpriteFrame._rect;
+      this._aspectRatio = frameRect.width / frameRect.height;
+    }, _cc$Class._applySpriteFrame = function _applySpriteFrame() {
+      this._renderSpriteFrame = this._renderSpriteFrame || this._spriteFrame;
+      this._renderSpriteFrame && (this._renderSpriteFrame.textureLoaded() ? this._onTextureLoaded() : this._renderSpriteFrame.onTextureLoaded(this._onTextureLoaded, this));
+    }, _cc$Class._getTexture = function _getTexture() {
+      return this._renderSpriteFrame && this._renderSpriteFrame.getTexture() || this._texture;
+    }, _cc$Class._updateMaterial = function _updateMaterial() {
+      var material = this.getMaterial(0);
+      if (!material) return;
+      material.define("CC_USE_MODEL", this._positionType !== PositionType.FREE);
+      material.setProperty("texture", this._getTexture());
+      BlendFunc.prototype._updateMaterial.call(this);
+    }, _cc$Class._finishedSimulation = function _finishedSimulation() {
+      false;
+      this.resetSystem();
+      this.stopSystem();
+      this.disableRender();
+      this.autoRemoveOnFinish && this._stopped && this.node.destroy();
+    }, _cc$Class));
     cc.ParticleSystem = module.exports = ParticleSystem;
   }), {
     "../compression/ZipUtils": 23,
@@ -63836,15 +65940,15 @@
     "../core/components/CCRenderComponent": 192,
     "../core/platform/CCMacro": 277,
     "../core/renderer/render-flow": 323,
-    "../core/utils/blend-func": 367,
-    "../core/utils/texture-util": 381,
-    "./CCPNGReader": 402,
-    "./CCParticleAsset": 403,
-    "./CCTIFFReader": 405,
-    "./particle-simulator": 407,
+    "../core/utils/blend-func": 380,
+    "../core/utils/texture-util": 394,
+    "./CCPNGReader": 415,
+    "./CCParticleAsset": 416,
+    "./CCTIFFReader": 418,
+    "./particle-simulator": 420,
     "fire-url": void 0
   } ],
-  405: [ (function(require, module, exports) {
+  418: [ (function(require, module, exports) {
     "use strict";
     var debug = require("../core/CCDebug");
     var tiffReader = {
@@ -64257,19 +66361,19 @@
   }), {
     "../core/CCDebug": 101
   } ],
-  406: [ (function(require, module, exports) {
+  419: [ (function(require, module, exports) {
     "use strict";
     require("./CCParticleAsset");
     require("./CCParticleSystem");
     require("./particle-simulator");
     require("./particle-system-assembler");
   }), {
-    "./CCParticleAsset": 403,
-    "./CCParticleSystem": 404,
-    "./particle-simulator": 407,
-    "./particle-system-assembler": 408
+    "./CCParticleAsset": 416,
+    "./CCParticleSystem": 417,
+    "./particle-simulator": 420,
+    "./particle-system-assembler": 421
   } ],
-  407: [ (function(require, module, exports) {
+  420: [ (function(require, module, exports) {
     "use strict";
     var js = require("../core/platform/js");
     var misc = require("../core/utils/misc");
@@ -64593,9 +66697,9 @@
     module.exports = Simulator;
   }), {
     "../core/platform/js": 294,
-    "../core/utils/misc": 373
+    "../core/utils/misc": 386
   } ],
-  408: [ (function(require, module, exports) {
+  421: [ (function(require, module, exports) {
     "use strict";
     var _assembler = _interopRequireDefault(require("../core/renderer/assembler"));
     var _inputAssembler = _interopRequireDefault(require("../renderer/core/input-assembler"));
@@ -64656,12 +66760,12 @@
   }), {
     "../core/renderer/": 322,
     "../core/renderer/assembler": 302,
-    "../core/renderer/webgl/quad-buffer": 360,
-    "../core/renderer/webgl/vertex-format": 362,
-    "../renderer/core/input-assembler": 410,
-    "./CCParticleSystem": 404
+    "../core/renderer/webgl/quad-buffer": 369,
+    "../core/renderer/webgl/vertex-format": 371,
+    "../renderer/core/input-assembler": 423,
+    "./CCParticleSystem": 417
   } ],
-  409: [ (function(require, module, exports) {
+  422: [ (function(require, module, exports) {
     "use strict";
     var enums = {
       USAGE_STATIC: 35044,
@@ -65543,7 +67647,7 @@
     };
     module.exports = mappings;
   }), {} ],
-  410: [ (function(require, module, exports) {
+  423: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -65607,9 +67711,9 @@
     exports["default"] = InputAssembler;
     module.exports = exports["default"];
   }), {
-    "../gfx": 414
+    "../gfx": 427
   } ],
-  411: [ (function(require, module, exports) {
+  424: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -65797,11 +67901,11 @@
     exports["default"] = Pass;
     module.exports = exports["default"];
   }), {
-    "../../core/value-types/value-type": 396,
-    "../enums": 413,
-    "../gfx": 414
+    "../../core/value-types/value-type": 409,
+    "../enums": 426,
+    "../gfx": 427
   } ],
-  412: [ (function(require, module, exports) {
+  425: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -65863,7 +67967,7 @@
     exports["default"] = Technique;
     module.exports = exports["default"];
   }), {} ],
-  413: [ (function(require, module, exports) {
+  426: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -65906,9 +68010,9 @@
     exports["default"] = _default;
     module.exports = exports["default"];
   }), {
-    "./build/mappings": 409
+    "./build/mappings": 422
   } ],
-  414: [ (function(require, module, exports) {
+  427: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -65943,7 +68047,7 @@
     "./vertex-buffer": void 0,
     "./vertex-format": void 0
   } ],
-  415: [ (function(require, module, exports) {
+  428: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -65984,7 +68088,7 @@
     exports["default"] = Pool;
     module.exports = exports["default"];
   }), {} ],
-  416: [ (function(require, module, exports) {
+  429: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -66071,9 +68175,9 @@
     cc.RecyclePool = RecyclePool;
     module.exports = exports["default"];
   }), {
-    "./timsort": 417
+    "./timsort": 430
   } ],
-  417: [ (function(require, module, exports) {
+  430: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = _default;
@@ -66534,7 +68638,7 @@
     }
     module.exports = exports["default"];
   }), {} ],
-  418: [ (function(require, module, exports) {
+  431: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = murmurhash2_32_gc;
@@ -66567,7 +68671,7 @@
     }
     module.exports = exports["default"];
   }), {} ],
-  419: [ (function(require, module, exports) {
+  432: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports.getClassName = exports.enums2default = exports.ctor2enums = void 0;
@@ -66665,11 +68769,11 @@
     }
   }), {
     "../core/assets/CCTexture2D": 152,
-    "../core/value-types": 388,
-    "./enums": 413,
+    "../core/value-types": 401,
+    "./enums": 426,
     "./gfx/texture-2d": void 0
   } ],
-  420: [ (function(require, module, exports) {
+  433: [ (function(require, module, exports) {
     "use strict";
     var codec = require("../compression/ZipUtils");
     var zlib = require("../compression/zlib.min");
@@ -67329,7 +69433,7 @@
     "../core/platform/CCSAXParser": 279,
     "../core/platform/js": 294
   } ],
-  421: [ (function(require, module, exports) {
+  434: [ (function(require, module, exports) {
     "use strict";
     var _valueTypes = require("../core/value-types");
     var _materialVariant = _interopRequireDefault(require("../core/assets/material/material-variant"));
@@ -67363,7 +69467,21 @@
       name: "cc.TiledLayer",
       extends: RenderComponent,
       editor: {
-        inspector: "packages://inspector/inspectors/comps/tiled-layer.js"
+        inspector: "packages://enhance-kit/inspectors/comps/tiled-layer.js"
+      },
+      properties: {
+        cullingLayer: {
+          default: null,
+          type: cc.Node,
+          tooltip: (true, "\u4f7f\u7528\u6307\u5b9a TiledLayer \u7684\u88c1\u526a\u6570\u636e\uff0c\u8fd9\u80fd\u964d\u4f4e\u88c1\u526a\u7684\u6027\u80fd\u6d88\u8017\uff0c\u4f46\u8be5\u529f\u80fd\u6709\u6240\u9650\u5236\uff0c\u8be6\u60c5\u8bf7\u9605\u8bfb\u6587\u6863"),
+          animatable: false,
+          notify: function notify(oldValue) {
+            if (this.cullingLayer && !this.cullingLayer.getComponent(cc.TiledLayer)) {
+              cc.warn("no cc.TiledLayer component on the cullingLayer node");
+              this.cullingLayer = void 0;
+            }
+          }
+        }
       },
       ctor: function ctor() {
         this._userNodeGrid = {};
@@ -67390,6 +69508,7 @@
           }
         };
         this._cullingDirty = true;
+        this._cullingDirtyForReuse = true;
         this._rightTop = {
           row: -1,
           col: -1
@@ -67857,7 +69976,18 @@
       },
       _updateCulling: function _updateCulling() {
         false;
-        if (this._enableCulling) {
+        if (this._enableCulling) if (this.cullingLayer) {
+          var _cullingRect = this._cullingRect;
+          var layerComp = this.cullingLayer.getComponent(cc.TiledLayer);
+          if (layerComp) {
+            var __cullingRect = layerComp._cullingRect;
+            _cullingRect.leftDown.row = __cullingRect.leftDown.row;
+            _cullingRect.leftDown.col = __cullingRect.leftDown.col;
+            _cullingRect.rightTop.row = __cullingRect.rightTop.row;
+            _cullingRect.rightTop.col = __cullingRect.rightTop.col;
+            this._cullingDirty = this._cullingDirtyForReuse;
+          }
+        } else {
           this.node._updateWorldMatrix();
           _valueTypes.Mat4.invert(_mat4_temp, this.node._worldMatrix);
           var rect = cc.visibleRect;
@@ -67872,6 +70002,7 @@
             _valueTypes.Vec2.transformMat4(_vec2_temp, _vec2_temp, _mat4_temp);
             _valueTypes.Vec2.transformMat4(_vec2_temp2, _vec2_temp2, _mat4_temp);
             this._updateViewPort(_vec2_temp.x, _vec2_temp.y, _vec2_temp2.x - _vec2_temp.x, _vec2_temp2.y - _vec2_temp.y);
+            this._cullingDirtyForReuse = this._cullingDirty;
           }
         }
       },
@@ -68180,9 +70311,9 @@
     "../core/assets/material/material-variant": 163,
     "../core/components/CCRenderComponent": 192,
     "../core/renderer/render-flow": 323,
-    "../core/value-types": 388
+    "../core/value-types": 401
   } ],
-  422: [ (function(require, module, exports) {
+  435: [ (function(require, module, exports) {
     "use strict";
     require("./CCTMXXMLParser");
     require("./CCTiledMapAsset");
@@ -68607,13 +70738,13 @@
       return [];
     }), false);
   }), {
-    "./CCTMXXMLParser": 420,
-    "./CCTiledLayer": 421,
-    "./CCTiledMapAsset": 423,
-    "./CCTiledObjectGroup": 425,
-    "./CCTiledTile": 426
+    "./CCTMXXMLParser": 433,
+    "./CCTiledLayer": 434,
+    "./CCTiledMapAsset": 436,
+    "./CCTiledObjectGroup": 438,
+    "./CCTiledTile": 439
   } ],
-  423: [ (function(require, module, exports) {
+  436: [ (function(require, module, exports) {
     "use strict";
     var TiledMapAsset = cc.Class({
       name: "cc.TiledMapAsset",
@@ -68645,7 +70776,7 @@
     cc.TiledMapAsset = TiledMapAsset;
     module.exports = TiledMapAsset;
   }), {} ],
-  424: [ (function(require, module, exports) {
+  437: [ (function(require, module, exports) {
     "use strict";
     var _inputAssembler = _interopRequireDefault(require("../renderer/core/input-assembler"));
     function _interopRequireDefault(obj) {
@@ -68686,9 +70817,9 @@
     });
     cc.TiledMapRenderDataList = module.exports = TiledMapRenderDataList;
   }), {
-    "../renderer/core/input-assembler": 410
+    "../renderer/core/input-assembler": 423
   } ],
-  425: [ (function(require, module, exports) {
+  438: [ (function(require, module, exports) {
     "use strict";
     var TiledObjectGroup = cc.Class({
       name: "cc.TiledObjectGroup",
@@ -68850,7 +70981,7 @@
     });
     cc.TiledObjectGroup = module.exports = TiledObjectGroup;
   }), {} ],
-  426: [ (function(require, module, exports) {
+  439: [ (function(require, module, exports) {
     "use strict";
     var TiledTile = cc.Class({
       name: "cc.TiledTile",
@@ -68930,19 +71061,19 @@
     });
     cc.TiledTile = module.exports = TiledTile;
   }), {} ],
-  427: [ (function(require, module, exports) {
+  440: [ (function(require, module, exports) {
     "use strict";
     require("./CCTiledMap");
     require("./CCTiledMapRenderDataList");
     require("./tiledmap-buffer");
     require("./tmx-layer-assembler");
   }), {
-    "./CCTiledMap": 422,
-    "./CCTiledMapRenderDataList": 424,
-    "./tiledmap-buffer": 428,
-    "./tmx-layer-assembler": 429
+    "./CCTiledMap": 435,
+    "./CCTiledMapRenderDataList": 437,
+    "./tiledmap-buffer": 441,
+    "./tmx-layer-assembler": 442
   } ],
-  428: [ (function(require, module, exports) {
+  441: [ (function(require, module, exports) {
     "use strict";
     var TiledMapBuffer = cc.Class({
       name: "cc.TiledMapBuffer",
@@ -68963,9 +71094,9 @@
     });
     cc.TiledMapBuffer = module.exports = TiledMapBuffer;
   }), {
-    "../core/renderer/webgl/quad-buffer": 360
+    "../core/renderer/webgl/quad-buffer": 369
   } ],
-  429: [ (function(require, module, exports) {
+  442: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -69324,12 +71455,12 @@
     "../core/renderer/": 322,
     "../core/renderer/assembler": 302,
     "../core/renderer/render-flow": 323,
-    "../core/renderer/webgl/vertex-format": 362,
-    "../core/value-types": 388,
-    "./CCTiledLayer": 421,
-    "./CCTiledMap": 422
+    "../core/renderer/webgl/vertex-format": 371,
+    "../core/value-types": 401,
+    "./CCTiledLayer": 434,
+    "./CCTiledMap": 435
   } ],
-  430: [ (function(require, module, exports) {
+  443: [ (function(require, module, exports) {
     "use strict";
     var VideoPlayerImpl = require("./video-player-impl");
     var EventType = VideoPlayerImpl.EventType;
@@ -69586,9 +71717,9 @@
     });
     cc.VideoPlayer = module.exports = VideoPlayer;
   }), {
-    "./video-player-impl": 431
+    "./video-player-impl": 444
   } ],
-  431: [ (function(require, module, exports) {
+  444: [ (function(require, module, exports) {
     "use strict";
     var utils = require("../core/platform/utils");
     var sys = require("../core/platform/CCSys");
@@ -69983,7 +72114,7 @@
     "../core/platform/CCSys": 281,
     "../core/platform/utils": 297
   } ],
-  432: [ (function(require, module, exports) {
+  445: [ (function(require, module, exports) {
     "use strict";
     var WebViewImpl = require("./webview-impl");
     var EventType = WebViewImpl.EventType;
@@ -70073,9 +72204,9 @@
     });
     cc.WebView = module.exports = WebView;
   }), {
-    "./webview-impl": 433
+    "./webview-impl": 446
   } ],
-  433: [ (function(require, module, exports) {
+  446: [ (function(require, module, exports) {
     "use strict";
     var utils = require("../core/platform/utils");
     var sys = require("../core/platform/CCSys");
@@ -70332,7 +72463,7 @@
     "../core/platform/CCSys": 281,
     "../core/platform/utils": 297
   } ],
-  434: [ (function(require, module, exports) {
+  447: [ (function(require, module, exports) {
     "use strict";
     require("./cocos2d/core");
     require("./cocos2d/animation");
@@ -70353,18 +72484,18 @@
     "./cocos2d/animation": 17,
     "./cocos2d/core": 239,
     "./cocos2d/core/components/CCStudioComponent": 199,
-    "./cocos2d/deprecated": 400,
-    "./cocos2d/particle": 406,
-    "./cocos2d/particle/CCParticleAsset": 403,
-    "./cocos2d/tilemap": 427,
-    "./cocos2d/tilemap/CCTiledMapAsset": 423,
-    "./cocos2d/videoplayer/CCVideoPlayer": 430,
-    "./cocos2d/webview/CCWebView": 432,
-    "./extensions/ccpool/CCNodePool": 435,
-    "./extensions/dragonbones": 440,
-    "./extensions/spine": 444
+    "./cocos2d/deprecated": 413,
+    "./cocos2d/particle": 419,
+    "./cocos2d/particle/CCParticleAsset": 416,
+    "./cocos2d/tilemap": 440,
+    "./cocos2d/tilemap/CCTiledMapAsset": 436,
+    "./cocos2d/videoplayer/CCVideoPlayer": 443,
+    "./cocos2d/webview/CCWebView": 445,
+    "./extensions/ccpool/CCNodePool": 448,
+    "./extensions/dragonbones": 453,
+    "./extensions/spine": 457
   } ],
-  435: [ (function(require, module, exports) {
+  448: [ (function(require, module, exports) {
     "use strict";
     cc.NodePool = function(poolHandlerComp) {
       this.poolHandlerComp = poolHandlerComp;
@@ -70400,7 +72531,7 @@
     };
     module.exports = cc.NodePool;
   }), {} ],
-  436: [ (function(require, module, exports) {
+  449: [ (function(require, module, exports) {
     "use strict";
     var RenderComponent = require("../../cocos2d/core/components/CCRenderComponent");
     var EventTarget = require("../../cocos2d/core/event/event-target");
@@ -70857,9 +72988,9 @@
     "../../cocos2d/core/graphics/graphics": 235,
     "../../cocos2d/core/renderer/render-flow": 323,
     "./ArmatureCache": void 0,
-    "./AttachUtil": 437
+    "./AttachUtil": 450
   } ],
-  437: [ (function(require, module, exports) {
+  450: [ (function(require, module, exports) {
     "use strict";
     var _mat = _interopRequireDefault(require("../../cocos2d/core/value-types/mat4"));
     function _interopRequireDefault(obj) {
@@ -71196,9 +73327,9 @@
     module.exports = dragonBones.AttachUtil = AttachUtil;
   }), {
     "../../cocos2d/core/renderer/render-flow": 323,
-    "../../cocos2d/core/value-types/mat4": 390
+    "../../cocos2d/core/value-types/mat4": 403
   } ],
-  438: [ (function(require, module, exports) {
+  451: [ (function(require, module, exports) {
     "use strict";
     var ArmatureCache = false;
     var DragonBonesAsset = cc.Class({
@@ -71271,7 +73402,7 @@
   }), {
     "./ArmatureCache": void 0
   } ],
-  439: [ (function(require, module, exports) {
+  452: [ (function(require, module, exports) {
     "use strict";
     var ArmatureCache = false;
     var DragonBonesAtlasAsset = cc.Class({
@@ -71332,7 +73463,7 @@
   }), {
     "./ArmatureCache": void 0
   } ],
-  440: [ (function(require, module, exports) {
+  453: [ (function(require, module, exports) {
     "use strict";
     var _global = "undefined" === typeof window ? global : window;
     false;
@@ -71426,17 +73557,17 @@
     }
   }), {
     "./ArmatureCache": void 0,
-    "./ArmatureDisplay": 436,
+    "./ArmatureDisplay": 449,
     "./CCArmatureDisplay": void 0,
     "./CCFactory": void 0,
     "./CCSlot": void 0,
     "./CCTextureData": void 0,
-    "./DragonBonesAsset": 438,
-    "./DragonBonesAtlasAsset": 439,
+    "./DragonBonesAsset": 451,
+    "./DragonBonesAtlasAsset": 452,
     "./lib/dragonBones": void 0,
-    "./webgl-assembler": 441
+    "./webgl-assembler": 454
   } ],
-  441: [ (function(require, module, exports) {
+  454: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -71721,10 +73852,10 @@
   }), {
     "../../cocos2d/core/renderer/assembler": 302,
     "../../cocos2d/core/renderer/render-flow": 323,
-    "../../cocos2d/core/value-types/mat4": 390,
-    "./ArmatureDisplay": 436
+    "../../cocos2d/core/value-types/mat4": 403,
+    "./ArmatureDisplay": 449
   } ],
-  442: [ (function(require, module, exports) {
+  455: [ (function(require, module, exports) {
     "use strict";
     var _mat = _interopRequireDefault(require("../../cocos2d/core/value-types/mat4"));
     function _interopRequireDefault(obj) {
@@ -72008,9 +74139,9 @@
     module.exports = sp.AttachUtil = AttachUtil;
   }), {
     "../../cocos2d/core/renderer/render-flow": 323,
-    "../../cocos2d/core/value-types/mat4": 390
+    "../../cocos2d/core/value-types/mat4": 403
   } ],
-  443: [ (function(require, module, exports) {
+  456: [ (function(require, module, exports) {
     "use strict";
     var TrackEntryListeners = require("./track-entry-listeners");
     var RenderComponent = require("../../cocos2d/core/components/CCRenderComponent");
@@ -72216,7 +74347,23 @@
         _animationQueue: [],
         _headAniInfo: null,
         _playTimes: 0,
-        _isAniComplete: true
+        _isAniComplete: true,
+        autoSwitchMaterial: {
+          type: RenderComponent.EnableType,
+          default: RenderComponent.EnableType.GLOBAL,
+          notify: function notify(oldValue) {
+            if (this.autoSwitchMaterial === oldValue) return;
+            this.setVertsDirty();
+          }
+        },
+        allowDynamicAtlas: {
+          type: RenderComponent.EnableType,
+          default: RenderComponent.EnableType.GLOBAL,
+          notify: function notify(oldValue) {
+            if (this.allowDynamicAtlas === oldValue) return;
+            this.setVertsDirty();
+          }
+        }
       },
       ctor: function ctor() {
         this._effectDelegate = null;
@@ -72240,19 +74387,32 @@
           trackIndex: 0
         };
         this.attachUtil = new AttachUtil();
+        this._dataDirty = true;
+      },
+      setVertsDirty: function setVertsDirty() {
+        this._dataDirty = true;
+        this.invalidAnimationCache();
+        this._materialCache = {};
+        this._super();
       },
       _getDefaultMaterial: function _getDefaultMaterial() {
         return cc.Material.getBuiltinMaterial("2d-spine");
       },
       _updateMaterial: function _updateMaterial() {
-        var useTint = this.useTint || this.isAnimationCached() && false;
+        var useTint = this.useTint;
         var baseMaterial = this.getMaterial(0);
         if (baseMaterial) {
-          baseMaterial.define("USE_TINT", useTint);
-          baseMaterial.define("CC_USE_MODEL", !this.enableBatch);
+          var isMultiSupport = baseMaterial.material.isMultiSupport();
+          if (isMultiSupport) this._defineMaterialTint(baseMaterial, useTint); else {
+            baseMaterial.define("USE_TINT", useTint);
+            baseMaterial.define("CC_USE_MODEL", !this.enableBatch);
+          }
           var srcBlendFactor = this.premultipliedAlpha ? cc.gfx.BLEND_ONE : cc.gfx.BLEND_SRC_ALPHA;
           var dstBlendFactor = cc.gfx.BLEND_ONE_MINUS_SRC_ALPHA;
           baseMaterial.setBlend(true, cc.gfx.BLEND_FUNC_ADD, srcBlendFactor, srcBlendFactor, cc.gfx.BLEND_FUNC_ADD, dstBlendFactor, dstBlendFactor);
+          isMultiSupport && (this.enableBatch || (this.enableBatch = true));
+          true;
+          this._nativeSkeleton && this._nativeSkeleton.setUseMulti(isMultiSupport);
         }
         this._materialCache = {};
       },
@@ -72267,14 +74427,18 @@
       _updateUseTint: function _updateUseTint() {
         var baseMaterial = this.getMaterial(0);
         if (baseMaterial) {
-          var useTint = this.useTint || this.isAnimationCached() && false;
-          baseMaterial.define("USE_TINT", useTint);
+          var useTint = this.useTint;
+          baseMaterial.material.isMultiSupport() ? this._defineMaterialTint(baseMaterial, useTint) : baseMaterial.define("USE_TINT", useTint);
         }
         this._materialCache = {};
       },
+      _defineMaterialTint: function _defineMaterialTint(material, useTint) {
+        var passes = material._effect._passes;
+        passes && passes.length > 0 && passes[0]._defines["USE_TINT"] != useTint && material.define("USE_TINT", useTint);
+      },
       _updateBatch: function _updateBatch() {
         var baseMaterial = this.getMaterial(0);
-        baseMaterial && baseMaterial.define("CC_USE_MODEL", !this.enableBatch);
+        baseMaterial && (baseMaterial.material.isMultiSupport() ? this.enableBatch || (this.enableBatch = true) : baseMaterial.define("CC_USE_MODEL", !this.enableBatch));
         this._materialCache = {};
       },
       _validateRender: function _validateRender() {
@@ -72351,6 +74515,7 @@
         if (this.paused) return;
         dt *= this.timeScale * sp.timeScale;
         if (this.isAnimationCached()) {
+          this._assembler && this._assembler.handleDynamicAtlasAndSwitchMaterial(this);
           if (this._isAniComplete) {
             if (0 === this._animationQueue.length && !this._headAniInfo) {
               var frameCache = this._frameCache;
@@ -72466,6 +74631,20 @@
         this._skeleton && this._skeleton.setAttachment(slotName, attachmentName);
         this.invalidAnimationCache();
       },
+      getRegionData: function getRegionData(slotName, attachmentName) {
+        var attachment = this.getAttachment(slotName, attachmentName);
+        if (attachment) return new sp.RegionData(attachment);
+        return null;
+      },
+      setRegionData: function setRegionData(slotName, attachmentName, regionData) {
+        var attachment = this.getAttachment(slotName, attachmentName);
+        if (attachment) {
+          regionData.assignToAttachment(attachment);
+          this.setVertsDirty();
+          return true;
+        }
+        return false;
+      },
       getTextureAtlas: function getTextureAtlas(regionAttachment) {
         return regionAttachment.region;
       },
@@ -72486,6 +74665,7 @@
             this._playCount = 0;
             this._frameCache = cache;
             this.attachUtil._hasAttachedNode() && this._frameCache.enableCacheAttachedInfo();
+            this._assembler && this._assembler.handleDynamicAtlasAndSwitchMaterial(this);
             this._frameCache.updateToFrame(0);
             this._curFrame = this._frameCache.frames[0];
           }
@@ -72596,6 +74776,7 @@
         }
       },
       _updateSkeletonData: function _updateSkeletonData() {
+        this._dataDirty = true;
         if (!this.skeletonData) {
           this.disableRender();
           return;
@@ -72642,12 +74823,12 @@
     "../../cocos2d/core/components/CCRenderComponent": 192,
     "../../cocos2d/core/graphics/graphics": 235,
     "../../cocos2d/core/renderer/render-flow": 323,
-    "./AttachUtil": 442,
+    "./AttachUtil": 455,
     "./lib/spine": void 0,
     "./skeleton-cache": void 0,
-    "./track-entry-listeners": 448
+    "./track-entry-listeners": 461
   } ],
-  444: [ (function(require, module, exports) {
+  457: [ (function(require, module, exports) {
     "use strict";
     var _global = "undefined" === typeof window ? global : window;
     var _isUseSpine = true;
@@ -72688,16 +74869,169 @@
       require("./spine-assembler");
     }
   }), {
-    "./Skeleton": 443,
+    "./Skeleton": 456,
     "./lib/spine": void 0,
-    "./skeleton-data": 445,
-    "./skeleton-texture": 446,
-    "./spine-assembler": 447,
+    "./skeleton-data": 458,
+    "./skeleton-texture": 459,
+    "./spine-assembler": 460,
     "./vertex-effect-delegate": void 0
   } ],
-  445: [ (function(require, module, exports) {
+  458: [ (function(require, module, exports) {
     "use strict";
+    function _createForOfIteratorHelperLoose(o, allowArrayLike) {
+      var it = "undefined" !== typeof Symbol && o[Symbol.iterator] || o["@@iterator"];
+      if (it) return (it = it.call(o)).next.bind(it);
+      if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && "number" === typeof o.length) {
+        it && (o = it);
+        var i = 0;
+        return function() {
+          if (i >= o.length) return {
+            done: true
+          };
+          return {
+            done: false,
+            value: o[i++]
+          };
+        };
+      }
+      throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+    }
+    function _unsupportedIterableToArray(o, minLen) {
+      if (!o) return;
+      if ("string" === typeof o) return _arrayLikeToArray(o, minLen);
+      var n = Object.prototype.toString.call(o).slice(8, -1);
+      "Object" === n && o.constructor && (n = o.constructor.name);
+      if ("Map" === n || "Set" === n) return Array.from(o);
+      if ("Arguments" === n || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+    }
+    function _arrayLikeToArray(arr, len) {
+      (null == len || len > arr.length) && (len = arr.length);
+      for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i];
+      return arr2;
+    }
     var SkeletonCache = false;
+    var RegionData = (function() {
+      RegionData.updateUV = function updateUV(region) {
+        var texture = region.texture2D;
+        if (region.rotate) {
+          region.u = region.x / texture.width;
+          region.v = region.y / texture.height;
+          region.u2 = (region.x + region.height) / texture.width;
+          region.v2 = (region.y + region.width) / texture.height;
+        } else {
+          region.u = region.x / texture.width;
+          region.v = region.y / texture.height;
+          region.u2 = (region.x + region.width) / texture.width;
+          region.v2 = (region.y + region.height) / texture.height;
+        }
+      };
+      function RegionData(attachmentOrSpriteFrame) {
+        this.x = void 0;
+        this.y = void 0;
+        this.degrees = void 0;
+        this.texture = void 0;
+        this.texture2D = void 0;
+        this.u = void 0;
+        this.v = void 0;
+        this.u2 = void 0;
+        this.v2 = void 0;
+        this.width = void 0;
+        this.height = void 0;
+        this.rotate = void 0;
+        this.offsetX = void 0;
+        this.offsetY = void 0;
+        this.originalWidth = void 0;
+        this.originalHeight = void 0;
+        attachmentOrSpriteFrame instanceof cc.SpriteFrame ? this.initWithSpriteFrame(attachmentOrSpriteFrame) : null != attachmentOrSpriteFrame && this.initWithAttachment(attachmentOrSpriteFrame);
+      }
+      var _proto = RegionData.prototype;
+      _proto.initWithSpriteFrame = function initWithSpriteFrame(spriteFrame) {
+        var texture = spriteFrame.getTexture();
+        var rect = spriteFrame.getRect();
+        var origSize = spriteFrame.getOriginalSize();
+        var _offset = spriteFrame.getOffset();
+        var rotate = spriteFrame.isRotated();
+        var offset = cc.v2(.5 * (origSize.width - rect.width) + _offset.x, .5 * (origSize.height - rect.height) + _offset.y);
+        var degrees = rotate ? 270 : 0;
+        this.x = rect.x;
+        this.y = rect.y;
+        this.width = rect.width;
+        this.height = rect.height;
+        this.originalWidth = origSize.width;
+        this.originalHeight = origSize.height;
+        this.offsetX = offset.x;
+        this.offsetY = offset.y;
+        this.rotate = 0 != degrees;
+        this.degrees = degrees;
+        this.updateWithTexture2D(texture);
+      };
+      _proto.initWithAttachment = function initWithAttachment(attachment) {
+        var region;
+        true;
+        this.x = attachment.regionX;
+        this.y = attachment.regionY;
+        this.width = attachment.regionWidth;
+        this.height = attachment.regionHeight;
+        this.originalWidth = attachment.regionOriginalWidth;
+        this.originalHeight = attachment.regionOriginalHeight;
+        this.offsetX = attachment.regionOffsetX;
+        this.offsetY = attachment.regionOffsetY;
+        this.degrees = attachment.regionDegrees;
+        this.rotate = 0 !== this.degrees;
+        this.texture = attachment.textureForJSB;
+        this.texture2D = attachment.getTexture2D();
+        this.updateUV();
+      };
+      _proto.updateUV = function updateUV() {
+        RegionData.updateUV(this);
+      };
+      _proto.updateWithPackedFrame = function updateWithPackedFrame(packedFrame) {
+        this.x = packedFrame.x;
+        this.y = packedFrame.y;
+        this.updateWithTexture2D(packedFrame.texture);
+      };
+      _proto.updateWithTexture2D = function updateWithTexture2D(texture2d) {
+        true;
+        var spTex = new middleware.Texture2D();
+        spTex.setRealTextureIndex(RegionData.middlewareTextureID--);
+        spTex.setPixelsWide(texture2d.width);
+        spTex.setPixelsHigh(texture2d.height);
+        spTex.setNativeTexture(texture2d.getImpl());
+        this.texture = spTex;
+        this.texture2D = texture2d;
+        this.updateUV();
+      };
+      _proto.toSpriteFrame = function toSpriteFrame(strict) {
+        if (strict && (270 !== this.degrees || 0 !== this.degrees)) return null;
+        var frame = new cc.SpriteFrame(this.texture2D, cc.rect(this.x, this.y, this.width, this.height), this.rotate, cc.v2(this.offsetX - .5 * (this.originalWidth - this.width), this.offsetY - .5 * (this.originalHeight - this.height)), cc.size(this.originalWidth, this.originalHeight));
+        return frame;
+      };
+      _proto.assignToAttachment = function assignToAttachment(attachment, strict, resetDynamicAtlas) {
+        void 0 === strict && (strict = true);
+        void 0 === resetDynamicAtlas && (resetDynamicAtlas = true);
+        var region;
+        var _spriteFrame;
+        true;
+        if (resetDynamicAtlas && attachment && attachment._spriteFrame) {
+          var spriteFrame = attachment._spriteFrame;
+          attachment._spriteFrame = null;
+          spriteFrame.destroy();
+        }
+        attachment._texture2D = this.texture2D;
+        attachment.setRegionForJSB(this.texture, {
+          x: this.x,
+          y: this.y,
+          w: this.width,
+          h: this.height
+        }, cc.size(this.originalWidth, this.originalHeight), cc.v2(this.offsetX, this.offsetY), this.degrees);
+      };
+      _proto.reset = function reset() {
+        this.texture = null;
+        this.texture2D = null;
+      };
+      return RegionData;
+    })();
+    RegionData.middlewareTextureID = -1;
     var SkeletonData = cc.Class({
       name: "sp.SkeletonData",
       extends: cc.Asset,
@@ -72752,7 +75086,8 @@
         }
       },
       statics: {
-        preventDeferredLoadDependents: true
+        preventDeferredLoadDependents: true,
+        cloneId: 0
       },
       createNode: false,
       reset: function reset() {
@@ -72836,16 +75171,58 @@
         }
         return this._atlasCache = new sp.spine.TextureAtlas(this.atlasText, this._getTexture.bind(this));
       },
+      clone: function clone() {
+        var cloned = new SkeletonData();
+        SkeletonData.cloneId++;
+        var suffix = "(clone " + String(SkeletonData.cloneId) + ")";
+        cloned._uuid = this._uuid.split("(")[0] + suffix;
+        cloned.name = this.name + suffix;
+        cloned.scale = this.scale;
+        cloned._atlasText = this._atlasText;
+        cloned.textureNames = this.textureNames;
+        cloned._skeletonJson = this._skeletonJson;
+        cloned.textures = this.textures;
+        true;
+        var realUuid = cloned._uuid;
+        cloned._uuid = this._uuid;
+        cloned._nativeUrl = this._nativeUrl;
+        cloned._native = this._native;
+        cloned.nativeUrl;
+        cloned._uuid = realUuid;
+        cloned.getRuntimeData();
+        return cloned;
+      },
+      _destroyFromDynamicAtlas: function _destroyFromDynamicAtlas() {
+        if (this._skeletonCache) {
+          var skins = this._skeletonCache.skins;
+          for (var _iterator = _createForOfIteratorHelperLoose(skins), _step; !(_step = _iterator()).done; ) {
+            var skin = _step.value;
+            for (var _iterator2 = _createForOfIteratorHelperLoose(skin.attachments), _step2; !(_step2 = _iterator2()).done; ) {
+              var attachments = _step2.value;
+              for (var key in attachments) {
+                var region = attachments[key];
+                if (region && region._spriteFrame) {
+                  var spriteFrame = region._spriteFrame;
+                  region._spriteFrame = null;
+                  spriteFrame.destroy();
+                }
+              }
+            }
+          }
+        }
+      },
       destroy: function destroy() {
+        this._destroyFromDynamicAtlas();
         SkeletonCache.removeSkeleton(this._uuid);
         this._super();
       }
     });
     sp.SkeletonData = module.exports = SkeletonData;
+    sp.RegionData = RegionData;
   }), {
     "./skeleton-cache": void 0
   } ],
-  446: [ (function(require, module, exports) {
+  459: [ (function(require, module, exports) {
     "use strict";
     sp.SkeletonTexture = cc.Class({
       name: "sp.SkeletonTexture",
@@ -72867,7 +75244,7 @@
       dispose: function dispose() {}
     });
   }), {} ],
-  447: [ (function(require, module, exports) {
+  460: [ (function(require, module, exports) {
     "use strict";
     exports.__esModule = true;
     exports["default"] = void 0;
@@ -72876,6 +75253,37 @@
       return obj && obj.__esModule ? obj : {
         default: obj
       };
+    }
+    function _createForOfIteratorHelperLoose(o, allowArrayLike) {
+      var it = "undefined" !== typeof Symbol && o[Symbol.iterator] || o["@@iterator"];
+      if (it) return (it = it.call(o)).next.bind(it);
+      if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && "number" === typeof o.length) {
+        it && (o = it);
+        var i = 0;
+        return function() {
+          if (i >= o.length) return {
+            done: true
+          };
+          return {
+            done: false,
+            value: o[i++]
+          };
+        };
+      }
+      throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+    }
+    function _unsupportedIterableToArray(o, minLen) {
+      if (!o) return;
+      if ("string" === typeof o) return _arrayLikeToArray(o, minLen);
+      var n = Object.prototype.toString.call(o).slice(8, -1);
+      "Object" === n && o.constructor && (n = o.constructor.name);
+      if ("Map" === n || "Set" === n) return Array.from(o);
+      if ("Arguments" === n || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+    }
+    function _arrayLikeToArray(arr, len) {
+      (null == len || len > arr.length) && (len = arr.length);
+      for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i];
+      return arr2;
     }
     function _inheritsLoose(subClass, superClass) {
       subClass.prototype = Object.create(superClass.prototype);
@@ -72894,7 +75302,9 @@
     var RenderFlow = require("../../cocos2d/core/renderer/render-flow");
     var VertexFormat = require("../../cocos2d/core/renderer/webgl/vertex-format");
     var VFOneColor = VertexFormat.vfmtPosUvColor;
+    var VFOneColorTexId = VertexFormat.vfmtPosUvColorTexId;
     var VFTwoColor = VertexFormat.vfmtPosUvTwoColor;
+    var VFTwoColorTexId = VertexFormat.vfmtPosUvTwoColorTexId;
     var gfx = cc.gfx;
     var FLAG_BATCH = 16;
     var FLAG_TWO_COLOR = 1;
@@ -72913,6 +75323,8 @@
     var _slotRangeStart;
     var _slotRangeEnd;
     var _useTint;
+    var _useMulti;
+    var _texId;
     var _debugSlots;
     var _debugBones;
     var _debugMesh;
@@ -72928,6 +75340,8 @@
     var _x, _y, _m00, _m04, _m12, _m01, _m05, _m13;
     var _r, _g, _b, _fr, _fg, _fb, _fa, _dr, _dg, _db, _da;
     var _comp, _buffer, _renderer, _node, _needColor, _vertexEffect;
+    var _packedRegions = [];
+    var _tmpRegionData = new sp.RegionData();
     function _getSlotMaterial(tex, blendMode) {
       var src, dst;
       switch (blendMode) {
@@ -72954,19 +75368,46 @@
       var useModel = !_comp.enableBatch;
       var baseMaterial = _comp._materials[0];
       if (!baseMaterial) return null;
-      var key = tex.getId() + src + dst + _useTint + useModel;
-      var materialCache = _comp._materialCache;
-      var material = materialCache[key];
+      if (_useMulti) {
+        var key = tex.getId() + src + dst + _useTint;
+        var materialCache = _comp._materialCache;
+        var materialInfo = materialCache[key];
+        if (!materialInfo) {
+          var texId = baseMaterial.material.getMultiHandler().getIndex(tex.getImpl());
+          if (materialCache.baseMaterial) materialInfo = {
+            material: cc.MaterialVariant.create(baseMaterial),
+            texId: texId
+          }; else {
+            materialInfo = {
+              material: baseMaterial,
+              texId: texId
+            };
+            materialCache.baseMaterial = materialInfo;
+          }
+          _comp._defineMaterialTint(baseMaterial, _useTint);
+          if (-1 === texId) {
+            materialInfo.material.setProperty("texture", tex);
+            materialInfo.texId = 0;
+          }
+          materialInfo.material.setBlend(true, gfx.BLEND_FUNC_ADD, src, dst, gfx.BLEND_FUNC_ADD, src, dst);
+          materialCache[key] = materialInfo;
+        }
+        _texId = materialInfo.texId;
+        return materialInfo.material;
+      }
+      var _key = tex.getId() + src + dst + _useTint + useModel;
+      var _materialCache = _comp._materialCache;
+      var material = _materialCache[_key];
       if (!material) {
-        if (materialCache.baseMaterial) material = cc.MaterialVariant.create(baseMaterial); else {
+        if (_materialCache.baseMaterial) material = cc.MaterialVariant.create(baseMaterial); else {
           material = baseMaterial;
-          materialCache.baseMaterial = baseMaterial;
+          _materialCache.baseMaterial = baseMaterial;
         }
         material.define("CC_USE_MODEL", useModel);
         material.define("USE_TINT", _useTint);
         material.setProperty("texture", tex);
         material.setBlend(true, gfx.BLEND_FUNC_ADD, src, dst, gfx.BLEND_FUNC_ADD, src, dst);
-        materialCache[key] = material;
+        _materialCache[_key] = material;
       }
       return material;
     }
@@ -72997,8 +75438,110 @@
       var _proto = SpineAssembler.prototype;
       _proto.updateRenderData = function updateRenderData(comp) {
         if (comp.isAnimationCached()) return;
+        this.handleDynamicAtlasAndSwitchMaterial(comp);
         var skeleton = comp._skeleton;
         skeleton && skeleton.updateWorldTransform();
+      };
+      _proto.handleDynamicAtlasAndSwitchMaterial = function handleDynamicAtlasAndSwitchMaterial(comp) {
+        if (comp._dataDirty) {
+          this.packDynamicAtlasForSpine(comp);
+          var autoSwitchMaterial = comp.autoSwitchMaterial;
+          if (cc.sp.autoSwitchMaterial && 0 === autoSwitchMaterial || 1 === autoSwitchMaterial) {
+            var material = comp._materials[0];
+            if (!material) return false;
+            var skins = comp.skeletonData._skeletonCache.skins;
+            root: for (var _iterator = _createForOfIteratorHelperLoose(skins), _step; !(_step = _iterator()).done; ) {
+              var skin = _step.value;
+              for (var _iterator2 = _createForOfIteratorHelperLoose(skin.attachments), _step2; !(_step2 = _iterator2()).done; ) {
+                var attachments = _step2.value;
+                for (var key in attachments) {
+                  var region;
+                  true;
+                  var attachment = attachments[key];
+                  if (attachment && attachment.getTexture2D) {
+                    var texture = attachment.getTexture2D(comp.skeletonData);
+                    if (texture) {
+                      this.checkAndSwitchMaterial(comp, texture, material);
+                      break root;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          comp._dataDirty = false;
+        }
+      };
+      _proto.updatePackedAttachment = function updatePackedAttachment(attachment, strict) {
+        _tmpRegionData.assignToAttachment(attachment, strict, false);
+        var region = attachment;
+        var frame = region._spriteFrame;
+        region._original._ref++;
+        frame.once("_resetDynamicAtlasFrame", (function() {
+          _tmpRegionData.initWithAttachment(attachment);
+          _tmpRegionData.x = region._original._x;
+          _tmpRegionData.y = region._original._y;
+          _tmpRegionData.texture = region._original._texture;
+          true;
+          _tmpRegionData.texture2D = region._original._texture2D;
+          region._original._ref--;
+          region._original._ref <= 0 && (region._original = null);
+          _tmpRegionData.assignToAttachment(attachment, true, false);
+          _tmpRegionData.reset();
+        }));
+      };
+      _proto.packDynamicAtlasForSpine = function packDynamicAtlasForSpine(comp) {
+        false;
+        _packedRegions.length = 0;
+        var allowDynamicAtlas = comp.allowDynamicAtlas;
+        if ((cc.sp.allowDynamicAtlas && 0 === allowDynamicAtlas || 1 === allowDynamicAtlas) && cc.dynamicAtlasManager) {
+          var skins = comp.skeletonData._skeletonCache.skins;
+          for (var _iterator3 = _createForOfIteratorHelperLoose(skins), _step3; !(_step3 = _iterator3()).done; ) {
+            var skin = _step3.value;
+            for (var _iterator4 = _createForOfIteratorHelperLoose(skin.attachments), _step4; !(_step4 = _iterator4()).done; ) {
+              var attachments = _step4.value;
+              for (var key in attachments) {
+                var attachment = attachments[key];
+                if (attachment) {
+                  var region;
+                  var alreadyInAtlas;
+                  var _spriteFrame;
+                  var _frame;
+                  var _packedFrame;
+                  true;
+                  if (!attachment._original && attachment.getTexture2D) {
+                    var texture = attachment.getTexture2D(comp.skeletonData);
+                    if (texture && texture.packable) {
+                      if (attachment._spriteFrame) {
+                        var spriteFrame = attachment._spriteFrame;
+                        attachment._spriteFrame = null;
+                        spriteFrame.destroy();
+                      }
+                      _tmpRegionData.initWithAttachment(attachment);
+                      var frame = _tmpRegionData.toSpriteFrame();
+                      var packedFrame = cc.dynamicAtlasManager.insertSpriteFrame(frame);
+                      if (packedFrame) {
+                        frame._setDynamicAtlasFrame(packedFrame);
+                        attachment._original = {
+                          _texture2D: texture,
+                          _texture: _tmpRegionData.texture,
+                          _x: attachment.regionX,
+                          _y: attachment.regionY,
+                          _ref: 0
+                        };
+                        attachment._spriteFrame = frame;
+                        _tmpRegionData.updateWithPackedFrame(packedFrame);
+                        this.updatePackedAttachment(attachment);
+                      } else frame.destroy();
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        _tmpRegionData.reset();
+        _packedRegions.length = 0;
       };
       _proto.fillVertices = function fillVertices(skeletonColor, attachmentColor, slotColor, clipper, slot) {
         var vbuf = _buffer._vData, ibuf = _buffer._iData, uintVData = _buffer._uintVData;
@@ -73024,7 +75567,7 @@
           var clippedTriangles = clipper.clippedTriangles;
           _indexCount = clippedTriangles.length;
           _vertexFloatCount = clippedVertices.length / _perClipVertexSize * _perVertexSize;
-          offsetInfo = _buffer.request(_vertexFloatCount / _perVertexSize, _indexCount);
+          offsetInfo = _buffer.requestForSpine(_vertexFloatCount / _perVertexSize, _indexCount);
           _indexOffset = offsetInfo.indiceOffset, _vertexOffset = offsetInfo.vertexOffset, 
           _vertexFloatOffset = offsetInfo.byteOffset >> 2;
           vbuf = _buffer._vData, ibuf = _buffer._iData;
@@ -73044,7 +75587,10 @@
             vbuf[offset + 2] = _tempUv.x;
             vbuf[offset + 3] = _tempUv.y;
             uintVData[offset + 4] = _spineColorToInt32(_finalColor);
-            _useTint && (uintVData[offset + 5] = _spineColorToInt32(_darkColor));
+            if (_useTint) {
+              uintVData[offset + 5] = _spineColorToInt32(_darkColor);
+              _useMulti && (vbuf[offset + 6] = _texId);
+            } else _useMulti && (vbuf[offset + 5] = _texId);
           } else for (var _v3 = 0, _n3 = clippedVertices.length, _offset = _vertexFloatOffset; _v3 < _n3; _v3 += _perClipVertexSize, 
           _offset += _perVertexSize) {
             vbuf[_offset] = clippedVertices[_v3];
@@ -73056,7 +75602,8 @@
             if (_useTint) {
               _darkColor32 = (clippedVertices[_v3 + 11] << 24 >>> 0) + (clippedVertices[_v3 + 10] << 16) + (clippedVertices[_v3 + 9] << 8) + clippedVertices[_v3 + 8];
               uintVData[_offset + 5] = _darkColor32;
-            }
+              _useMulti && (vbuf[_offset + 6] = _texId);
+            } else _useMulti && (vbuf[_offset + 5] = _texId);
           }
         } else if (_vertexEffect) for (var v = _vertexFloatOffset, n = _vertexFloatOffset + _vertexFloatCount; v < n; v += _perVertexSize) {
           _tempPos.x = vbuf[v];
@@ -73069,13 +75616,19 @@
           vbuf[v + 2] = _tempUv.x;
           vbuf[v + 3] = _tempUv.y;
           uintVData[v + 4] = _spineColorToInt32(_finalColor);
-          _useTint && (uintVData[v + 5] = _spineColorToInt32(_darkColor));
+          if (_useTint) {
+            uintVData[v + 5] = _spineColorToInt32(_darkColor);
+            _useMulti && (vbuf[v + 6] = _texId);
+          } else _useMulti && (vbuf[v + 5] = _texId);
         } else {
           _finalColor32 = _spineColorToInt32(_finalColor);
           _darkColor32 = _spineColorToInt32(_darkColor);
           for (var _v = _vertexFloatOffset, _n = _vertexFloatOffset + _vertexFloatCount; _v < _n; _v += _perVertexSize) {
             uintVData[_v + 4] = _finalColor32;
-            _useTint && (uintVData[_v + 5] = _darkColor32);
+            if (_useTint) {
+              uintVData[_v + 5] = _darkColor32;
+              _useMulti && (vbuf[_v + 6] = _texId);
+            } else _useMulti && (vbuf[_v + 5] = _texId);
           }
         }
       };
@@ -73103,7 +75656,7 @@
           graphics.clear();
           graphics.lineWidth = 2;
         }
-        _perClipVertexSize = _useTint ? 12 : 8;
+        _perClipVertexSize = _useTint ? _useMulti ? 16 : 12 : _useMulti ? 12 : 8;
         _vertexFloatCount = 0;
         _vertexFloatOffset = 0;
         _vertexOffset = 0;
@@ -73151,7 +75704,7 @@
             triangles = _quadTriangles;
             _vertexFloatCount = 4 * _perVertexSize;
             _indexCount = 6;
-            offsetInfo = _buffer.request(4, 6);
+            offsetInfo = _buffer.requestForSpine(4, 6);
             _indexOffset = offsetInfo.indiceOffset, _vertexOffset = offsetInfo.vertexOffset, 
             _vertexFloatOffset = offsetInfo.byteOffset >> 2;
             vbuf = _buffer._vData, ibuf = _buffer._iData;
@@ -73167,7 +75720,7 @@
             triangles = attachment.triangles;
             _vertexFloatCount = (attachment.worldVerticesLength >> 1) * _perVertexSize;
             _indexCount = triangles.length;
-            offsetInfo = _buffer.request(_vertexFloatCount / _perVertexSize, _indexCount);
+            offsetInfo = _buffer.requestForSpine(_vertexFloatCount / _perVertexSize, _indexCount);
             _indexOffset = offsetInfo.indiceOffset, _vertexOffset = offsetInfo.vertexOffset, 
             _vertexFloatOffset = offsetInfo.byteOffset >> 2;
             vbuf = _buffer._vData, ibuf = _buffer._iData;
@@ -73217,7 +75770,7 @@
                 vbuf[_ii3 + 1] = _x * _m01 + _y * _m05 + _m13;
               }
             }
-            _buffer.adjust(_vertexFloatCount / _perVertexSize, _indexCount);
+            _buffer.adjustForSpine(_vertexFloatCount / _perVertexSize, _indexCount);
           }
           clipper.clipEndWithSlot(slot);
         }
@@ -73239,6 +75792,19 @@
           }
         }
       };
+      _proto.cacheVerticesConvertToMulti = function cacheVerticesConvertToMulti(vertices) {
+        var verticesMulti = new Float32Array(vertices.length + vertices.length / 6);
+        for (var i = 0, j = 0; j < vertices.length; ) {
+          verticesMulti[i++] = vertices[j++];
+          verticesMulti[i++] = vertices[j++];
+          verticesMulti[i++] = vertices[j++];
+          verticesMulti[i++] = vertices[j++];
+          verticesMulti[i++] = vertices[j++];
+          verticesMulti[i++] = vertices[j++];
+          verticesMulti[i++] = 0;
+        }
+        return verticesMulti;
+      };
       _proto.cacheTraverse = function cacheTraverse(worldMat) {
         var frame = _comp._curFrame;
         if (!frame) return;
@@ -73250,6 +75816,11 @@
         var vertices = frame.vertices;
         var indices = frame.indices;
         var worldMatm;
+        var useMultiTint = _useMulti && _useTint;
+        if (useMultiTint) {
+          frame.verticesMulti || (frame.verticesMulti = this.cacheVerticesConvertToMulti(frame.vertices));
+          vertices = frame.verticesMulti;
+        }
         var frameVFOffset = 0, frameIndexOffset = 0, segVFCount = 0;
         if (worldMat) {
           worldMatm = worldMat.m;
@@ -73266,7 +75837,7 @@
         var colorOffset = 0;
         var colors = frame.colors;
         var nowColor = colors[colorOffset++];
-        var maxVFOffset = nowColor.vfOffset;
+        var maxVFOffset = useMultiTint ? nowColor.vfOffset + nowColor.vfOffset / 6 : nowColor.vfOffset;
         _handleColor(nowColor);
         for (var i = 0, n = segments.length; i < n; i++) {
           var segInfo = segments[i];
@@ -73280,7 +75851,7 @@
           }
           _vertexCount = segInfo.vertexCount;
           _indexCount = segInfo.indexCount;
-          offsetInfo = _buffer.request(_vertexCount, _indexCount);
+          offsetInfo = _buffer.requestForSpine(_vertexCount, _indexCount);
           _indexOffset = offsetInfo.indiceOffset;
           _vertexOffset = offsetInfo.vertexOffset;
           _vfOffset = offsetInfo.byteOffset >> 2;
@@ -73288,30 +75859,56 @@
           ibuf = _buffer._iData;
           uintbuf = _buffer._uintVData;
           for (var ii = _indexOffset, il = _indexOffset + _indexCount; ii < il; ii++) ibuf[ii] = _vertexOffset + indices[frameIndexOffset++];
-          segVFCount = segInfo.vfCount;
+          segVFCount = useMultiTint ? segInfo.vfCount + segInfo.vfCount / 6 : segInfo.vfCount;
           vbuf.set(vertices.subarray(frameVFOffset, frameVFOffset + segVFCount), _vfOffset);
           frameVFOffset += segVFCount;
-          if (calcTranslate) for (var _ii4 = _vfOffset, _il = _vfOffset + segVFCount; _ii4 < _il; _ii4 += 6) {
+          if (calcTranslate) for (var _ii4 = _vfOffset, _il = _vfOffset + segVFCount; _ii4 < _il; _ii4 += _perVertexSize) {
             vbuf[_ii4] += _m12;
             vbuf[_ii4 + 1] += _m13;
-          } else if (needBatch) for (var _ii5 = _vfOffset, _il2 = _vfOffset + segVFCount; _ii5 < _il2; _ii5 += 6) {
+          } else if (needBatch) for (var _ii5 = _vfOffset, _il2 = _vfOffset + segVFCount; _ii5 < _il2; _ii5 += _perVertexSize) {
             _x = vbuf[_ii5];
             _y = vbuf[_ii5 + 1];
             vbuf[_ii5] = _x * _m00 + _y * _m04 + _m12;
             vbuf[_ii5 + 1] = _x * _m01 + _y * _m05 + _m13;
           }
-          _buffer.adjust(_vertexCount, _indexCount);
-          if (!_needColor) continue;
-          var frameColorOffset = frameVFOffset - segVFCount;
-          for (var _ii6 = _vfOffset + 4, _il3 = _vfOffset + 4 + segVFCount; _ii6 < _il3; _ii6 += 6, 
-          frameColorOffset += 6) {
-            if (frameColorOffset >= maxVFOffset) {
-              nowColor = colors[colorOffset++];
-              _handleColor(nowColor);
-              maxVFOffset = nowColor.vfOffset;
+          _buffer.adjustForSpine(_vertexCount, _indexCount);
+          if (_useMulti) if (_useTint) if (_needColor) {
+            var frameColorOffset = frameVFOffset - segVFCount;
+            for (var _ii6 = _vfOffset + 4, _il3 = _vfOffset + 4 + segVFCount; _ii6 < _il3; _ii6 += _perVertexSize, 
+            frameColorOffset += _perVertexSize) {
+              if (frameColorOffset >= maxVFOffset) {
+                nowColor = colors[colorOffset++];
+                _handleColor(nowColor);
+                maxVFOffset = useMultiTint ? nowColor.vfOffset + nowColor.vfOffset / 6 : nowColor.vfOffset;
+              }
+              uintbuf[_ii6] = _finalColor32;
+              uintbuf[_ii6 + 1] = _darkColor32;
+              vbuf[_ii6 + 2] = _texId;
             }
-            uintbuf[_ii6] = _finalColor32;
-            uintbuf[_ii6 + 1] = _darkColor32;
+          } else for (var _ii7 = _vfOffset + 4, _il4 = _vfOffset + 4 + segVFCount; _ii7 < _il4; _ii7 += _perVertexSize) vbuf[_ii7 + 2] = _texId; else if (_needColor) {
+            var _frameColorOffset = frameVFOffset - segVFCount;
+            for (var _ii8 = _vfOffset + 4, _il5 = _vfOffset + 4 + segVFCount; _ii8 < _il5; _ii8 += _perVertexSize, 
+            _frameColorOffset += _perVertexSize) {
+              if (_frameColorOffset >= maxVFOffset) {
+                nowColor = colors[colorOffset++];
+                _handleColor(nowColor);
+                maxVFOffset = useMultiTint ? nowColor.vfOffset + nowColor.vfOffset / 6 : nowColor.vfOffset;
+              }
+              uintbuf[_ii8] = _finalColor32;
+              vbuf[_ii8 + 1] = _texId;
+            }
+          } else for (var _ii9 = _vfOffset + 4, _il6 = _vfOffset + 4 + segVFCount; _ii9 < _il6; _ii9 += _perVertexSize) vbuf[_ii9 + 1] = _texId; else if (_needColor) {
+            var _frameColorOffset2 = frameVFOffset - segVFCount;
+            for (var _ii10 = _vfOffset + 4, _il7 = _vfOffset + 4 + segVFCount; _ii10 < _il7; _ii10 += _perVertexSize, 
+            _frameColorOffset2 += _perVertexSize) {
+              if (_frameColorOffset2 >= maxVFOffset) {
+                nowColor = colors[colorOffset++];
+                _handleColor(nowColor);
+                maxVFOffset = useMultiTint ? nowColor.vfOffset + nowColor.vfOffset / 6 : nowColor.vfOffset;
+              }
+              uintbuf[_ii10] = _finalColor32;
+              uintbuf[_ii10 + 1] = _darkColor32;
+            }
           }
         }
       };
@@ -73324,11 +75921,14 @@
         _nodeG = nodeColor.g / 255;
         _nodeB = nodeColor.b / 255;
         _nodeA = nodeColor.a / 255;
-        _useTint = comp.useTint || comp.isAnimationCached();
-        _vertexFormat = _useTint ? VFTwoColor : VFOneColor;
-        _perVertexSize = _useTint ? 6 : 5;
+        var baseMaterial = comp._materials[0];
+        if (!baseMaterial) return;
+        _useMulti = baseMaterial.material.isMultiSupport();
+        _useTint = comp.useTint;
+        _vertexFormat = _useTint ? _useMulti ? VFTwoColorTexId : VFTwoColor : _useMulti ? VFOneColorTexId : comp.isAnimationCached() ? VFTwoColor : VFOneColor;
+        _perVertexSize = _useTint ? _useMulti ? 7 : 6 : _useMulti ? 6 : comp.isAnimationCached() ? 6 : 5;
         _node = comp.node;
-        _buffer = renderer.getBuffer("spine", _vertexFormat);
+        _buffer = renderer.getBuffer("mesh", _vertexFormat);
         _renderer = renderer;
         _comp = comp;
         _mustFlush = true;
@@ -73369,11 +75969,11 @@
   }), {
     "../../cocos2d/core/renderer/assembler": 302,
     "../../cocos2d/core/renderer/render-flow": 323,
-    "../../cocos2d/core/renderer/webgl/vertex-format": 362,
-    "./Skeleton": 443,
+    "../../cocos2d/core/renderer/webgl/vertex-format": 371,
+    "./Skeleton": 456,
     "./lib/spine": void 0
   } ],
-  448: [ (function(require, module, exports) {
+  461: [ (function(require, module, exports) {
     "use strict";
     var TrackEntryListeners = function TrackEntryListeners() {
       this.start = null;
@@ -73389,7 +75989,7 @@
     };
     module.exports = TrackEntryListeners;
   }), {} ],
-  449: [ (function(require, module, exports) {
+  462: [ (function(require, module, exports) {
     "use strict";
     (function(global, factory) {
       "object" === typeof exports && "undefined" !== typeof module ? factory(exports) : "function" === typeof define && define.amd ? define([ "exports" ], factory) : factory(global.box2d = {});
@@ -88378,7 +90978,7 @@
       });
     }));
   }), {} ],
-  450: [ (function(require, module, exports) {
+  463: [ (function(require, module, exports) {
     "use strict";
     !(function(e) {
       if ("object" == typeof exports && "undefined" != typeof module) module.exports = e(); else if ("function" == typeof define && define.amd) define([], e); else {
@@ -95550,7 +98150,7 @@
       }, {}, [ 2 ])(2);
     }));
   }), {} ],
-  451: [ (function(require, module, exports) {
+  464: [ (function(require, module, exports) {
     "use strict";
     var _global = "undefined" === typeof window ? global : window;
     _global.cc = _global.cc || {};
@@ -95571,20 +98171,20 @@
     false;
     module.exports = _global.cc;
   }), {
-    "./cocos2d": 401,
+    "./cocos2d": 414,
     "./cocos2d/core/predefine": 298,
-    "./extends": 434,
+    "./extends": 447,
     "./package": void 0,
-    "./polyfill/array": 453,
-    "./polyfill/array-buffer": 452,
-    "./polyfill/misc": 454,
-    "./polyfill/number": 455,
-    "./polyfill/object": 456,
-    "./polyfill/string": 457,
-    "./polyfill/typescript": 458,
-    "./predefine": 459
+    "./polyfill/array": 466,
+    "./polyfill/array-buffer": 465,
+    "./polyfill/misc": 467,
+    "./polyfill/number": 468,
+    "./polyfill/object": 469,
+    "./polyfill/string": 470,
+    "./polyfill/typescript": 471,
+    "./predefine": 472
   } ],
-  452: [ (function(require, module, exports) {
+  465: [ (function(require, module, exports) {
     "use strict";
     if (!ArrayBuffer.isView) {
       var TypedArray = Object.getPrototypeOf(Int8Array);
@@ -95597,7 +98197,7 @@
       };
     }
   }), {} ],
-  453: [ (function(require, module, exports) {
+  466: [ (function(require, module, exports) {
     "use strict";
     Array.isArray || (Array.isArray = function(arg) {
       return "[object Array]" === Object.prototype.toString.call(arg);
@@ -95614,7 +98214,7 @@
       return -1 !== this.indexOf(value);
     });
   }), {} ],
-  454: [ (function(require, module, exports) {
+  467: [ (function(require, module, exports) {
     "use strict";
     Math.sign || (Math.sign = function(x) {
       x = +x;
@@ -95639,12 +98239,12 @@
       console.log(label + ": " + duration + "ms");
     };
   }), {} ],
-  455: [ (function(require, module, exports) {
+  468: [ (function(require, module, exports) {
     "use strict";
     Number.parseFloat = Number.parseFloat || parseFloat;
     Number.parseInt = Number.parseInt || parseInt;
   }), {} ],
-  456: [ (function(require, module, exports) {
+  469: [ (function(require, module, exports) {
     "use strict";
     Object.assign || (Object.assign = function(target, source) {
       return cc.js.mixin(target, source);
@@ -95660,7 +98260,7 @@
       return descriptors;
     });
   }), {} ],
-  457: [ (function(require, module, exports) {
+  470: [ (function(require, module, exports) {
     "use strict";
     String.prototype.startsWith || (String.prototype.startsWith = function(searchString, position) {
       position = position || 0;
@@ -95676,7 +98276,7 @@
       return this.replace(/^\s+/, "");
     });
   }), {} ],
-  458: [ (function(require, module, exports) {
+  471: [ (function(require, module, exports) {
     "use strict";
     var extendStatics = Object.setPrototypeOf || {
       __proto__: []
@@ -96003,7 +98603,7 @@
       return value;
     };
   }), {} ],
-  459: [ (function(require, module, exports) {
+  472: [ (function(require, module, exports) {
     "use strict";
     var _global = "undefined" === typeof window ? global : window;
     function defineMacro(name, defaultValue) {
@@ -96047,4 +98647,4 @@
     var engineVersion = "2.4.11";
     _global["CocosEngine"] = cc.ENGINE_VERSION = engineVersion;
   }), {} ]
-}, {}, [ 451 ]);
+}, {}, [ 464 ]);
